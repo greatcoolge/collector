@@ -7,6 +7,9 @@ on:
   schedule:
     - cron: '0 0,6,12,18, * * *'  # 每6h一次
   workflow_dispatch:  # 触发手动事件
+permissions:
+  contents: write
+
 jobs:
   merge:
     runs-on: ubuntu-latest
@@ -35,7 +38,7 @@ jobs:
             git config --local user.name "GitHub Action"
             git add .
             git commit -m "Updated at $(date '+%Y-%m-%d %H:%M:%S')"
-            git push
+            git push "https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
           else
             echo "No changes detected in the repository."
           fi

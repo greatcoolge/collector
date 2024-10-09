@@ -1,32 +1,4 @@
 proxies:
-- name: 爱沙尼亚 001
-  type: vless
-  network: ws
-  server: 45.80.110.207
-  port: 2053
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  tls: true
-  client-fingerprint: chrome
-  delay: 1380
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: twitterfreecodes
-- name: 俄罗斯 003
-  type: vless
-  network: ws
-  server: 188.42.145.90
-  port: 8443
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  client-fingerprint: chrome
-  delay: 1451
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: /?ed
 - name: 加拿大 097
   type: vless
   network: ws
@@ -40,6 +12,19 @@ proxies:
     headers:
       Host: vi.ylks.xyz
     path: /ovijj9b8yz0ghou0?ed=2560
+- name: 加拿大 140
+  type: vmess
+  network: ws
+  server: 104.20.17.186
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
 - name: 加拿大 088
   type: vless
   network: ws
@@ -66,19 +51,34 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /
-- name: 加拿大 140
-  type: vmess
+- name: 美国 006
+  type: vless
   network: ws
-  server: 104.20.17.186
-  port: 2052
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  tls: false
-  alterId: 0
-  cipher: auto
+  server: 199.181.197.39
+  port: 443
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  udp: true
+  delay: 1087
   ws-opts:
     headers:
-      Host: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
+      Host: juzibaipiao.5112233.xyz
+    path: /?ed=2048
+- name: 爱沙尼亚 001
+  type: vless
+  network: ws
+  server: 45.80.110.207
+  port: 2053
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  servername: a.ssll.gay
+  tls: true
+  client-fingerprint: chrome
+  delay: 1380
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: twitterfreecodes
 - name: 加拿大 106
   type: vless
   network: ws
@@ -92,16 +92,43 @@ proxies:
     headers:
       Host: vn.ylks.xyz
     path: /zzbytophofmtvf6d?ed=2560
-- name: 美国 006
+- name: 俄罗斯 003
   type: vless
   network: ws
-  server: 199.181.197.39
-  port: 443
+  server: 188.42.145.90
+  port: 8443
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  client-fingerprint: chrome
+  delay: 1451
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: /?ed
+- name: 法国 001
+  type: vless
+  network: ws
+  server: 45.80.110.200
+  port: 2053
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  servername: a.ssll.gay
+  tls: true
+  delay: 1619
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Twitterfreecodes
+- name: 保加利亚 002
+  type: vless
+  network: ws
+  server: 147.78.140.193
+  port: 2096
   uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
   servername: juzibaipiao.5112233.xyz
   tls: true
   udp: true
-  delay: 1087
+  delay: 1352
   ws-opts:
     headers:
       Host: juzibaipiao.5112233.xyz
@@ -120,19 +147,6 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- name: 法国 001
-  type: vless
-  network: ws
-  server: 45.80.110.200
-  port: 2053
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  tls: true
-  delay: 1619
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Twitterfreecodes
 - name: 美国 008
   type: vless
   network: ws
@@ -147,20 +161,19 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed
-- name: 保加利亚 002
+- name: 爱沙尼亚 008
   type: vless
   network: ws
-  server: 147.78.140.193
-  port: 2096
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  servername: juzibaipiao.5112233.xyz
-  tls: true
+  server: 45.80.110.231
+  port: 80
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  servername: a.ssll.gay
   udp: true
-  delay: 1352
+  delay: 1380
   ws-opts:
     headers:
-      Host: juzibaipiao.5112233.xyz
-    path: /?ed=2048
+      Host: a.ssll.gay
+    path: Twitterfreecodes
 - name: 加拿大 091
   type: vmess
   network: ws
@@ -176,6 +189,19 @@ proxies:
     headers:
       Host: cdn1.freegradely.xyz
     path: github.com/Alvin9999
+- name: 法国 003
+  type: vless
+  network: ws
+  server: 45.80.110.238
+  port: 80
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  servername: a.ssll.gay
+  client-fingerprint: chrome
+  delay: 1355
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Twitterfreecodes
 - name: 俄罗斯 005
   type: vless
   network: ws
@@ -190,32 +216,6 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- name: 爱沙尼亚 008
-  type: vless
-  network: ws
-  server: 45.80.110.231
-  port: 80
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  udp: true
-  delay: 1380
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Twitterfreecodes
-- name: 法国 003
-  type: vless
-  network: ws
-  server: 45.80.110.238
-  port: 80
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  client-fingerprint: chrome
-  delay: 1355
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Twitterfreecodes
 - name: 加拿大 133
   type: vmess
   network: ws
@@ -231,6 +231,32 @@ proxies:
     headers:
       Host: cdn1.freegradely.xyz
     path: github.com/Alvin9999
+- name: 加拿大 060
+  type: vless
+  network: ws
+  server: russia.com
+  port: 8443
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  servername: jpi.ylks01.eu.org
+  tls: true
+  delay: 2047
+  ws-opts:
+    headers:
+      Host: jpi.ylks01.eu.org
+    path: /blue
+- name: 加拿大 015
+  type: vmess
+  network: ws
+  server: 104.19.46.17
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip13.freegradely.xyz
+    path: github.com/Alvin9999
 - name: 加拿大 026
   type: vmess
   network: ws
@@ -245,19 +271,6 @@ proxies:
     headers:
       Host: ip14.freegradely.xyz
     path: /
-- name: 加拿大 015
-  type: vmess
-  network: ws
-  server: 104.19.46.17
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip13.freegradely.xyz
-    path: github.com/Alvin9999
 - name: 加拿大 018
   type: vmess
   network: ws
@@ -287,6 +300,21 @@ proxies:
     headers:
       Host: ip13.freegradely.xyz
     path: /
+- name: 爱沙尼亚 002
+  type: vless
+  network: ws
+  server: 45.80.110.212
+  port: 2087
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  servername: a.ssll.gay
+  tls: true
+  client-fingerprint: chrome
+  packet-encoding: ''
+  delay: 2168
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: twitterfreecodes
 - name: 俄罗斯 001
   type: vless
   network: ws
@@ -316,21 +344,6 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Twitterfreecodesfp=chrome
-- name: 爱沙尼亚 002
-  type: vless
-  network: ws
-  server: 45.80.110.212
-  port: 2087
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  tls: true
-  client-fingerprint: chrome
-  packet-encoding: ''
-  delay: 2168
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: twitterfreecodes
 - name: 俄罗斯 006
   type: vless
   network: ws
@@ -361,21 +374,6 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- name: 美国 050
-  type: vless
-  network: ws
-  server: 69.84.182.102
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  tls: true
-  client-fingerprint: chrome
-  packet-encoding: ''
-  delay: 1817
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: /?ed=2048fp=chrome
 - name: 美国 049
   type: vless
   network: ws
@@ -387,6 +385,21 @@ proxies:
   client-fingerprint: chrome
   packet-encoding: ''
   delay: 1589
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: /?ed=2048fp=chrome
+- name: 美国 050
+  type: vless
+  network: ws
+  server: 69.84.182.102
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  servername: a.ssll.gay
+  tls: true
+  client-fingerprint: chrome
+  packet-encoding: ''
+  delay: 1817
   ws-opts:
     headers:
       Host: a.ssll.gay
@@ -419,6 +432,19 @@ proxies:
     headers:
       Host: ip13.freegradely.xyz
     path: /
+- name: 加拿大 149
+  type: vmess
+  network: ws
+  server: 104.16.68.38
+  port: 2086
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: rough-wildflower-0b5e.zemel-yesenia1720.workers.dev
+    path: /glweidf.sbs/linkws
 - name: 加拿大 016
   type: vmess
   network: ws
@@ -433,19 +459,6 @@ proxies:
     headers:
       Host: ep-sunset-9b11.kekic13319.workers.dev
     path: /
-- name: 加拿大 149
-  type: vmess
-  network: ws
-  server: 104.16.68.38
-  port: 2086
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: rough-wildflower-0b5e.zemel-yesenia1720.workers.dev
-    path: /glweidf.sbs/linkws
 - name: 美国 001
   type: vmess
   network: ws
@@ -547,35 +560,6 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Twitterfreecodesfp=chromefp=chrome
-- name: 爱沙尼亚 009
-  type: vless
-  network: ws
-  server: 45.80.110.161
-  port: 2083
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tls: true
-  tfo: false
-  client-fingerprint: chrome
-  delay: 1318
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: twitterfreecodesfp=chromefp=chromefp=chrome
-- name: 加拿大 060
-  type: vless
-  network: ws
-  server: russia.com
-  port: 8443
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  servername: jpi.ylks01.eu.org
-  tls: true
-  delay: 2047
-  ws-opts:
-    headers:
-      Host: jpi.ylks01.eu.org
-    path: /blue
 - name: 爱沙尼亚 006
   type: vless
   network: ws
@@ -592,6 +576,22 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: twitterfreecodessecurityfp=chrome
+- name: 爱沙尼亚 009
+  type: vless
+  network: ws
+  server: 45.80.110.161
+  port: 2083
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tls: true
+  tfo: false
+  client-fingerprint: chrome
+  delay: 1318
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: twitterfreecodesfp=chromefp=chromefp=chrome
 - name: 美国 069
   type: vless
   network: ws
@@ -608,20 +608,6 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: telegram🇨🇳
-- name: 英国 004
-  type: vless
-  network: ws
-  server: 31.22.116.134
-  port: 2096
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  client-fingerprint: chrome
-  delay: 1069
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: /
 - name: 法国 002
   type: vless
   network: ws
@@ -650,6 +636,20 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /
+- name: 英国 004
+  type: vless
+  network: ws
+  server: 31.22.116.134
+  port: 2096
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  client-fingerprint: chrome
+  delay: 1069
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: /
 - name: 爱沙尼亚 010
   type: vless
   network: ws
@@ -664,22 +664,6 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: twitterfreecodes
-- name: 爱沙尼亚 012
-  type: vless
-  network: ws
-  server: 45.80.110.215
-  port: 2087
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tls: true
-  tfo: false
-  client-fingerprint: chrome
-  delay: 1318
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: twitterfreecodesfp=chromefp=chromefp=chromefp=chrome
 - name: 爱沙尼亚 011
   type: vless
   network: ws
@@ -708,6 +692,22 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: twitterfreecodessecurity
+- name: 爱沙尼亚 012
+  type: vless
+  network: ws
+  server: 45.80.110.215
+  port: 2087
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tls: true
+  tfo: false
+  client-fingerprint: chrome
+  delay: 1318
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: twitterfreecodesfp=chromefp=chromefp=chromefp=chrome
 - name: 加拿大 282
   type: vmess
   network: ws
@@ -737,20 +737,6 @@ proxies:
     headers:
       Host: 2d9f64A5.V2rAYyNgVpn.Pages.dEV
     path: /0T9qPYzuL57BlVtJ?ed=2560
-- name: 保加利亚 004
-  type: vless
-  network: ws
-  server: 147.78.140.5
-  port: 443
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  client-fingerprint: chrome
-  delay: 1318
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: /security
 - name: 美国 075
   type: vless
   network: ws
@@ -765,6 +751,20 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: twitter苏小柠security
+- name: 保加利亚 004
+  type: vless
+  network: ws
+  server: 147.78.140.5
+  port: 443
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  client-fingerprint: chrome
+  delay: 1318
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: /security
 - name: 爱沙尼亚 014
   type: vless
   network: ws
@@ -869,22 +869,6 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: twitterfreecodesfp=chromefp=chrome
-- name: 法国 005
-  type: vless
-  network: ws
-  server: 45.80.110.211
-  port: 2053
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tls: true
-  tfo: false
-  client-fingerprint: chrome
-  delay: 1454
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: twitterfreecodesfp=chromefp=chromefp=chrome
 - name: 爱沙尼亚 020
   type: vless
   network: ws
@@ -901,6 +885,22 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: twitterfreecodesfp=chromefp=chrome
+- name: 法国 005
+  type: vless
+  network: ws
+  server: 45.80.110.211
+  port: 2053
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tls: true
+  tfo: false
+  client-fingerprint: chrome
+  delay: 1454
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: twitterfreecodesfp=chromefp=chromefp=chrome
 - name: 爱沙尼亚 021
   type: vless
   network: ws
@@ -915,21 +915,6 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: twitterfreecodes
-- name: 爱沙尼亚 022
-  type: vless
-  network: ws
-  server: 45.80.110.223
-  port: 2053
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  delay: 1033
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Twitterfreecodes
 - name: 哈萨克斯坦 005
   type: vless
   network: ws
@@ -958,6 +943,21 @@ proxies:
     headers:
       Host: fq521.6789.cloudns.be
     path: twitterfreecodessecurity
+- name: 爱沙尼亚 022
+  type: vless
+  network: ws
+  server: 45.80.110.223
+  port: 2053
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  delay: 1033
+  ws-opts:
+    headers:
+      Host: a.ssll.gay
+    path: Twitterfreecodes
 - name: 德国 006
   type: vless
   network: ws
@@ -1063,6 +1063,20 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: twitter懈袥袩械∞袩卸携†fp=chrome
+- name: 加拿大 025
+  type: vless
+  network: ws
+  server: fbi.gov
+  port: 443
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  servername: B458ab02.caa-chANel-WoRkER-PAge-freE-jhUihNUjhPHjkl-nIhgKjn.paGeS.DeV
+  tls: true
+  client-fingerprint: randomized
+  delay: 1082
+  ws-opts:
+    headers:
+      Host: B458ab02.caa-chANel-WoRkER-PAge-freE-jhUihNUjhPHjkl-nIhgKjn.paGeS.DeV
+    path: /AJIJ0ioGDhNXcifL?ed=2560
 - name: 爱沙尼亚 026
   type: vless
   network: ws
@@ -1093,20 +1107,6 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Twitterfreecodesfp=chrome
-- name: 爱沙尼亚 028
-  type: vless
-  network: ws
-  server: 45.80.110.245
-  port: 80
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  udp: true
-  delay: 731
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: Twitterfreecodes
 - name: 西班牙 001
   type: vless
   network: ws
@@ -1120,6 +1120,20 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Twitterfreecodesfp=chrome
+- name: 立陶宛 003
+  type: vless
+  network: ws
+  server: 89.116.250.6
+  port: 2083
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  client-fingerprint: chrome
+  delay: 1171
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: /telegram.v2ray_apha.spacefp
 - name: 加拿大 034
   type: vmess
   network: ws
@@ -1135,34 +1149,20 @@ proxies:
     headers:
       Host: onea.flha.ru
     path: /
-- name: 立陶宛 003
+- name: 爱沙尼亚 028
   type: vless
   network: ws
-  server: 89.116.250.6
-  port: 2083
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  client-fingerprint: chrome
-  delay: 1171
+  server: 45.80.110.245
+  port: 80
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  servername: a.ssll.gay
+  skip-cert-verify: false
+  udp: true
+  delay: 731
   ws-opts:
     headers:
-      Host: juzibaipiao.5112233.xyz
-    path: /telegram.v2ray_apha.spacefp
-- name: 英国 009
-  type: vless
-  network: ws
-  server: 194.36.55.198
-  port: 8443
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  client-fingerprint: chrome
-  delay: 1381
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: /?ed
+      Host: a.ssll.gay
+    path: Twitterfreecodes
 - name: 法国 007
   type: vless
   network: ws
@@ -1177,6 +1177,20 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: Twitterfreecodes
+- name: 英国 009
+  type: vless
+  network: ws
+  server: 194.36.55.198
+  port: 8443
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  client-fingerprint: chrome
+  delay: 1381
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: /?ed
 - name: 美国 013
   type: vless
   network: ws
@@ -1502,6 +1516,19 @@ proxies:
     headers:
       Host: ip14.freegradely.xyz
     path: github.com/Alvin9999
+- name: 加拿大 014
+  type: vmess
+  network: ws
+  server: fbi.gov
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
 - name: 加拿大 039
   type: vmess
   network: ws
@@ -1528,19 +1555,6 @@ proxies:
     headers:
       Host: onea.flha.ru
     path: /
-- name: 加拿大 014
-  type: vmess
-  network: ws
-  server: fbi.gov
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
 - name: 加拿大 007
   type: vless
   network: ws
@@ -1571,6 +1585,16 @@ proxies:
     headers:
       Host: server18.aibox.tv
     path: /TG-AiLuMao/
+- name: 加拿大 011
+  type: vless
+  network: httpupgrade
+  server: www.speedtest.net
+  port: 8080
+  uuid: telegram-id-ArV2ray
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
 - name: 美国 003
   type: vless
   network: ws
@@ -1586,16 +1610,6 @@ proxies:
     headers:
       Host: speedtest.net.6.v2rpds.ir
     path: /telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80
-- name: 加拿大 011
-  type: vless
-  network: httpupgrade
-  server: www.speedtest.net
-  port: 8080
-  uuid: telegram-id-ArV2ray
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
 - name: 美国 004
   type: vless
   network: ws
@@ -2134,21 +2148,6 @@ proxies:
   tls: true
   udp: true
   tfo: false
-- name: 加拿大 066
-  type: vless
-  network: ws
-  server: 172.66.44.83
-  port: 443
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  servername: 80acf9Da.EhSaN-PAnEL.PAGES.dEv
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: 80acf9Da.EhSaN-PAnEL.PAGES.dEv
-    path: /yg2rz1apovtkjpov?ed=2560
 - name: 加拿大 069
   type: vless
   network: ws
@@ -2164,6 +2163,21 @@ proxies:
     headers:
       Host: t-netplus-4vx.pages.dev
     path: /
+- name: 加拿大 066
+  type: vless
+  network: ws
+  server: 172.66.44.83
+  port: 443
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  servername: 80acf9Da.EhSaN-PAnEL.PAGES.dEv
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: 80acf9Da.EhSaN-PAnEL.PAGES.dEv
+    path: /yg2rz1apovtkjpov?ed=2560
 - name: 加拿大 071
   type: vmess
   network: ws
@@ -2237,22 +2251,6 @@ proxies:
     headers:
       Host: telgram-xv2ray--xv2ray--xv2ray--xv2ray--xv2ray2.pages.dev
     path: /Telegram-XV2ry2?ed=512
-- name: 加拿大 073
-  type: vmess
-  network: ws
-  server: sg1.1vpn.sbs
-  port: 443
-  uuid: 1335b461-4941-4d13-936b-76a16eec9ad6
-  servername: sg1.1vpn.sbs
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: sg1.1vpn.sbs
-    path: /oihuih6788
 - name: 加拿大 002
   type: vless
   network: ws
@@ -2308,6 +2306,21 @@ proxies:
     headers:
       Host: ip2.1457230.xyz
     path: github.com/Alvin9999
+- name: 美国 026
+  type: vmess
+  network: ws
+  server: 172.64.166.28
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
 - name: 加拿大 065
   type: vless
   network: ws
@@ -2323,10 +2336,10 @@ proxies:
     headers:
       Host: server20.aibox.tv
     path: /TG-AiLuMao/
-- name: 美国 026
+- name: 美国 009
   type: vmess
   network: ws
-  server: 172.64.166.28
+  server: 172.64.166.16
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   skip-cert-verify: true
@@ -2401,21 +2414,6 @@ proxies:
     headers:
       Host: t-netplus1.pages.dev
     path: /telegram-proxy_mtm?ed=2048
-- name: 美国 009
-  type: vmess
-  network: ws
-  server: 172.64.166.16
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  skip-cert-verify: true
-  tls: false
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
 - name: 加拿大 079
   type: vless
   network: ws
@@ -2581,7 +2579,7 @@ proxies:
       Host: ip14.freegradely.xyz
     path: github.com/Alvin9999
 - name: 🇺🇸 美国 CloudFlare节点
-  server: 172.64.198.249
+  server: 104.26.5.56
   port: 2095
   client-fingerprint: chrome
   type: vmess
@@ -2596,12 +2594,25 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip2.8084726.xyz
+- name: 🇺🇦 乌克兰 v2rayfree.eu.org
+  server: 195.245.221.15
+  port: 443
+  client-fingerprint: randomized
+  type: trojan
+  password: bpb-trojan
+  sni: 403b3611-99bC-43b7-88D7-26ED5D0825A9-3.pagES.DEv
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /trSo3btsDgOHHUM6Nb?ed=2560
+    headers:
+      Host: 403b3611-99bC-43b7-88D7-26ED5D0825A9-3.pagES.DEv
 - name: 🇺🇸 美国 CloudFlare节点 2
-  server: 104.19.45.42
-  port: 2095
+  server: 104.16.60.8
+  port: 2086
   client-fingerprint: chrome
   type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
   alterId: 0
   cipher: auto
   tls: false
@@ -2609,11 +2620,24 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: github.com/Alvin9999
+    path: /linde06.indiavideo.sbs/linkws
     headers:
-      Host: ip2.6016725.xyz
+      Host: worker-lingering-fog-c021.gesofog870.workers.dev
+- name: 🇺🇸 美国 v2rayfree.eu.org
+  server: 159.112.235.48
+  port: 2083
+  client-fingerprint: randomized
+  type: trojan
+  password: bpb-trojan
+  sni: 403b3611-99bC-43B7-88d7-26ed5d0825A9-3.PAGes.dEv
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /trZTKk76m0W1AxpNcC?ed=2560
+    headers:
+      Host: 403b3611-99bC-43B7-88d7-26ed5d0825A9-3.PAGes.dEv
 - name: 🇺🇸 美国 CloudFlare节点 3
-  server: 104.19.45.50
+  server: 104.16.148.244
   port: 2082
   client-fingerprint: chrome
   type: vmess
@@ -2628,12 +2652,12 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip3.6929198.xyz
-- name: 🇺🇸 美国 CloudFlare节点 5
-  server: 104.18.24.92
+- name: 🇺🇸 美国 CloudFlare节点 4
+  server: 104.16.68.38
   port: 2052
   client-fingerprint: chrome
   type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
   alterId: 0
   cipher: auto
   tls: false
@@ -2641,85 +2665,27 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /afrhms16v.bestxray.buzz/linkws
+    path: /afrhms07.xfixedfloat.cfd/linkws
     headers:
-      Host: mysan2.jaquay22.workers.dev
+      Host: 7hss-butterfly-d4c3.fijetem432.workers.dev
+- name: 🇺🇸 美国 CloudFlare节点 5
+  server: 104.16.61.8
+  port: 8080
+  client-fingerprint: chrome
+  type: vmess
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  alterId: 0
+  cipher: auto
+  tls: false
+  tfo: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /jahfkjha.cfd/linkws
+    headers:
+      Host: hyfhhg.jadovah977.workers.dev
 - name: 🇺🇸 美国 CloudFlare节点 6
-  server: 172.64.167.10
-  port: 2082
-  client-fingerprint: chrome
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  alterId: 0
-  cipher: auto
-  tls: false
-  tfo: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip3.6929198.xyz
-- name: 🇺🇸 美国 v2rayfree.eu.org
-  server: 45.142.120.4
-  port: 2096
-  client-fingerprint: randomized
-  type: trojan
-  password: bpb-trojan
-  sni: 403B3611-99bC-43b7-88D7-26ed5d0825A9-3.PageS.DEV
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /troUbg9Q3QgD0TJRfy?ed=2560
-    headers:
-      Host: 403B3611-99bC-43b7-88D7-26ed5d0825A9-3.PageS.DEV
-- name: 🇺🇸 美国 CloudFlare节点 7
-  server: 104.21.69.44
-  port: 443
-  client-fingerprint: randomized
-  type: trojan
-  password: bpb-trojan
-  sni: 403B3611-99bC-43b7-88D7-26ed5d0825A9-3.Pages.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /try4T0ITiCsxSQTHiX?ed=2560
-    headers:
-      Host: 403B3611-99bC-43b7-88D7-26ed5d0825A9-3.Pages.dev
-- name: 🇺🇸 美国 v2rayfree.eu.org 2
-  server: 66.241.124.229
-  port: 443
-  client-fingerprint: chrome
-  type: vmess
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-  alterId: 0
-  cipher: auto
-  tls: true
-  tfo: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-    headers:
-      Host: cold-dawn-9246.fly.dev
-- name: 🇺🇸 美国 CloudFlare节点 9
-  server: 104.19.21.63
-  port: 2095
-  client-fingerprint: chrome
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  alterId: 0
-  cipher: auto
-  tls: false
-  tfo: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ip2.6016725.xyz
-- name: 🇺🇸 美国 CloudFlare节点 10
-  server: 104.19.45.144
+  server: 104.19.45.66
   port: 2095
   client-fingerprint: chrome
   type: vmess
@@ -2734,12 +2700,12 @@ proxies:
     path: /
     headers:
       Host: onea.flha.ru
-- name: 🇺🇸 美国 CloudFlare节点 11
-  server: 104.16.67.38
-  port: 2086
+- name: 🇺🇸 美国 CloudFlare节点 7
+  server: 104.19.59.89
+  port: 2095
   client-fingerprint: chrome
   type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   alterId: 0
   cipher: auto
   tls: false
@@ -2747,11 +2713,101 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /linde06.indiavideo.sbs/linkws
+    path: github.com/Alvin9999
     headers:
-      Host: snowy-river-f497.turkeys-radford.workers.dev
+      Host: ip2.6016725.xyz
+- name: 🇺🇦 乌克兰 v2rayfree.eu.org 2
+  server: 31.43.179.76
+  port: 443
+  client-fingerprint: randomized
+  type: trojan
+  password: bpb-trojan
+  sni: 403B3611-99BC-43B7-88d7-26ed5D0825a9-3.PAgEs.dEv
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /trG7Z0qjsy05QMgybQ?ed=2560
+    headers:
+      Host: 403B3611-99BC-43B7-88d7-26ed5D0825a9-3.PAgEs.dEv
+- name: 🇺🇸 美国 CloudFlare节点 8
+  server: 104.19.55.49
+  port: 2095
+  client-fingerprint: chrome
+  type: vmess
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  alterId: 0
+  cipher: auto
+  tls: false
+  tfo: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip2.8084726.xyz
+- name: 🇧🇷 巴西圣保罗 CloudFlare节点
+  server: 188.114.98.6
+  port: 443
+  client-fingerprint: randomized
+  type: trojan
+  password: bpb-trojan
+  sni: 403b3611-99bc-43b7-88d7-26eD5D0825a9-3.pagES.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /trHMgc3gUnNOpvjx2i?ed=2560
+    headers:
+      Host: 403b3611-99bc-43b7-88d7-26eD5D0825a9-3.pagES.dev
+- name: 🇺🇸 美国 CloudFlare节点 9
+  server: 162.159.140.45
+  port: 2095
+  client-fingerprint: chrome
+  type: vmess
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  alterId: 0
+  cipher: auto
+  tls: false
+  tfo: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip2.8084726.xyz
+- name: 🇺🇸 美国 CloudFlare节点 10
+  server: 104.21.65.254
+  port: 2052
+  client-fingerprint: chrome
+  type: vmess
+  uuid: 4b1168e7-82b0-43a7-8dbc-b22b61547ef4
+  alterId: 0
+  cipher: auto
+  tls: false
+  tfo: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
+- name: 🇺🇸 美国 CloudFlare节点 11
+  server: 104.19.42.49
+  port: 2095
+  client-fingerprint: chrome
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  alterId: 0
+  cipher: auto
+  tls: false
+  tfo: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip2.6016725.xyz
 - name: 🇺🇸 美国 CloudFlare节点 12
-  server: 104.19.38.12
+  server: japan.com
   port: 2082
   client-fingerprint: chrome
   type: vmess
@@ -2764,42 +2820,10 @@ proxies:
   network: ws
   ws-opts:
     path: github.com/Alvin9999
-    headers:
-      Host: ip3.6929198.xyz
-- name: 🇺🇸 美国 CloudFlare节点 13
-  server: 104.19.45.90
-  port: 2082
-  client-fingerprint: chrome
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  alterId: 0
-  cipher: auto
-  tls: false
-  tfo: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
     headers:
       Host: ip3.6929198.xyz
 - name: 🇺🇸 美国 CloudFlare节点 14
-  server: 162.159.140.93
-  port: 2082
-  client-fingerprint: chrome
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  alterId: 0
-  cipher: auto
-  tls: false
-  tfo: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip3.6929198.xyz
-- name: 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
-  server: 23.227.38.3
+  server: 162.159.140.91
   port: 2082
   client-fingerprint: chrome
   type: vmess
@@ -2815,6 +2839,64 @@ proxies:
     headers:
       Host: ip3.6929198.xyz
 - name: 🇺🇸 美国 CloudFlare节点 15
+  server: 172.67.146.69
+  port: 443
+  client-fingerprint: randomized
+  type: trojan
+  password: bpb-trojan
+  sni: 403b3611-99bC-43B7-88D7-26eD5D0825A9-3.pAgeS.dEv
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /trUCa3SPfNEeCjidWR?ed=2560
+    headers:
+      Host: 403b3611-99bC-43B7-88D7-26eD5D0825A9-3.pAgeS.dEv
+- name: 🇺🇸 美国 CloudFlare节点 13
+  server: server31.beheshtbaneh.com
+  port: 8880
+  client-fingerprint: chrome
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  alterId: 0
+  cipher: auto
+  tls: false
+  tfo: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: server31.beheshtbaneh.com
+- name: 🇺🇸 美国 CloudFlare节点 16
+  server: 104.26.5.123
+  port: 2095
+  client-fingerprint: chrome
+  type: vmess
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  alterId: 0
+  cipher: auto
+  tls: false
+  tfo: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip2.8084726.xyz
+- name: 🇧🇷 巴西圣保罗 CloudFlare节点 2
+  server: 188.114.98.9
+  port: 443
+  client-fingerprint: randomized
+  type: trojan
+  password: bpb-trojan
+  sni: 403b3611-99bc-43B7-88D7-26ed5d0825A9-3.PaGes.deV
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /trPzEZkYKpRGtROd3H?ed=2560
+    headers:
+      Host: 403b3611-99bc-43B7-88D7-26ed5d0825A9-3.PaGes.deV
+- name: 🇺🇸 美国 CloudFlare节点 17
   server: 104.26.0.56
   port: 2095
   client-fingerprint: chrome
@@ -2827,48 +2909,11 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: github.com/Alvin9999
     headers:
       Host: ip2.8084726.xyz
-- name: 🇺🇸 美国 Amazon EC2服务器
-  server: 3.97.104.244
-  port: 22222
-  client-fingerprint: chrome
-  type: trojan
-  password: telegram-id-directvpn
-  sni: trojan.burgerip.co.uk
-  skip-cert-verify: false
-- name: 🇺🇸 美国 CloudFlare节点 16
-  server: 104.21.59.165
-  port: 443
-  client-fingerprint: randomized
-  type: trojan
-  password: bpb-trojan
-  sni: 403b3611-99BC-43B7-88d7-26eD5D0825A9-3.PAges.DEV
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /trep2km0aVhJcl29WO?ed=2560
-    headers:
-      Host: 403b3611-99BC-43B7-88d7-26eD5D0825A9-3.PAges.DEV
-- name: 🇺🇸 美国 CloudFlare节点 17
-  server: npmjs.com
-  port: 443
-  client-fingerprint: chrome
-  type: vmess
-  uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f
-  alterId: 0
-  cipher: auto
-  tls: true
-  tfo: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /QvtvPdDXXIlSdZMqnuxG
-    headers:
-      Host: hdfy1c2.freeairlaines.com
 - name: 🇺🇸 美国 CloudFlare节点 18
-  server: 104.26.5.88
+  server: 104.18.57.111
   port: 2095
   client-fingerprint: chrome
   type: vmess
@@ -2883,47 +2928,128 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip2.6016725.xyz
-- name: 🇺🇸 美国 v2rayfree.eu.org 3
-  server: 45.131.208.81
+- name: 🇧🇷 巴西圣保罗 CloudFlare节点 3
+  server: 188.114.96.2
   port: 443
-  client-fingerprint: randomized
-  type: trojan
-  password: bpb-trojan
-  sni: 403B3611-99BC-43b7-88D7-26eD5d0825A9-3.PaGES.dEv
+  client-fingerprint: chrome
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  alterId: 0
+  cipher: auto
+  tls: true
+  tfo: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /trt3XSTgGNyK4r9U0o?ed=2560
+    path: /linkws
     headers:
-      Host: 403B3611-99BC-43b7-88D7-26eD5d0825A9-3.PaGES.dEv
+      Host: afrhms16v.bestxray.buzz
 - name: 🇺🇸 美国 CloudFlare节点 19
-  server: 104.18.22.235
-  port: 443
-  client-fingerprint: randomized
-  type: trojan
-  password: bpb-trojan
-  sni: 403b3611-99bc-43B7-88D7-26Ed5d0825A9-3.pageS.dev
+  server: 162.159.140.89
+  port: 2095
+  client-fingerprint: chrome
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  alterId: 0
+  cipher: auto
+  tls: false
+  tfo: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /tr1ZwekOpUrc0os2rS?ed=2560
+    path: github.com/Alvin9999
     headers:
-      Host: 403b3611-99bc-43B7-88D7-26Ed5d0825A9-3.pageS.dev
+      Host: ip2.6016725.xyz
 - name: 🇺🇸 美国 CloudFlare节点 20
-  server: 172.67.2.238
-  port: 443
-  client-fingerprint: randomized
-  type: trojan
-  password: bpb-trojan
-  sni: 403B3611-99Bc-43b7-88D7-26Ed5D0825a9-3.PAGeS.dev
+  server: 172.64.167.25
+  port: 2095
+  client-fingerprint: chrome
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  alterId: 0
+  cipher: auto
+  tls: false
+  tfo: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /trYEKooUVTeXcm8lnU?ed=2560
+    path: /
     headers:
-      Host: 403B3611-99Bc-43b7-88D7-26Ed5D0825a9-3.PAGeS.dev
+      Host: ip2.6016725.xyz
 - name: 🇺🇸 美国 CloudFlare节点 21
-  server: 172.64.167.5
+  server: 104.19.38.12
+  port: 2095
+  client-fingerprint: chrome
+  type: vmess
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  alterId: 0
+  cipher: auto
+  tls: false
+  tfo: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip2.8084726.xyz
+- name: 🇺🇸 美国 华盛顿州西雅图市AWS有限公司EC2云服务器8号云机房
+  server: 107.21.120.219
+  port: 22222
+  client-fingerprint: chrome
+  type: trojan
+  password: telegram-id-directvpn
+  sni: trojan.burgerip.co.uk
+  skip-cert-verify: false
+- name: 🇺🇸 美国 CloudFlare节点 22
+  server: 172.64.166.33
+  port: 2095
+  client-fingerprint: chrome
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  alterId: 0
+  cipher: auto
+  tls: false
+  tfo: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip2.6016725.xyz
+- name: 🇺🇸 美国 CloudFlare节点 23
+  server: 104.19.38.10
+  port: 2082
+  client-fingerprint: chrome
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  alterId: 0
+  cipher: auto
+  tls: false
+  tfo: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip6.6929198.xyz
+- name: 🇺🇸 美国 CloudFlare节点 25
+  server: 104.16.67.38
+  port: 2086
+  client-fingerprint: chrome
+  type: vmess
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  alterId: 0
+  cipher: auto
+  tls: false
+  tfo: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /jahfkjha.cfd/linkws
+    headers:
+      Host: hyfhhg.jadovah977.workers.dev
+- name: 🇺🇸 美国 CloudFlare节点 26
+  server: 104.19.32.216
   port: 2082
   client-fingerprint: chrome
   type: vmess
@@ -2938,69 +3064,37 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip3.6929198.xyz
-- name: 🇺🇸 美国 CloudFlare节点 22
-  server: 172.67.209.80
+- name: 🇺🇸 美国 CloudFlare节点 27
+  server: 104.19.45.90
+  port: 2082
+  client-fingerprint: chrome
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  alterId: 0
+  cipher: auto
+  tls: false
+  tfo: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip3.6929198.xyz
+- name: 🇺🇸 美国 CloudFlare节点 28
+  server: 104.21.31.51
   port: 443
   client-fingerprint: chrome
   type: trojan
-  password: bpb-trojan
-  sni: 403b3611-99Bc-43b7-88D7-26ED5d0825a9-3.pAgeS.Dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /trHs32TkLnOBacvIv4?ed=2560
-    headers:
-      Host: 403b3611-99Bc-43b7-88D7-26ED5d0825a9-3.pAgeS.Dev
-- name: 🇺🇸 美国 CloudFlare节点 23
-  server: 172.64.166.8
-  port: 2095
-  client-fingerprint: chrome
-  type: vmess
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
-  alterId: 0
-  cipher: auto
-  tls: false
-  tfo: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip2.8084726.xyz
-- name: 🇺🇸 美国 CloudFlare节点 24
-  server: 104.19.45.90
-  port: 2095
-  client-fingerprint: chrome
-  type: vmess
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
-  alterId: 0
-  cipher: auto
-  tls: false
-  tfo: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip2.8084726.xyz
-- name: 🇺🇸 美国 CloudFlare节点 25
-  server: 104.19.45.48
-  port: 2095
-  client-fingerprint: chrome
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  alterId: 0
-  cipher: auto
-  tls: false
-  tfo: false
+  password: auto
+  sni: esetsecuritylicense1.vowexa5791.workers.dev
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: onea.flha.ru
-- name: 🇺🇸 美国 CloudFlare节点 26
-  server: 172.64.167.10
+      Host: esetsecuritylicense1.vowexa5791.workers.dev
+- name: 🇺🇸 美国 CloudFlare节点 29
+  server: 104.20.17.186
   port: 2095
   client-fingerprint: chrome
   type: vmess
@@ -3015,3 +3109,19 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip2.8084726.xyz
+- name: 🇺🇸 美国 CloudFlare节点 30
+  server: 104.19.45.11
+  port: 2082
+  client-fingerprint: chrome
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  alterId: 0
+  cipher: auto
+  tls: false
+  tfo: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip3.6929198.xyz

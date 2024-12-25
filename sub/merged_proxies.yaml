@@ -1,18 +1,4 @@
 proxies:
-- name: 美国 002
-  type: vmess
-  network: ws
-  server: 104.20.17.186
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: /
 - name: 加拿大 119
   type: vmess
   network: ws
@@ -27,20 +13,19 @@ proxies:
     headers:
       Host: worker-lingering-fog-c021.gesofog870.workers.dev
     path: /
-- name: 美国 036
-  type: vmess
+- name: 美国 101
+  type: vless
   network: ws
-  server: 104.19.45.13
-  port: 2082
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
+  server: 209.94.90.200
+  port: 2087
+  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
+  servername: Sb-1u6.paGEs.dEv
+  tls: true
+  delay: 1482
   ws-opts:
     headers:
-      Host: ip3.6929198.xyz
-    path: /
+      Host: Sb-1u6.paGEs.dEv
+    path: /pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560
 - name: 加拿大 138
   type: vmess
   network: ws
@@ -70,19 +55,6 @@ proxies:
     headers:
       Host: worker-flat-hat-00f2.ravapim426.workers.dev
     path: /glweidf.cfd/linkws
-- name: 美国 101
-  type: vless
-  network: ws
-  server: 209.94.90.200
-  port: 2087
-  uuid: fca01448-d84a-436e-9aec-3be1ebdfb350
-  servername: Sb-1u6.paGEs.dEv
-  tls: true
-  delay: 1482
-  ws-opts:
-    headers:
-      Host: Sb-1u6.paGEs.dEv
-    path: /pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560
 - name: 加拿大 217
   type: vmess
   network: ws
@@ -97,20 +69,34 @@ proxies:
     headers:
       Host: 7hss-butterfly-d4c3.fijetem432.workers.dev
     path: /
-- name: 美国 071
+- name: 美国 002
   type: vmess
   network: ws
-  server: speedtest.net
-  port: 443
-  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
-  servername: mehrjavan.ir
-  tls: true
+  server: 104.20.17.186
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  skip-cert-verify: false
+  tls: false
   alterId: 0
   cipher: auto
   ws-opts:
     headers:
-      Host: mehrjavan.ir
-    path: /m28jcoZZUhkqg6pk11
+      Host: ip2.6016725.xyz
+    path: /
+- name: 美国 036
+  type: vmess
+  network: ws
+  server: 104.19.45.13
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: /
 - name: 美国 033
   type: vmess
   network: ws
@@ -125,22 +111,6 @@ proxies:
     headers:
       Host: 77744514375675832169113469546324.v2line.net
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
-- name: 加拿大 021
-  type: vless
-  network: ws
-  server: 104.16.215.113
-  port: 2052
-  uuid: 33039dbe-8889-42f1-9aeb-ecfbfa2a1640
-  servername: 21tg.459tj345.workers.dev
-  skip-cert-verify: true
-  udp: true
-  xudp: true
-  ws-opts:
-    headers:
-      Host: 21tg.459tj345.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: /?ed=2560
 - name: 加拿大 020
   type: vless
   network: ws
@@ -157,6 +127,22 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/63.0.3239.132 Safari/537.36
     path: /
+- name: 加拿大 021
+  type: vless
+  network: ws
+  server: 104.16.215.113
+  port: 2052
+  uuid: 33039dbe-8889-42f1-9aeb-ecfbfa2a1640
+  servername: 21tg.459tj345.workers.dev
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: 21tg.459tj345.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /?ed=2560
 - name: 加拿大 022
   type: vless
   network: ws
@@ -172,6 +158,21 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/65.0.3325.181 Safari/537.36
     path: /Telegram+channel+:+
+- name: 加拿大 024
+  type: vless
+  network: ws
+  server: 104.16.28.34
+  port: 8880
+  uuid: 96494ca5-6dcf-4d33-b94f-5c3485586095
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: hamedan.hiven33959.workers.dev
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /?ed=2048
 - name: 加拿大 023
   type: vless
   network: ws
@@ -188,51 +189,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
     path: /
-- name: 美国 126
-  type: vless
-  network: ws
-  server: www.wto.org
-  port: 80
-  uuid: 113dd109-540e-4497-9d47-eed30315260f
-  skip-cert-verify: false
-  tls: false
-  udp: true
-  tfo: false
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: edgetunnel.2424014450.workers.dev
-    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
-- name: 加拿大 024
-  type: vless
-  network: ws
-  server: 104.16.28.34
-  port: 8880
-  uuid: 96494ca5-6dcf-4d33-b94f-5c3485586095
-  skip-cert-verify: true
-  udp: true
-  xudp: true
-  ws-opts:
-    headers:
-      Host: hamedan.hiven33959.workers.dev
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /?ed=2048
-- name: 加拿大 030
-  type: vless
-  network: ws
-  server: 104.17.140.65
-  port: 2095
-  uuid: 131387aa-4b2a-43aa-bf7c-d94306ba55fb
-  skip-cert-verify: true
-  udp: true
-  xudp: true
-  ws-opts:
-    headers:
-      Host: 13tg.jpl8xmqb.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /?ed=2560
 - name: 加拿大 026
   type: vless
   network: ws
@@ -248,6 +204,36 @@ proxies:
       User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/44.0.2403.157 Safari/537.36
     path: /TELEGRAM-MARAMBASHI/?ed=2048
+- name: 加拿大 030
+  type: vless
+  network: ws
+  server: 104.17.140.65
+  port: 2095
+  uuid: 131387aa-4b2a-43aa-bf7c-d94306ba55fb
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: 13tg.jpl8xmqb.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed=2560
+- name: 加拿大 034
+  type: vless
+  network: ws
+  server: 104.17.76.220
+  port: 8080
+  uuid: aa2dc840-be38-4b4d-a002-ba234999fd55
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: cdn-allxn--b6gaceuorg.l4o117en.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.75 Safari/537.36
+    path: /
 - name: 加拿大 033
   type: vless
   network: ws
@@ -264,21 +250,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/58.0.3029.110 Safari/537.36
     path: /dcjNLZe6XRpnDatU/OC4yMTkuNDIuNzI=
-- name: 加拿大 034
-  type: vless
-  network: ws
-  server: 104.17.76.220
-  port: 8080
-  uuid: aa2dc840-be38-4b4d-a002-ba234999fd55
-  skip-cert-verify: true
-  udp: true
-  xudp: true
-  ws-opts:
-    headers:
-      Host: cdn-allxn--b6gaceuorg.l4o117en.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.75 Safari/537.36
-    path: /
 - name: 美国 104
   type: vless
   network: ws
@@ -309,21 +280,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /?ed=2560
-- name: 加拿大 042
-  type: vless
-  network: ws
-  server: 162.159.130.103
-  port: 2052
-  uuid: 636b1684-b26c-4a9c-bc6e-8e1197a36d74
-  skip-cert-verify: true
-  udp: true
-  xudp: true
-  ws-opts:
-    headers:
-      Host: workerr.hashdiler.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /t.me/Config_Station
 - name: 加拿大 036
   type: vless
   network: ws
@@ -370,6 +326,21 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/58.0.3029.110 Safari/537.36
     path: /
+- name: 加拿大 042
+  type: vless
+  network: ws
+  server: 162.159.130.103
+  port: 2052
+  uuid: 636b1684-b26c-4a9c-bc6e-8e1197a36d74
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: workerr.hashdiler.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /t.me/Config_Station
 - name: 美国 112
   type: vless
   network: ws
@@ -386,21 +357,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /
-- name: 加拿大 056
-  type: vless
-  network: ws
-  server: 162.159.46.68
-  port: 2082
-  uuid: 131387aa-4b2a-43aa-bf7c-d94306ba55fb
-  skip-cert-verify: true
-  udp: true
-  xudp: true
-  ws-opts:
-    headers:
-      Host: 13tg.jpl8xmqb.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /?ed=2560
 - name: 美国 113
   type: vless
   network: ws
@@ -417,6 +373,21 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /
+- name: 加拿大 056
+  type: vless
+  network: ws
+  server: 162.159.46.68
+  port: 2082
+  uuid: 131387aa-4b2a-43aa-bf7c-d94306ba55fb
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: 13tg.jpl8xmqb.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /?ed=2560
 - name: 加拿大 057
   type: vless
   network: ws
@@ -435,36 +406,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /?ed=2560
-- name: 加拿大 061
-  type: vless
-  network: ws
-  server: 162.159.83.112
-  port: 8880
-  uuid: 91d9b8d8-2aab-4e1a-9573-0d59e9cd7f8e
-  skip-cert-verify: true
-  udp: true
-  xudp: true
-  ws-opts:
-    headers:
-      Host: falcunargo-channel.be3374a836.workers.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.101 Safari/537.36
-    path: /?ed=2048
-- name: 加拿大 063
-  type: vless
-  network: ws
-  server: 172.64.155.187
-  port: 2086
-  uuid: b0a63ba3-6cb0-48de-a19d-12babdb0ba4d
-  skip-cert-verify: true
-  udp: true
-  xudp: true
-  ws-opts:
-    headers:
-      Host: 23tg.fh19yh0z.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /?ed=2560
 - name: 加拿大 067
   type: vless
   network: ws
@@ -480,6 +421,21 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/68.0.3440.75 Safari/537.36
     path: /
+- name: 加拿大 063
+  type: vless
+  network: ws
+  server: 172.64.155.187
+  port: 2086
+  uuid: b0a63ba3-6cb0-48de-a19d-12babdb0ba4d
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: 23tg.fh19yh0z.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /?ed=2560
 - name: 加拿大 070
   type: vless
   network: ws
@@ -512,6 +468,37 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/49.0.2623.112 Safari/537.36
     path: /?ed=2560
+- name: 美国 118
+  type: vless
+  network: ws
+  server: 198.41.218.111
+  port: 80
+  uuid: 76b3cbba-e6ac-485a-9481-336a0415eab9
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: OlD-disk-EFCd.JojAhoF109.WorKerS.DEv
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.85 Safari/537.36
+    path: /odHGn0T9HGFXsTlN?ed=2560
+- name: 美国 119
+  type: vless
+  network: ws
+  server: 198.41.218.111
+  port: 2095
+  uuid: 8169cd18-e824-47a4-a4d4-96433b1a519d
+  servername: testdvpnhub69.95f425b718.workers.dev
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  ws-opts:
+    headers:
+      Host: testdvpnhub69.95f425b718.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /
 - name: 美国 121
   type: vless
   network: ws
@@ -527,6 +514,20 @@ proxies:
     headers:
       Host: rix.tgzdyz2.top
     path: /?ed=2560
+- name: 美国 071
+  type: vmess
+  network: ws
+  server: speedtest.net
+  port: 443
+  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
+  servername: mehrjavan.ir
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: mehrjavan.ir
+    path: /m28jcoZZUhkqg6pk11
 - name: 美国 148
   type: vmess
   network: ws
@@ -569,20 +570,6 @@ proxies:
     headers:
       Host: p1.613055.xyz
     path: /
-- name: 加拿大 218
-  type: vmess
-  network: ws
-  server: 104.16.61.8
-  port: 8080
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: hyfhhg.jadovah977.workers.dev
-    path: /
 - name: 美国 190
   type: vmess
   network: ws
@@ -596,6 +583,20 @@ proxies:
   ws-opts:
     headers:
       Host: p1.613055.xyz
+    path: /
+- name: 加拿大 218
+  type: vmess
+  network: ws
+  server: 104.16.61.8
+  port: 8080
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: hyfhhg.jadovah977.workers.dev
     path: /
 - name: 美国 181
   type: vmess
@@ -611,10 +612,66 @@ proxies:
     headers:
       Host: p1.613055.xyz
     path: /
+- name: 美国 196
+  type: vmess
+  network: ws
+  server: 162.159.45.100
+  port: 8880
+  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m1.106778.xyz
+    path: /
+- name: 加拿大 247
+  type: vmess
+  network: ws
+  server: 104.17.147.22
+  port: 8080
+  uuid: fd246702-77fe-4869-decc-e2f2336d50ce
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: kqy2ckti028f.dopraxrocks.com
+    path: /
+- name: 加拿大 248
+  type: vmess
+  network: ws
+  server: 172.67.165.53
+  port: 2086
+  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: shs.xiaoqi666.xyz
+    path: /
 - name: 美国 131
   type: vmess
   network: ws
   server: 104.21.238.200
+  port: 8880
+  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m1.106778.xyz
+    path: /
+- name: 美国 202
+  type: vmess
+  network: ws
+  server: 104.18.114.179
   port: 8880
   uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
   skip-cert-verify: false
@@ -639,95 +696,10 @@ proxies:
     headers:
       Host: m1.106778.xyz
     path: /
-- name: 加拿大 234
-  type: vmess
-  network: ws
-  server: 104.21.238.221
-  port: 2086
-  uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: p1.613055.xyz
-    path: /
-- name: 加拿大 248
-  type: vmess
-  network: ws
-  server: 172.67.165.53
-  port: 2086
-  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: shs.xiaoqi666.xyz
-    path: /
-- name: 加拿大 247
-  type: vmess
-  network: ws
-  server: 104.17.147.22
-  port: 8080
-  uuid: fd246702-77fe-4869-decc-e2f2336d50ce
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: kqy2ckti028f.dopraxrocks.com
-    path: /
-- name: 美国 118
-  type: vless
-  network: ws
-  server: 198.41.218.111
-  port: 80
-  uuid: 76b3cbba-e6ac-485a-9481-336a0415eab9
-  skip-cert-verify: true
-  udp: true
-  xudp: true
-  ws-opts:
-    headers:
-      Host: OlD-disk-EFCd.JojAhoF109.WorKerS.DEv
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.85 Safari/537.36
-    path: /odHGn0T9HGFXsTlN?ed=2560
-- name: 美国 202
-  type: vmess
-  network: ws
-  server: 104.18.114.179
-  port: 8880
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: m1.106778.xyz
-    path: /
 - name: 加拿大 257
   type: vmess
   network: ws
   server: 104.26.0.95
-  port: 8880
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: m1.106778.xyz
-    path: /
-- name: 加拿大 246
-  type: vmess
-  network: ws
-  server: 104.21.238.205
   port: 8880
   uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
   skip-cert-verify: false
@@ -750,21 +722,33 @@ proxies:
     headers:
       Host: qmsdh.com.877774.xyz
     path: /?ed=2560
-- name: 美国 119
-  type: vless
+- name: 加拿大 234
+  type: vmess
   network: ws
-  server: 198.41.218.111
-  port: 2095
-  uuid: 8169cd18-e824-47a4-a4d4-96433b1a519d
-  servername: testdvpnhub69.95f425b718.workers.dev
-  skip-cert-verify: true
-  udp: true
-  xudp: true
+  server: 104.21.238.221
+  port: 2086
+  uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
   ws-opts:
     headers:
-      Host: testdvpnhub69.95f425b718.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      Host: p1.613055.xyz
+    path: /
+- name: 加拿大 246
+  type: vmess
+  network: ws
+  server: 104.21.238.205
+  port: 8880
+  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m1.106778.xyz
     path: /
 - name: 美国 228
   type: vless
@@ -795,36 +779,6 @@ proxies:
     headers:
       Host: p132.613055.xyz
     path: /
-- name: 美国 234
-  type: vmess
-  network: ws
-  server: 104.16.155.10
-  port: 80
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  skip-cert-verify: true
-  tls: false
-  udp: true
-  tfo: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
-- name: 美国 200
-  type: vmess
-  network: ws
-  server: 104.21.238.15
-  port: 8880
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: m1.106778.xyz
-    path: /
 - name: 美国 233
   type: vmess
   network: ws
@@ -841,20 +795,6 @@ proxies:
     headers:
       Host: shs.xiaoqi666.xyz
     path: /
-- name: 加拿大 255
-  type: vmess
-  network: ws
-  server: 104.21.238.19
-  port: 8880
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  skip-cert-verify: false
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: m1.106778.xyz
-    path: /
 - name: 美国 235
   type: vless
   network: ws
@@ -869,6 +809,22 @@ proxies:
     headers:
       Host: IRANINGOAT2.IR
     path: /RsAMasAPMX5yb1YZ?ed=2560
+- name: 美国 234
+  type: vmess
+  network: ws
+  server: 104.16.155.10
+  port: 80
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  skip-cert-verify: true
+  tls: false
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
 - name: 加拿大 007
   type: vmess
   network: ws
@@ -915,10 +871,10 @@ proxies:
     headers:
       Host: 3-fs4f6s46.huangyurong.cfd
     path: /?ed=2560fp=random
-- name: 美国 149
+- name: 美国 200
   type: vmess
   network: ws
-  server: 104.21.238.101
+  server: 104.21.238.15
   port: 8880
   uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
   skip-cert-verify: false
@@ -929,10 +885,39 @@ proxies:
     headers:
       Host: m1.106778.xyz
     path: /
-- name: 美国 196
+- name: 美国 001
   type: vmess
   network: ws
-  server: 162.159.45.100
+  server: cdn1.bpcdn.cc
+  port: 2086
+  uuid: b2295415-b953-4959-8be0-88b358111e95
+  skip-cert-verify: false
+  tls: false
+  tfo: false
+  alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: jpjhve0r3125kg1xmz.lovebaipiao.com
+    path: /
+- name: 加拿大 032
+  type: vmess
+  network: ws
+  server: russia.com
+  port: 2095
+  uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- name: 加拿大 255
+  type: vmess
+  network: ws
+  server: 104.21.238.19
   port: 8880
   uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
   skip-cert-verify: false
@@ -942,21 +927,6 @@ proxies:
   ws-opts:
     headers:
       Host: m1.106778.xyz
-    path: /
-- name: 美国 065
-  type: vmess
-  network: ws
-  server: 104.21.83.115
-  port: 443
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  servername: hms02.fxiaomi.sbs
-  skip-cert-verify: false
-  tls: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: hms02.fxiaomi.sbs
     path: /
 - name: 加拿大 087
   type: vmess
@@ -985,19 +955,20 @@ proxies:
     headers:
       Host: lax2.ibgfw.top
     path: /dyajvws
-- name: 加拿大 032
+- name: 美国 149
   type: vmess
   network: ws
-  server: russia.com
-  port: 2095
-  uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+  server: 104.21.238.101
+  port: 8880
+  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
+  skip-cert-verify: false
   tls: false
   alterId: 0
   cipher: auto
   ws-opts:
     headers:
-      Host: ssrsub.v03.ssrsub.com
-    path: /api/v3/download.getFile
+      Host: m1.106778.xyz
+    path: /
 - name: 哈萨克斯坦 002
   type: vmess
   network: ws
@@ -1014,22 +985,6 @@ proxies:
     headers:
       Host: lax1.ibgfw.top
     path: /xrenvws
-- name: 美国 001
-  type: vmess
-  network: ws
-  server: cdn1.bpcdn.cc
-  port: 2086
-  uuid: b2295415-b953-4959-8be0-88b358111e95
-  skip-cert-verify: false
-  tls: false
-  tfo: false
-  alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: jpjhve0r3125kg1xmz.lovebaipiao.com
-    path: /
 - name: 加拿大 089
   type: trojan
   network: ws
@@ -1043,6 +998,21 @@ proxies:
   ws-opts:
     headers:
       Host: yaml7.ggff.net
+    path: /
+- name: 美国 065
+  type: vmess
+  network: ws
+  server: 104.21.83.115
+  port: 443
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  servername: hms02.fxiaomi.sbs
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: hms02.fxiaomi.sbs
     path: /
 - name: 瑞典 001
   type: vless
@@ -1109,21 +1079,6 @@ proxies:
     headers:
       Host: lhxt.xiaomi.win
     path: /?ed=2560
-- name: 加拿大 094
-  type: vmess
-  network: ws
-  server: lamusa.daozhang.site
-  port: 8880
-  uuid: 1c1cb7fe-a929-4e47-b292-4073b63d2d4b
-  servername: lamusa.daozhang.site
-  skip-cert-verify: true
-  alterId: 0
-  cipher: auto
-  delay: 1628
-  ws-opts:
-    headers:
-      Host: lamusa.daozhang.site
-    path: /?ed=2048
 - name: 加拿大 095
   type: vmess
   network: ws
@@ -1318,6 +1273,21 @@ proxies:
     headers:
       Host: shy-paper-dec6.congcong1412243609.workers.dev
     path: /?ed=2560&proxyip=proxyip.us.fxxk.dedyn.io
+- name: 加拿大 094
+  type: vmess
+  network: ws
+  server: lamusa.daozhang.site
+  port: 8880
+  uuid: 1c1cb7fe-a929-4e47-b292-4073b63d2d4b
+  servername: lamusa.daozhang.site
+  skip-cert-verify: true
+  alterId: 0
+  cipher: auto
+  delay: 1628
+  ws-opts:
+    headers:
+      Host: lamusa.daozhang.site
+    path: /?ed=2048
 - name: 美国 085
   type: vless
   network: ws
@@ -1403,20 +1373,6 @@ proxies:
     headers:
       Host: vbbb.lii2010.us.kg
     path: /?ed=2560
-- name: 加拿大 001
-  type: vmess
-  network: ws
-  server: 104.17.148.22
-  port: 8080
-  uuid: cc9be09e-c05e-4f54-831b-969ecb185692
-  servername: gi7ip5kbae7a.libreone.com
-  skip-cert-verify: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: gi7ip5kbae7a.libreone.com
-    path: /njbvhfgxdgthj
 - name: 加拿大 002
   type: vmess
   network: ws
@@ -1432,20 +1388,20 @@ proxies:
     headers:
       Host: lax2.ibgfw.top
     path: /
-- name: 西班牙 001
+- name: 加拿大 001
   type: vmess
   network: ws
-  server: 185.251.83.248
-  port: 8443
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  skip-cert-verify: false
-  tls: true
+  server: 104.17.148.22
+  port: 8080
+  uuid: cc9be09e-c05e-4f54-831b-969ecb185692
+  servername: gi7ip5kbae7a.libreone.com
+  skip-cert-verify: true
   alterId: 0
   cipher: auto
   ws-opts:
     headers:
-      Host: lax1.ibgfw.top
-    path: /
+      Host: gi7ip5kbae7a.libreone.com
+    path: /njbvhfgxdgthj
 - name: 美国 005
   type: vmess
   network: ws
@@ -1460,6 +1416,20 @@ proxies:
   ws-opts:
     headers:
       Host: 7wih-darkness-f0af.jivegoh116.workers.dev
+    path: /
+- name: 西班牙 001
+  type: vmess
+  network: ws
+  server: 185.251.83.248
+  port: 8443
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
     path: /
 - name: 美国 006
   type: vmess
@@ -1611,6 +1581,18 @@ proxies:
     headers:
       Host: vbbb.lii2010.us.kg
     path: /?ed=2560
+- name: 美国 010
+  type: vless
+  network: ws
+  server: 172.64.138.184
+  port: 443
+  uuid: eebcdbce-4a2a-437e-9b30-f9d24793ebb1
+  servername: vbbb.lii2010.us.kg
+  tls: true
+  ws-opts:
+    headers:
+      Host: vbbb.lii2010.us.kg
+    path: /?ed=2560
 - name: 加拿大 013
   type: vless
   network: ws
@@ -1659,18 +1641,6 @@ proxies:
     headers:
       Host: vbbb.ylks2024.us.kg
     path: /youlingkaishi
-- name: 美国 010
-  type: vless
-  network: ws
-  server: 172.64.138.184
-  port: 443
-  uuid: eebcdbce-4a2a-437e-9b30-f9d24793ebb1
-  servername: vbbb.lii2010.us.kg
-  tls: true
-  ws-opts:
-    headers:
-      Host: vbbb.lii2010.us.kg
-    path: /?ed=2560
 - name: 加拿大 015
   type: vless
   network: ws
@@ -1713,22 +1683,6 @@ proxies:
     headers:
       Host: jddn.xmnet.us.kg
     path: /13ff895d
-- name: 美国 014
-  type: vmess
-  network: ws
-  server: 151.101.194.133
-  port: 443
-  uuid: 2c281c45-393f-4c56-acd9-a2b797346a71
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: banknabi-mahdi313.Ir.
-    path: /telegram-
 - name: 奥地利 001
   type: vless
   network: ws
@@ -1804,21 +1758,6 @@ proxies:
     headers:
       Host: kb.lii2010.us.kg
     path: /?ed=2560security=tls
-- name: 加拿大 025
-  type: vless
-  network: ws
-  server: 204.216.105.106
-  port: 8443
-  uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
-  servername: kb.lii2010.us.kg
-  skip-cert-verify: false
-  tls: false
-  tfo: false
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: kb.lii2010.us.kg
-    path: /?ed=2560security=tls
 - name: 哈萨克斯坦 001
   type: vless
   network: ws
@@ -1834,6 +1773,20 @@ proxies:
     headers:
       Host: kb.lii2010.us.kg
     path: /?ed=2560security=tls
+- name: 美国 003
+  type: vmess
+  network: ws
+  server: 156.229.162.206
+  port: 8008
+  uuid: 3bb947a3-573b-4d5b-9a5c-43e6577a1730
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /wada12222
 - name: 加拿大 009
   type: vmess
   network: ws
@@ -1874,30 +1827,30 @@ proxies:
     headers:
       Host: vbbb.ylks2024.us.kg
     path: /vbba.ylks2024.us.kg
-- name: 0|--5
-  server: 194.5.215.59
+- name: 0|--17
+  server: 107.155.57.11
   port: 8080
   client-fingerprint: chrome
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
   tfo: false
-- name: 0|--60
-  server: 89.187.181.172
-  port: 43118
+- name: 🇸🇬 13,14|新加坡|@ripaojiedian
+  server: www.aetv.com
+  port: 80
   client-fingerprint: chrome
-  type: trojan
-  password: ypDt8RkT7J
-  sni: egcmi.phooeyunfold.com
+  type: vmess
+  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
+  alterId: 0
+  cipher: auto
+  tls: false
+  tfo: false
   skip-cert-verify: false
-- name: 0|--62
-  server: 38.99.82.225
-  port: 443
-  client-fingerprint: chrome
-  type: trojan
-  password: 71409d3e488548e8bb076d229778f008
-  sni: jobsfortheworldtoday.com
-  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: amd.al
 - name: 🇺🇸 13,14|美国|@ripaojiedian
   server: America.com
   port: 443
@@ -1914,36 +1867,6 @@ proxies:
   grpc-opts:
     grpc-mode: none
     grpc-service-name: /
-- name: 🇺🇸 13|🇺🇸 美国2|@ripaojiedian
-  server: www.visa.com.hk
-  port: 2087
-  client-fingerprint: chrome
-  type: trojan
-  password: TGCitizenScyu
-  sni: maikeaxiang.me
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: maikeaxiang.me
-- name: 🇫🇷 13,14|法国|@ripaojiedian
-  server: primer.ibilibi.li
-  port: 443
-  client-fingerprint: chrome
-  type: vmess
-  uuid: e5852393-ca52-4c90-a237-d63cbbb57f21
-  alterId: 0
-  cipher: auto
-  tls: true
-  tfo: false
-  skip-cert-verify: false
-  servername: ameblo.jp
-  network: ws
-  ws-opts:
-    path: /farcry?ed=2560
-    headers:
-      Host: loki.oracle
 - name: 🇭🇰 14|香港6|@ripaojiedian
   server: cf.zhetengsha.eu.org
   port: 443
@@ -1970,3 +1893,78 @@ proxies:
     path: /?ed=2560
     headers:
       Host: maikeaxiang.me
+- name: 15|US_speednode_0035
+  server: 199.34.228.48
+  port: 2087
+  client-fingerprint: chrome
+  type: vless
+  uuid: c9577b4c-d52d-4eea-b2ab-6f855fa18ae5
+  tls: true
+  tfo: false
+  skip-cert-verify: false
+  servername: vv.cscfwoker.fun
+  network: ws
+  ws-opts:
+    path: /?ed=2560fp=random
+    headers:
+      Host: vv.cscfwoker.fun
+- name: 15|US_speednode_0036
+  server: 108.165.152.38
+  port: 8443
+  client-fingerprint: chrome
+  type: vless
+  uuid: c9577b4c-d52d-4eea-b2ab-6f855fa18ae5
+  tls: true
+  tfo: false
+  skip-cert-verify: false
+  servername: vv.cscfwoker.fun
+  network: ws
+  ws-opts:
+    path: /?ed=2560fp=random
+    headers:
+      Host: vv.cscfwoker.fun
+- name: 15|US_speednode_0037
+  server: 108.165.152.241
+  port: 2053
+  client-fingerprint: chrome
+  type: vless
+  uuid: c9577b4c-d52d-4eea-b2ab-6f855fa18ae5
+  tls: true
+  tfo: false
+  skip-cert-verify: false
+  servername: vv.cscfwoker.fun
+  network: ws
+  ws-opts:
+    path: /?ed=2560fp=random
+    headers:
+      Host: vv.cscfwoker.fun
+- name: 15|US_speednode_0038
+  server: 167.68.4.10
+  port: 2096
+  client-fingerprint: chrome
+  type: vless
+  uuid: c9577b4c-d52d-4eea-b2ab-6f855fa18ae5
+  tls: true
+  tfo: false
+  skip-cert-verify: false
+  servername: vv.cscfwoker.fun
+  network: ws
+  ws-opts:
+    path: /?ed=2560fp=random
+    headers:
+      Host: vv.cscfwoker.fun
+- name: 15|US_speednode_0039
+  server: 216.24.57.207
+  port: 443
+  client-fingerprint: chrome
+  type: vless
+  uuid: c9577b4c-d52d-4eea-b2ab-6f855fa18ae5
+  tls: true
+  tfo: false
+  skip-cert-verify: false
+  servername: vv.cscfwoker.fun
+  network: ws
+  ws-opts:
+    path: /?ed=2560fp=random
+    headers:
+      Host: vv.cscfwoker.fun

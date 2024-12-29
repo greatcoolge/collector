@@ -1,8 +1,8 @@
 proxies:
-- name: 加拿大 038
+- name: 美国 017
   type: vless
   network: ws
-  server: 162.159.153.73
+  server: 198.62.62.111
   port: 443
   uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
   servername: vbbb.ylks2024.us.kg
@@ -10,7 +10,7 @@ proxies:
   ws-opts:
     headers:
       Host: vbbb.ylks2024.us.kg
-    path: /youlingkaishi
+    path: /vbba.ylks2024.us.kg
 - name: 美国 015
   type: vmess
   network: ws
@@ -51,6 +51,18 @@ proxies:
     headers:
       Host: 33.bycf.us.kg
     path: /
+- name: 加拿大 038
+  type: vless
+  network: ws
+  server: 162.159.153.73
+  port: 443
+  uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
+  servername: vbbb.ylks2024.us.kg
+  tls: true
+  ws-opts:
+    headers:
+      Host: vbbb.ylks2024.us.kg
+    path: /youlingkaishi
 - name: 美国 233
   type: vmess
   network: ws
@@ -67,18 +79,6 @@ proxies:
     headers:
       Host: shs.xiaoqi666.xyz
     path: /
-- name: 美国 017
-  type: vless
-  network: ws
-  server: 198.62.62.111
-  port: 443
-  uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
-  servername: vbbb.ylks2024.us.kg
-  tls: true
-  ws-opts:
-    headers:
-      Host: vbbb.ylks2024.us.kg
-    path: /vbba.ylks2024.us.kg
 - name: 加拿大 040
   type: vless
   network: ws
@@ -91,11 +91,11 @@ proxies:
     headers:
       Host: vbbb.ylks2024.us.kg
     path: /vbba.ylks2024.us.kg
-- name: 美国 019
+- name: 印度 003
   type: vless
   network: ws
-  server: 199.34.228.48
-  port: 2087
+  server: 108.165.152.241
+  port: 2053
   uuid: c9577b4c-d52d-4eea-b2ab-6f855fa18ae5
   servername: vv.cscfwoker.fun
   skip-cert-verify: false
@@ -121,11 +121,11 @@ proxies:
     headers:
       Host: vv.cscfwoker.fun
     path: /?ed=2560fp=random
-- name: 美国 020
+- name: 美国 019
   type: vless
   network: ws
-  server: 167.68.4.10
-  port: 2096
+  server: 199.34.228.48
+  port: 2087
   uuid: c9577b4c-d52d-4eea-b2ab-6f855fa18ae5
   servername: vv.cscfwoker.fun
   skip-cert-verify: false
@@ -136,21 +136,20 @@ proxies:
     headers:
       Host: vv.cscfwoker.fun
     path: /?ed=2560fp=random
-- name: 印度 003
-  type: vless
+- name: 美国 022
+  type: vmess
   network: ws
-  server: 108.165.152.241
-  port: 2053
-  uuid: c9577b4c-d52d-4eea-b2ab-6f855fa18ae5
-  servername: vv.cscfwoker.fun
-  skip-cert-verify: false
-  tls: true
-  tfo: false
-  client-fingerprint: chrome
+  server: 172.64.167.5
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  skip-cert-verify: true
+  tls: false
+  alterId: 0
+  cipher: auto
   ws-opts:
     headers:
-      Host: vv.cscfwoker.fun
-    path: /?ed=2560fp=random
+      Host: ip26.6929198.xyz
+    path: github.com/Alvin9999
 - name: 美国 021
   type: vless
   network: ws
@@ -166,20 +165,35 @@ proxies:
     headers:
       Host: vv.cscfwoker.fun
     path: /?ed=2560fp=random
-- name: 美国 026
+- name: 美国 023
   type: vmess
   network: ws
-  server: 104.19.55.49
-  port: 2082
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  server: 172.64.167.35
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   skip-cert-verify: true
   tls: false
   alterId: 0
   cipher: auto
   ws-opts:
     headers:
-      Host: ip27.6929198.xyz
-    path: github.com/Alvin9999
+      Host: ip21.6016725.xyz
+    path: /github.com/Alvin9999
+- name: 美国 020
+  type: vless
+  network: ws
+  server: 167.68.4.10
+  port: 2096
+  uuid: c9577b4c-d52d-4eea-b2ab-6f855fa18ae5
+  servername: vv.cscfwoker.fun
+  skip-cert-verify: false
+  tls: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: vv.cscfwoker.fun
+    path: /?ed=2560fp=random
 - name: 美国 025
   type: vmess
   network: ws
@@ -194,10 +208,10 @@ proxies:
     headers:
       Host: ip21.6016725.xyz
     path: /github.com/Alvin9999
-- name: 加拿大 048
+- name: 美国 026
   type: vmess
   network: ws
-  server: 104.19.42.49
+  server: 104.19.55.49
   port: 2082
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   skip-cert-verify: true
@@ -206,7 +220,7 @@ proxies:
   cipher: auto
   ws-opts:
     headers:
-      Host: ip3.6929198.xyz
+      Host: ip27.6929198.xyz
     path: github.com/Alvin9999
 - name: 美国 027
   type: vmess
@@ -222,10 +236,38 @@ proxies:
     headers:
       Host: ip26.6929198.xyz
     path: github.com/Alvin9999
+- name: 加拿大 048
+  type: vmess
+  network: ws
+  server: 104.19.42.49
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  skip-cert-verify: true
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
 - name: 加拿大 049
   type: vmess
   network: ws
   server: 162.159.140.45
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  skip-cert-verify: true
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip26.6929198.xyz
+    path: github.com/Alvin9999
+- name: 美国 028
+  type: vmess
+  network: ws
+  server: 172.64.99.22
   port: 2082
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   skip-cert-verify: true
@@ -264,10 +306,10 @@ proxies:
     headers:
       Host: ip27.6929198.xyz
     path: github.com/Alvin9999
-- name: 美国 022
+- name: 美国 041
   type: vmess
   network: ws
-  server: 172.64.167.5
+  server: 172.64.175.88
   port: 2082
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   skip-cert-verify: true
@@ -276,35 +318,7 @@ proxies:
   cipher: auto
   ws-opts:
     headers:
-      Host: ip26.6929198.xyz
-    path: github.com/Alvin9999
-- name: 美国 023
-  type: vmess
-  network: ws
-  server: 172.64.167.35
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  skip-cert-verify: true
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip21.6016725.xyz
-    path: /github.com/Alvin9999
-- name: 美国 028
-  type: vmess
-  network: ws
-  server: 172.64.99.22
-  port: 2082
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  skip-cert-verify: true
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
+      Host: ip6.6929198.xyz
     path: github.com/Alvin9999
 - name: 加拿大 053
   type: vmess
@@ -320,20 +334,20 @@ proxies:
     headers:
       Host: ip20.6016725.xyz
     path: /github.com/Alvin9999
-- name: 美国 039
+- name: 加拿大 050
   type: vmess
   network: ws
-  server: 104.21.238.100
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  server: malaysia.com
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   skip-cert-verify: true
   tls: false
   alterId: 0
   cipher: auto
   ws-opts:
     headers:
-      Host: ip21.6016725.xyz
-    path: /github.com/Alvin9999
+      Host: ip26.6929198.xyz
+    path: github.com/Alvin9999
 - name: 加拿大 051
   type: vmess
   network: ws
@@ -348,6 +362,34 @@ proxies:
     headers:
       Host: shs.xiaoqi666.xyz
     path: /
+- name: 美国 043
+  type: vmess
+  network: ws
+  server: 172.64.167.44
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  skip-cert-verify: true
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- name: 美国 042
+  type: vmess
+  network: ws
+  server: singapore.com
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  skip-cert-verify: true
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
 - name: 澳大利亞 001
   type: vmess
   network: ws
@@ -364,10 +406,10 @@ proxies:
     headers:
       Host: usbk.cfip.top
     path: /cctv13/hd.m3u8
-- name: 美国 041
+- name: 美国 037
   type: vmess
   network: ws
-  server: 172.64.175.88
+  server: www.visa.com
   port: 2082
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   skip-cert-verify: true
@@ -376,8 +418,24 @@ proxies:
   cipher: auto
   ws-opts:
     headers:
-      Host: ip6.6929198.xyz
-    path: github.com/Alvin9999
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- name: 美国 046
+  type: vmess
+  network: ws
+  server: 104.21.82.17
+  port: 443
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: gwdef.sbs
+    path: /linkws
 - name: 加拿大 058
   type: vmess
   network: ws
@@ -410,101 +468,7 @@ proxies:
     headers:
       Host: 82uple-bird-b087.pemed58443.workers.dev
     path: /ivideos.sbs/linkws
-- name: 美国 043
-  type: vmess
-  network: ws
-  server: 172.64.167.44
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  skip-cert-verify: true
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- name: 美国 046
-  type: vmess
-  network: ws
-  server: 104.21.82.17
-  port: 443
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: gwdef.sbs
-    path: /linkws
-- name: 美国 042
-  type: vmess
-  network: ws
-  server: singapore.com
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  skip-cert-verify: true
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- name: 加拿大 029
-  type: trojan
-  network: ws
-  server: www.visa.com.hk
-  port: 2087
-  password: TGCitizenScyu
-  skip-cert-verify: false
-  sni: maikeaxiang.me
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: maikeaxiang.me
-    path: /?ed=2560
-- name: 加拿大 050
-  type: vmess
-  network: ws
-  server: malaysia.com
-  port: 2082
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  skip-cert-verify: true
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: github.com/Alvin9999
-- name: 加拿大 079
-  type: vmess
-  network: ws
-  server: 104.21.238.16
-  port: 2086
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  servername: m116.164748.xyz
-  tls: false
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: m116.164748.xyz
-    path: github.com/Alvin9999
-- name: 0|--17
-  server: 194.5.215.59
-  port: 8080
-  client-fingerprint: chrome
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  tfo: false
-- name: 0|--30
+- name: 0|--20
   server: 151.101.194.133
   port: 443
   client-fingerprint: chrome
@@ -521,148 +485,20 @@ proxies:
     path: /racevpn
     headers:
       Host: 6606.com
-- name: 🇸🇬 13,14|新加坡|@ripaojiedian
-  server: www.aetv.com
-  port: 80
+- name: 🇫🇷 13,14|法国|@ripaojiedian
+  server: primer.ibilibi.li
+  port: 443
   client-fingerprint: chrome
   type: vmess
-  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
+  uuid: e5852393-ca52-4c90-a237-d63cbbb57f21
   alterId: 0
   cipher: auto
-  tls: false
-  tfo: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: amd.al
-- name: 15|JP_speednode_0042
-  server: pscresearch.faculty.ucdavis.edu
-  port: 443
-  client-fingerprint: chrome
-  type: vless
-  uuid: 37ec7228-f4ea-4820-84ea-d4f101575851
-  tls: false
-  tfo: false
-  skip-cert-verify: false
-  servername: pscresearch.faculty.ucdavis.edu
-  network: ws
-  ws-opts:
-    path: /ws/?ed=2048security=tls
-    headers:
-      Host: pscresearch.faculty.ucdavis.edu
-- name: 15|KZ_speednode_0046
-  server: 194.76.18.129
-  port: 443
-  client-fingerprint: chrome
-  type: trojan
-  password: tg-fq521free
-  sni: torjan.xn--xhq44j.eu.org
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-- name: 15|RU_speednode_0052
-  server: 45.67.215.95
-  port: 443
-  client-fingerprint: chrome
-  type: trojan
-  password: tg-fq521free
-  sni: torjan.xn--xhq44j.eu.org
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-- name: 15|US_speednode_0064
-  server: 172.64.146.118
-  port: 8880
-  client-fingerprint: chrome
-  type: vless
-  uuid: 25af9eb2-3310-4f2b-bc82-ebea62ba7906
-  tls: false
-  tfo: false
-  skip-cert-verify: false
-  servername: config-proxy-vl.telegram-config-proxy.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: config-proxy-vl.telegram-config-proxy.workers.dev
-- name: 15|US_speednode_0070
-  server: 104.21.17.177
-  port: 443
-  client-fingerprint: chrome
-  type: vless
-  uuid: 40d11375-f419-4617-91b8-e97edf972632
-  tls: false
-  tfo: false
-  skip-cert-verify: false
-  servername: yla.ylks.us.kg
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: yla.ylks.us.kg
-- name: 15|US_speednode_0071
-  server: speedtest.net
-  port: 80
-  client-fingerprint: chrome
-  type: vless
-  uuid: 548de56a-cc35-4723-823c-c4422216a1d9
-  tls: false
-  tfo: false
-  skip-cert-verify: false
-  servername: JOIN.vmessorg.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.vmessorg.DDNS1-IP.nEt
-  network: ws
-  ws-opts:
-    path: /@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480
-    headers:
-      Host: JOIN.vmessorg.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.vmessorg.DDNS1-IP.nEt
-- name: 15|US_speednode_0073
-  server: 198.41.222.95
-  port: 443
-  client-fingerprint: chrome
-  type: vless
-  uuid: 6e9acb2f-c6c1-43a1-a702-bc4b1132df24
   tls: true
   tfo: false
   skip-cert-verify: false
-  servername: yfjcjp2.yfjc.sbs
+  servername: ameblo.jp
   network: ws
   ws-opts:
-    path: /yfjc/jp1fp=chrome
+    path: /farcry?ed=2560
     headers:
-      Host: yfjcjp2.yfjc.sbs
-- name: 15|US_speednode_0075
-  server: 104.21.40.164
-  port: 8080
-  client-fingerprint: chrome
-  type: vless
-  uuid: 636b1684-b26c-4a9c-bc6e-8e1197a36d74
-  tls: false
-  tfo: false
-  skip-cert-verify: false
-  servername: workerr.hashdiler.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: workerr.hashdiler.workers.dev
-- name: 15|US_speednode_0080
-  server: 198.62.62.67
-  port: 443
-  client-fingerprint: chrome
-  type: trojan
-  password: tg-fq521free
-  sni: torjan.xn--xhq44j.eu.org
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
+      Host: loki.oracle

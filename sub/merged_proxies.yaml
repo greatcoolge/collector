@@ -1,28 +1,21 @@
 proxies:
-- name: 0|--26
-  server: 194.5.215.59
-  port: 8080
-  client-fingerprint: chrome
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  tfo: false
-- name: 🇸🇬 13,14|新加坡|@ripaojiedian
-  server: www.aetv.com
-  port: 80
+- name: 🇫🇷 13,14|法国|@ripaojiedian
+  server: primer.ibilibi.li
+  port: 443
   client-fingerprint: chrome
   type: vmess
-  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
+  uuid: e5852393-ca52-4c90-a237-d63cbbb57f21
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   tfo: false
   skip-cert-verify: false
+  servername: ameblo.jp
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /farcry?ed=2560
     headers:
-      Host: amd.al
+      Host: loki.oracle
 - name: 15|CA_speednode_0001
   server: 40.69.106.103
   port: 443

@@ -1,18 +1,4 @@
 proxies:
-- name: 美国 006
-  type: vmess
-  network: ws
-  server: 151.101.2.216
-  port: 80
-  uuid: 545485da-9ff4-48c5-ae94-45e6e4ee7d26
-  servername: 6606.com
-  skip-cert-verify: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: 6606.com
-    path: /racevpn
 - name: 加拿大 003
   type: vmess
   network: ws
@@ -29,23 +15,6 @@ proxies:
     headers:
       Host: xjp.daluquan.top
     path: /
-- name: 美国 005
-  type: vmess
-  network: ws
-  server: primer.ibilibi.li
-  port: 443
-  uuid: e5852393-ca52-4c90-a237-d63cbbb57f21
-  servername: ameblo.jp
-  skip-cert-verify: false
-  tls: true
-  tfo: false
-  alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: loki.oracle
-    path: /farcry?ed=2560
 - name: 美国 007
   type: vmess
   network: ws
@@ -60,11 +29,11 @@ proxies:
     headers:
       Host: de-new01.daluquan.top
     path: /
-- name: 美国 004
+- name: 美国 003
   type: vmess
   network: ws
-  server: 156.229.162.206
-  port: 8013
+  server: 38.150.7.183
+  port: 8888
   uuid: fb05a8fb-d3ad-4e3f-8676-d5a59d66b5e0
   tls: false
   udp: true
@@ -157,6 +126,19 @@ proxies:
     headers:
       Host: s1c.v2.v001sss.xyz
     path: /
+- name: 加拿大 014
+  type: vmess
+  network: ws
+  server: www.darkroom.lol
+  port: 8080
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
+    path: /
 - name: 美国 010
   type: vmess
   network: ws
@@ -171,19 +153,6 @@ proxies:
     headers:
       Host: harriscity.com
     path: /linkvws
-- name: 加拿大 014
-  type: vmess
-  network: ws
-  server: www.darkroom.lol
-  port: 8080
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: www.darkroom.lol
-    path: /
 - name: 加拿大 016
   type: vmess
   network: ws
@@ -226,19 +195,6 @@ proxies:
     headers:
       Host: 6606.com
     path: /racevpn
-- name: 美国 011
-  type: vmess
-  network: ws
-  server: gov.uk
-  port: 443
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  tls: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
 - name: 塞浦路斯 001
   type: vmess
   network: ws
@@ -255,6 +211,21 @@ proxies:
     headers:
       Host: kr.cfyyds.filegear-sg.me
     path: /rongseven?ed=2048
+- name: 加拿大 017
+  type: vmess
+  network: ws
+  server: lamusa.daozhang.site
+  port: 8880
+  uuid: 1c1cb7fe-a929-4e47-b292-4073b63d2d4b
+  servername: lamusa.daozhang.site
+  skip-cert-verify: true
+  alterId: 0
+  cipher: auto
+  delay: 1496
+  ws-opts:
+    headers:
+      Host: lamusa.daozhang.site
+    path: /
 - name: 哈萨克斯坦 001
   type: trojan
   network: ws
@@ -280,21 +251,6 @@ proxies:
   ws-opts:
     headers:
       Host: torjan.xn--xhq44j.eu.org
-    path: /
-- name: 加拿大 017
-  type: vmess
-  network: ws
-  server: lamusa.daozhang.site
-  port: 8880
-  uuid: 1c1cb7fe-a929-4e47-b292-4073b63d2d4b
-  servername: lamusa.daozhang.site
-  skip-cert-verify: true
-  alterId: 0
-  cipher: auto
-  delay: 1496
-  ws-opts:
-    headers:
-      Host: lamusa.daozhang.site
     path: /
 - name: 美国 014
   type: trojan
@@ -323,6 +279,22 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
+- name: 美国 013
+  type: vmess
+  network: ws
+  server: 152.70.155.147
+  port: 2053
+  uuid: aa704947-e163-4133-b485-f8032f8f1286
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nl.zhuk.us.kg
+    path: /ylks
 - name: 美国 016
   type: vless
   network: ws
@@ -361,18 +333,6 @@ proxies:
     headers:
       Host: vbbb.ylks2024.us.kg
     path: /?ed=2560
-- name: 加拿大 019
-  type: vless
-  network: ws
-  server: 104.16.23.178
-  port: 443
-  uuid: eebcdbce-4a2a-437e-9b30-f9d24793ebb1
-  servername: vbbb.lii2010.us.kg
-  tls: true
-  ws-opts:
-    headers:
-      Host: vbbb.lii2010.us.kg
-    path: /?ed=2560
 - name: 哥斯达黎加 001
   type: vless
   network: ws
@@ -385,10 +345,10 @@ proxies:
     headers:
       Host: vbbb.ylks2024.us.kg
     path: /?ed=2560
-- name: 加拿大 021
+- name: 加拿大 019
   type: vless
   network: ws
-  server: 172.64.94.40
+  server: 104.16.23.178
   port: 443
   uuid: eebcdbce-4a2a-437e-9b30-f9d24793ebb1
   servername: vbbb.lii2010.us.kg
@@ -401,6 +361,18 @@ proxies:
   type: vless
   network: ws
   server: 104.16.0.163
+  port: 443
+  uuid: eebcdbce-4a2a-437e-9b30-f9d24793ebb1
+  servername: vbbb.lii2010.us.kg
+  tls: true
+  ws-opts:
+    headers:
+      Host: vbbb.lii2010.us.kg
+    path: /?ed=2560
+- name: 加拿大 021
+  type: vless
+  network: ws
+  server: 172.64.94.40
   port: 443
   uuid: eebcdbce-4a2a-437e-9b30-f9d24793ebb1
   servername: vbbb.lii2010.us.kg
@@ -582,10 +554,10 @@ proxies:
     headers:
       Host: vbbb.ylks2024.us.kg
     path: /vbba.ylks2024.us.kg
-- name: 美国 025
+- name: 美国 024
   type: vless
   network: ws
-  server: 198.62.62.251
+  server: 69.84.182.81
   port: 443
   uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
   servername: vbbb.ylks2024.us.kg
@@ -594,10 +566,10 @@ proxies:
     headers:
       Host: vbbb.ylks2024.us.kg
     path: /vbba.ylks2024.us.kg
-- name: 美国 024
+- name: 美国 025
   type: vless
   network: ws
-  server: 69.84.182.81
+  server: 198.62.62.251
   port: 443
   uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
   servername: vbbb.ylks2024.us.kg
@@ -618,6 +590,18 @@ proxies:
     headers:
       Host: vbbb.ylks2024.us.kg
     path: /vbba.ylks2024.us.kg
+- name: 美国 027
+  type: vless
+  network: ws
+  server: 198.62.62.171
+  port: 443
+  uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
+  servername: vbbb.ylks2024.us.kg
+  tls: true
+  ws-opts:
+    headers:
+      Host: vbbb.ylks2024.us.kg
+    path: /youlingkaishi
 - name: 加拿大 027
   type: vless
   network: ws
@@ -642,30 +626,6 @@ proxies:
     headers:
       Host: vbbb.ylks2024.us.kg
     path: /youlingkaishi
-- name: 美国 027
-  type: vless
-  network: ws
-  server: 198.62.62.171
-  port: 443
-  uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
-  servername: vbbb.ylks2024.us.kg
-  tls: true
-  ws-opts:
-    headers:
-      Host: vbbb.ylks2024.us.kg
-    path: /youlingkaishi
-- name: 美国 028
-  type: vless
-  network: ws
-  server: 69.84.182.140
-  port: 443
-  uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
-  servername: vbbb.ylks2024.us.kg
-  tls: true
-  ws-opts:
-    headers:
-      Host: vbbb.ylks2024.us.kg
-    path: /vbba.ylks2024.us.kg
 - name: 加拿大 029
   type: trojan
   network: ws
@@ -679,6 +639,18 @@ proxies:
     headers:
       Host: ta.promote.icu
     path: /
+- name: 美国 028
+  type: vless
+  network: ws
+  server: 69.84.182.140
+  port: 443
+  uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
+  servername: vbbb.ylks2024.us.kg
+  tls: true
+  ws-opts:
+    headers:
+      Host: vbbb.ylks2024.us.kg
+    path: /vbba.ylks2024.us.kg
 - name: 美国 029
   type: vless
   network: ws
@@ -691,10 +663,10 @@ proxies:
     headers:
       Host: vbbb.ylks2024.us.kg
     path: /youlingkaishi
-- name: 美国 030
+- name: 美国 031
   type: vless
   network: ws
-  server: 198.62.62.91
+  server: 198.62.62.81
   port: 443
   uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
   servername: vbbb.ylks2024.us.kg
@@ -703,10 +675,10 @@ proxies:
     headers:
       Host: vbbb.ylks2024.us.kg
     path: /youlingkaishi
-- name: 美国 031
+- name: 美国 030
   type: vless
   network: ws
-  server: 198.62.62.81
+  server: 198.62.62.91
   port: 443
   uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
   servername: vbbb.ylks2024.us.kg
@@ -763,10 +735,10 @@ proxies:
     headers:
       Host: vbbb.ylks2024.us.kg
     path: /vbba.ylks2024.us.kg
-- name: 美国 036
+- name: 美国 037
   type: vless
   network: ws
-  server: 198.62.62.84
+  server: 198.62.62.228
   port: 443
   uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
   servername: vbbb.ylks2024.us.kg
@@ -775,10 +747,10 @@ proxies:
     headers:
       Host: vbbb.ylks2024.us.kg
     path: /youlingkaishi
-- name: 美国 037
+- name: 美国 036
   type: vless
   network: ws
-  server: 198.62.62.228
+  server: 198.62.62.84
   port: 443
   uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
   servername: vbbb.ylks2024.us.kg
@@ -907,18 +879,6 @@ proxies:
     headers:
       Host: vbbb.ylks2024.us.kg
     path: /vbba.ylks2024.us.kg
-- name: 美国 048
-  type: vless
-  network: ws
-  server: 198.62.62.64
-  port: 443
-  uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
-  servername: vbbb.ylks2024.us.kg
-  tls: true
-  ws-opts:
-    headers:
-      Host: vbbb.ylks2024.us.kg
-    path: /vbba.ylks2024.us.kg
 - name: 美国 047
   type: vless
   network: ws
@@ -931,6 +891,18 @@ proxies:
     headers:
       Host: vbbb.ylks2024.us.kg
     path: /youlingkaishi
+- name: 美国 048
+  type: vless
+  network: ws
+  server: 198.62.62.64
+  port: 443
+  uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
+  servername: vbbb.ylks2024.us.kg
+  tls: true
+  ws-opts:
+    headers:
+      Host: vbbb.ylks2024.us.kg
+    path: /vbba.ylks2024.us.kg
 - name: 美国 049
   type: vless
   network: ws
@@ -991,22 +963,6 @@ proxies:
     headers:
       Host: vbbb.ylks2024.us.kg
     path: /youlingkaishi
-- name: 0|--4
-  server: 34.222.132.123
-  port: 443
-  client-fingerprint: chrome
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  tfo: false
-- name: 0|--8
-  server: 35.85.33.177
-  port: 443
-  client-fingerprint: chrome
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  tfo: false
 - name: 🇸🇬 13,14|新加坡|@ripaojiedian
   server: www.aetv.com
   port: 80

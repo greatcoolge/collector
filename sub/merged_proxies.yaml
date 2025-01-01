@@ -29,6 +29,35 @@ proxies:
     headers:
       Host: 6606.com
     path: /racevpn
+- name: 加拿大 001
+  type: vmess
+  network: ws
+  server: 104.16.143.237
+  port: 8880
+  uuid: 7efc3b9a-e73f-4e40-b57a-5319c463148b
+  servername: yd.changyouVPN.top
+  skip-cert-verify: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: yd.changyouVPN.top
+    path: /?ed=2048
+- name: 美国 002
+  type: vmess
+  network: ws
+  server: mio.splashthat.com
+  port: 443
+  uuid: 545485da-9ff4-48c5-ae94-45e6e4ee7d26
+  servername: 6606.com
+  skip-cert-verify: true
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: 6606.com
+    path: /racevpn
 - name: 加拿大 017
   type: vmess
   network: ws
@@ -60,35 +89,6 @@ proxies:
     headers:
       Host: kr.cfyyds.filegear-sg.me
     path: /rongseven?ed=2048
-- name: 加拿大 001
-  type: vmess
-  network: ws
-  server: 104.16.143.237
-  port: 8880
-  uuid: 7efc3b9a-e73f-4e40-b57a-5319c463148b
-  servername: yd.changyouVPN.top
-  skip-cert-verify: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: yd.changyouVPN.top
-    path: /?ed=2048
-- name: 美国 002
-  type: vmess
-  network: ws
-  server: mio.splashthat.com
-  port: 443
-  uuid: 545485da-9ff4-48c5-ae94-45e6e4ee7d26
-  servername: 6606.com
-  skip-cert-verify: true
-  tls: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: 6606.com
-    path: /racevpn
 - name: 加拿大 003
   type: vmess
   network: ws
@@ -102,20 +102,6 @@ proxies:
   ws-opts:
     headers:
       Host: worker-mute-bar-1719.nifotok993.workers.dev
-    path: /
-- name: 加拿大 002
-  type: vmess
-  network: ws
-  server: 134.195.198.147
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  skip-cert-verify: false
-  tls: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: inna.cfd
     path: /
 - name: 加拿大 006
   type: vmess
@@ -149,22 +135,6 @@ proxies:
     headers:
       Host: amd.al
     path: /?ed=2048
-- name: 加拿大 007
-  type: vmess
-  network: ws
-  server: www.visa.com.sg
-  port: 8443
-  uuid: 27dbf6c4-5727-45a6-b54c-142995ff4ad7
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: kus.htg8866.us.kg
-    path: /465YRTS2AQTEW
 - name: 美国 008
   type: vmess
   network: ws
@@ -181,7 +151,7 @@ proxies:
     headers:
       Host: amd.al
     path: /?ed=2048
-- name: 0|--38
+- name: 0|--41
   server: 194.5.215.59
   port: 8080
   client-fingerprint: chrome
@@ -189,6 +159,38 @@ proxies:
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
   tfo: false
+- name: 0|--85
+  server: mlq001.facai2024.com
+  port: 443
+  client-fingerprint: chrome
+  type: vmess
+  uuid: d86de5d5-1114-4685-999a-75fca2b6f964
+  alterId: 0
+  cipher: auto
+  tls: true
+  tfo: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /d86de5d5
+    headers:
+      Host: mlq001.facai2024.com
+- name: 0|--95
+  server: xcf024.facai2024.com
+  port: 443
+  client-fingerprint: chrome
+  type: vmess
+  uuid: 939e72f2-3567-4712-c560-3eb999ff2a82
+  alterId: 0
+  cipher: auto
+  tls: true
+  tfo: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /939e72f2
+    headers:
+      Host: xcf024.facai2024.com
 - name: 🇫🇷 13,14|法国|@ripaojiedian
   server: primer.ibilibi.li
   port: 443

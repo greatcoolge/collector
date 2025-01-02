@@ -58,22 +58,21 @@ proxies:
     headers:
       Host: lamusa.daozhang.site
     path: /
-- name: 塞浦路斯 001
+- name: 美国 002
   type: vmess
   network: ws
-  server: www.csgo.com
+  server: mio.splashthat.com
   port: 443
-  uuid: 33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5
+  uuid: 545485da-9ff4-48c5-ae94-45e6e4ee7d26
+  servername: 6606.com
   skip-cert-verify: true
   tls: true
-  udp: true
-  tfo: false
   alterId: 0
   cipher: auto
   ws-opts:
     headers:
-      Host: kr.cfyyds.filegear-sg.me
-    path: /rongseven?ed=2048
+      Host: 6606.com
+    path: /racevpn
 - name: 加拿大 003
   type: vmess
   network: ws
@@ -87,6 +86,20 @@ proxies:
   ws-opts:
     headers:
       Host: worker-mute-bar-1719.nifotok993.workers.dev
+    path: /
+- name: 加拿大 002
+  type: vmess
+  network: ws
+  server: 134.195.198.147
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  skip-cert-verify: false
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: inna.cfd
     path: /
 - name: 加拿大 006
   type: vmess
@@ -152,13 +165,53 @@ proxies:
     headers:
       Host: kus.htg8866.us.kg
     path: /465YRTS2AQTEW
-- name: 0|--15
+- name: 0|--13
+  server: 38.110.1.46
+  port: 443
+  client-fingerprint: chrome
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  tfo: false
+- name: 0|--19
+  server: 38.110.1.46
+  port: 5500
+  client-fingerprint: chrome
+  type: ss
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+  tfo: false
+- name: 0|--20
+  server: 38.110.1.46
+  port: 7001
+  client-fingerprint: chrome
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+  tfo: false
+- name: 0|--24
   server: 194.5.215.59
   port: 8080
   client-fingerprint: chrome
   type: ss
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
+  tfo: false
+- name: 0|--31
+  server: 38.110.1.46
+  port: 8091
+  client-fingerprint: chrome
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+  tfo: false
+- name: 0|--36
+  server: 38.110.1.46
+  port: 6379
+  client-fingerprint: chrome
+  type: ss
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
   tfo: false
 - name: 🇸🇬 13,14|新加坡|@ripaojiedian
   server: www.aetv.com

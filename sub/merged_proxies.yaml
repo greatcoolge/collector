@@ -1,19 +1,4 @@
 proxies:
-- name: 加拿大 007
-  type: vless
-  network: ws
-  server: 172.67.163.189
-  port: 8080
-  uuid: dc580147-c87c-4527-bf90-192eb1cf62d1
-  servername: stArt.siTEG52770.WorKeRS.deV
-  skip-cert-verify: false
-  tls: false
-  tfo: false
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: stArt.siTEG52770.WorKeRS.deV
-    path: /V7zmCPZUuL2T1r5r/MC4wLjAuMA==?ed=2560
 - name: 美国 002
   type: vless
   network: ws
@@ -29,6 +14,21 @@ proxies:
     headers:
       Host: 13tg.jpl8xmqb.workers.dev
     path: /?ed=2560
+- name: 加拿大 007
+  type: vless
+  network: ws
+  server: 172.67.163.189
+  port: 8080
+  uuid: dc580147-c87c-4527-bf90-192eb1cf62d1
+  servername: stArt.siTEG52770.WorKeRS.deV
+  skip-cert-verify: false
+  tls: false
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: stArt.siTEG52770.WorKeRS.deV
+    path: /V7zmCPZUuL2T1r5r/MC4wLjAuMA==?ed=2560
 - name: 加拿大 006
   type: vless
   network: ws
@@ -132,20 +132,10 @@ proxies:
     headers:
       Host: usa03.rtx.al
     path: /cfyyds
-- name: 美国 020
-  type: vmess
-  network: tcp
-  server: 198.2.218.102
-  port: 41400
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  skip-cert-verify: true
-  tls: false
-  alterId: 64
-  cipher: auto
-- name: 美国 021
+- name: 美国 022
   type: vless
   network: ws
-  server: 160.79.105.221
+  server: 216.221.210.185
   port: 443
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   servername: dsb.ylks.us.kg
@@ -156,10 +146,10 @@ proxies:
     headers:
       Host: dsb.ylks.us.kg
     path: /?ed=2560
-- name: 美国 022
+- name: 美国 021
   type: vless
   network: ws
-  server: 216.221.210.185
+  server: 160.79.105.221
   port: 443
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   servername: dsb.ylks.us.kg
@@ -212,10 +202,10 @@ proxies:
     headers:
       Host: dsb.ylks.us.kg
     path: /?ed=2560&proxyip=45.67.215.48:443
-- name: 俄罗斯 002
+- name: 南非 002
   type: vless
   network: ws
-  server: 45.67.215.178
+  server: 160.123.255.20
   port: 443
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   servername: dsb.ylks.us.kg
@@ -226,10 +216,10 @@ proxies:
     headers:
       Host: dsb.ylks.us.kg
     path: /?ed=2560
-- name: 南非 002
+- name: 俄罗斯 002
   type: vless
   network: ws
-  server: 160.123.255.20
+  server: 45.67.215.178
   port: 443
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   servername: dsb.ylks.us.kg
@@ -282,6 +272,16 @@ proxies:
     headers:
       Host: dsb.ylks.us.kg
     path: /?ed=2560
+- name: 美国 020
+  type: vmess
+  network: tcp
+  server: 198.2.218.102
+  port: 41400
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  skip-cert-verify: true
+  tls: false
+  alterId: 64
+  cipher: auto
 - name: 加拿大 035
   type: vless
   network: ws
@@ -310,6 +310,22 @@ proxies:
     headers:
       Host: www.84626764.xyz
     path: /path/1735898521986
+- name: 美国 029
+  type: vmess
+  network: ws
+  server: 38.33.56.16
+  port: 38002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 64
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: www.56994187.xyz
+    path: /path/1735812367788
 - name: 美国 031
   type: vmess
   network: ws
@@ -340,22 +356,6 @@ proxies:
     headers:
       Host: banknabi-mahdi313.IR.
     path: /?ed=80/#id-telegram:--->
-- name: 美国 029
-  type: vmess
-  network: ws
-  server: 38.33.56.16
-  port: 38002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
-  alterId: 64
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: www.56994187.xyz
-    path: /path/1735812367788
 - name: 美国 030
   type: vmess
   network: ws
@@ -402,6 +402,36 @@ proxies:
     headers:
       Host: www.28620449.xyz
     path: /path/1735812367788
+- name: 美国 034
+  type: vmess
+  network: ws
+  server: 38.33.56.55
+  port: 37001
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  skip-cert-verify: true
+  tls: true
+  alterId: 64
+  cipher: auto
+  delay: 1667
+  ws-opts:
+    headers:
+      Host: www.24006857.xyz
+    path: /path/1735898936173
+- name: 美国 035
+  type: vmess
+  network: ws
+  server: 38.33.56.53
+  port: 37001
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  skip-cert-verify: true
+  tls: true
+  alterId: 64
+  cipher: auto
+  delay: 1885
+  ws-opts:
+    headers:
+      Host: www.24006857.xyz
+    path: /path/1735725550785
 - name: 美国 037
   type: vmess
   network: ws
@@ -493,20 +523,6 @@ proxies:
     headers:
       Host: www.52140341.xyz
     path: /path/1735812367788
-- name: 美国 044
-  type: vless
-  network: ws
-  server: 206.238.236.156
-  port: 443
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  servername: dsb.ylks.us.kg
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  ws-opts:
-    headers:
-      Host: dsb.ylks.us.kg
-    path: /?ed=2560
 - name: 美国 043
   type: vmess
   network: ws
@@ -522,6 +538,20 @@ proxies:
     headers:
       Host: www.46554484.xyz
     path: /path/1735639586341
+- name: 美国 044
+  type: vless
+  network: ws
+  server: 206.238.236.156
+  port: 443
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  servername: dsb.ylks.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: dsb.ylks.us.kg
+    path: /?ed=2560
 - name: 加拿大 037
   type: vmess
   network: ws
@@ -536,16 +566,8 @@ proxies:
     headers:
       Host: 33.bycf.us.kg
     path: /rongseven?ed=2048
-- name: 0|--24
+- name: 0|--19
   server: 107.155.57.11
-  port: 8080
-  client-fingerprint: chrome
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  tfo: false
-- name: 0|--31
-  server: 23.251.121.242
   port: 8080
   client-fingerprint: chrome
   type: ss

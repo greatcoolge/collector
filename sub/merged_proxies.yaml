@@ -14,18 +14,6 @@ proxies:
     headers:
       Host: 13tg.jpl8xmqb.workers.dev
     path: /?ed=2560
-- name: 加拿大 006
-  type: vless
-  network: ws
-  server: 104.17.147.22
-  port: 2052
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  servername: freev2rng---freev2rng---freev2rng---freev2rng---freev2rng.s88p4jh.workers.dev
-  tls: false
-  ws-opts:
-    headers:
-      Host: freev2rng---freev2rng---freev2rng---freev2rng---freev2rng.s88p4jh.workers.dev
-    path: /WG9SqpThFFMyTenz?ed=2560
 - name: 加拿大 007
   type: vless
   network: ws
@@ -41,20 +29,6 @@ proxies:
     headers:
       Host: stArt.siTEG52770.WorKeRS.deV
     path: /V7zmCPZUuL2T1r5r/MC4wLjAuMA==?ed=2560
-- name: 美国 022
-  type: vless
-  network: ws
-  server: 216.221.210.185
-  port: 443
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  servername: dsb.ylks.us.kg
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  ws-opts:
-    headers:
-      Host: dsb.ylks.us.kg
-    path: /?ed=2560
 - name: 美国 021
   type: vless
   network: ws
@@ -84,10 +58,22 @@ proxies:
     headers:
       Host: biTter-DArkNEsS-3199.wAKoCi1200.WorkERS.dEv
     path: /09EpH4tzdpaF2F6Q?ed=2560
-- name: 哈萨克斯坦 001
+- name: 加拿大 006
   type: vless
   network: ws
-  server: 194.76.18.10
+  server: 104.17.147.22
+  port: 2052
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  servername: freev2rng---freev2rng---freev2rng---freev2rng---freev2rng.s88p4jh.workers.dev
+  tls: false
+  ws-opts:
+    headers:
+      Host: freev2rng---freev2rng---freev2rng---freev2rng---freev2rng.s88p4jh.workers.dev
+    path: /WG9SqpThFFMyTenz?ed=2560
+- name: 美国 022
+  type: vless
+  network: ws
+  server: 216.221.210.185
   port: 443
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   servername: dsb.ylks.us.kg
@@ -98,20 +84,6 @@ proxies:
     headers:
       Host: dsb.ylks.us.kg
     path: /?ed=2560
-- name: 加拿大 034
-  type: trojan
-  network: ws
-  server: 104.26.9.227
-  port: 443
-  password: b80Iy90Fma
-  skip-cert-verify: true
-  udp: true
-  tfo: false
-  sni: usa03.rtx.al
-  ws-opts:
-    headers:
-      Host: usa03.rtx.al
-    path: /cfyyds
 - name: 加拿大 003
   type: vless
   network: ws
@@ -127,10 +99,24 @@ proxies:
     headers:
       Host: config-proxy-vl.telegram-config-proxy.workers.dev
     path: /?ed=2560
-- name: 南非 001
+- name: 加拿大 034
+  type: trojan
+  network: ws
+  server: 104.26.9.227
+  port: 443
+  password: b80Iy90Fma
+  skip-cert-verify: true
+  udp: true
+  tfo: false
+  sni: usa03.rtx.al
+  ws-opts:
+    headers:
+      Host: usa03.rtx.al
+    path: /cfyyds
+- name: 哈萨克斯坦 001
   type: vless
   network: ws
-  server: 160.123.255.23
+  server: 194.76.18.10
   port: 443
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   servername: dsb.ylks.us.kg
@@ -141,20 +127,6 @@ proxies:
     headers:
       Host: dsb.ylks.us.kg
     path: /?ed=2560
-- name: 俄罗斯 001
-  type: vless
-  network: ws
-  server: 45.67.215.48
-  port: 443
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  servername: dsb.ylks.us.kg
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  ws-opts:
-    headers:
-      Host: dsb.ylks.us.kg
-    path: /?ed=2560&proxyip=45.67.215.48:443
 - name: 俄罗斯 002
   type: vless
   network: ws
@@ -169,24 +141,10 @@ proxies:
     headers:
       Host: dsb.ylks.us.kg
     path: /?ed=2560
-- name: 美国 023
+- name: 南非 001
   type: vless
   network: ws
-  server: 160.79.104.76
-  port: 443
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  servername: dsb.ylks.us.kg
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  ws-opts:
-    headers:
-      Host: dsb.ylks.us.kg
-    path: /?ed=2560&proxyip=160.79.104.76:443
-- name: 南非 003
-  type: vless
-  network: ws
-  server: 160.123.255.121
+  server: 160.123.255.23
   port: 443
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   servername: dsb.ylks.us.kg
@@ -211,6 +169,48 @@ proxies:
     headers:
       Host: dsb.ylks.us.kg
     path: /?ed=2560
+- name: 俄罗斯 001
+  type: vless
+  network: ws
+  server: 45.67.215.48
+  port: 443
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  servername: dsb.ylks.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: dsb.ylks.us.kg
+    path: /?ed=2560&proxyip=45.67.215.48:443
+- name: 南非 003
+  type: vless
+  network: ws
+  server: 160.123.255.121
+  port: 443
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  servername: dsb.ylks.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: dsb.ylks.us.kg
+    path: /?ed=2560
+- name: 美国 023
+  type: vless
+  network: ws
+  server: 160.79.104.76
+  port: 443
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  servername: dsb.ylks.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: dsb.ylks.us.kg
+    path: /?ed=2560&proxyip=160.79.104.76:443
 - name: 美国 024
   type: vless
   network: ws
@@ -239,20 +239,47 @@ proxies:
     headers:
       Host: dsb.ylks.us.kg
     path: /?ed=2560
-- name: 美国 025
-  type: vless
+- name: 美国 029
+  type: vmess
   network: ws
-  server: 129.80.222.224
-  port: 443
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  servername: dsb.ylks.us.kg
+  server: 38.33.56.16
+  port: 38002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   skip-cert-verify: true
   tls: true
   udp: true
+  tfo: false
+  alterId: 64
+  cipher: auto
   ws-opts:
     headers:
-      Host: dsb.ylks.us.kg
-    path: /?ed=2560
+      Host: www.56994187.xyz
+    path: /path/1735812367788
+- name: 美国 041
+  type: vmess
+  network: ws
+  server: 198.2.196.7
+  port: 36009
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  skip-cert-verify: true
+  tls: true
+  alterId: 64
+  cipher: auto
+  delay: 1570
+  ws-opts:
+    headers:
+      Host: www.84163007.xyz
+    path: /path/1735208641002
+- name: 美国 003
+  type: vmess
+  network: tcp
+  server: 142.0.134.245
+  port: 45017
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  skip-cert-verify: true
+  alterId: 64
+  cipher: auto
+  delay: 1692
 - name: 加拿大 001
   type: vmess
   network: ws
@@ -268,15 +295,6 @@ proxies:
     headers:
       Host: ovh.reonolimits.my.id
     path: /vmessws
-- name: 美国 001
-  type: vmess
-  network: http
-  server: 147.182.215.158
-  port: 2082
-  uuid: 9211eba6-22f8-4a44-8aba-b3e15d7edfbe
-  tls: false
-  alterId: 0
-  cipher: auto
 - name: 美国 007
   type: vmess
   network: ws
@@ -418,10 +436,10 @@ proxies:
     headers:
       Host: cvl.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 美国 017
+- name: 美国 016
   type: vless
   network: ws
-  server: 103.116.7.248
+  server: 103.116.7.230
   port: 443
   uuid: c797aa8a-c03d-48da-9ad4-c9774b14bed2
   servername: cvl.esslh.filegear-sg.me
@@ -432,10 +450,10 @@ proxies:
     headers:
       Host: cvl.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 美国 016
+- name: 美国 017
   type: vless
   network: ws
-  server: 103.116.7.230
+  server: 103.116.7.248
   port: 443
   uuid: c797aa8a-c03d-48da-9ad4-c9774b14bed2
   servername: cvl.esslh.filegear-sg.me
@@ -460,11 +478,11 @@ proxies:
     headers:
       Host: cvl.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 印度 003
+- name: 美国 018
   type: vless
   network: ws
-  server: 108.165.152.207
-  port: 443
+  server: 103.116.7.103
+  port: 2083
   uuid: c797aa8a-c03d-48da-9ad4-c9774b14bed2
   servername: cvl.esslh.filegear-sg.me
   skip-cert-verify: true
@@ -474,11 +492,11 @@ proxies:
     headers:
       Host: cvl.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 美国 018
+- name: 印度 003
   type: vless
   network: ws
-  server: 103.116.7.103
-  port: 2083
+  server: 108.165.152.207
+  port: 443
   uuid: c797aa8a-c03d-48da-9ad4-c9774b14bed2
   servername: cvl.esslh.filegear-sg.me
   skip-cert-verify: true
@@ -516,11 +534,11 @@ proxies:
     headers:
       Host: cvl.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 美国 026
+- name: 美国 020
   type: vless
   network: ws
-  server: 154.211.8.18
-  port: 2083
+  server: 103.116.7.220
+  port: 2096
   uuid: c797aa8a-c03d-48da-9ad4-c9774b14bed2
   servername: cvl.esslh.filegear-sg.me
   skip-cert-verify: true
@@ -530,11 +548,11 @@ proxies:
     headers:
       Host: cvl.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 美国 020
+- name: 美国 026
   type: vless
   network: ws
-  server: 103.116.7.220
-  port: 2096
+  server: 154.211.8.18
+  port: 2083
   uuid: c797aa8a-c03d-48da-9ad4-c9774b14bed2
   servername: cvl.esslh.filegear-sg.me
   skip-cert-verify: true
@@ -600,20 +618,6 @@ proxies:
     headers:
       Host: cvl.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 美国 031
-  type: vless
-  network: ws
-  server: 103.116.7.152
-  port: 2096
-  uuid: c797aa8a-c03d-48da-9ad4-c9774b14bed2
-  servername: cvl.esslh.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  ws-opts:
-    headers:
-      Host: cvl.esslh.filegear-sg.me
-    path: /?ed=2560
 - name: 美国 030
   type: vless
   network: ws
@@ -628,10 +632,24 @@ proxies:
     headers:
       Host: cvl.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 印度 006
+- name: 美国 032
   type: vless
   network: ws
-  server: 108.165.152.252
+  server: 206.238.237.92
+  port: 2087
+  uuid: c797aa8a-c03d-48da-9ad4-c9774b14bed2
+  servername: cvl.esslh.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: cvl.esslh.filegear-sg.me
+    path: /?ed=2560
+- name: 美国 031
+  type: vless
+  network: ws
+  server: 103.116.7.152
   port: 2096
   uuid: c797aa8a-c03d-48da-9ad4-c9774b14bed2
   servername: cvl.esslh.filegear-sg.me
@@ -642,11 +660,11 @@ proxies:
     headers:
       Host: cvl.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 美国 032
+- name: 印度 006
   type: vless
   network: ws
-  server: 206.238.237.92
-  port: 2087
+  server: 108.165.152.252
+  port: 2096
   uuid: c797aa8a-c03d-48da-9ad4-c9774b14bed2
   servername: cvl.esslh.filegear-sg.me
   skip-cert-verify: true
@@ -684,11 +702,11 @@ proxies:
     headers:
       Host: cvl.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 美国 035
+- name: 印度 007
   type: vless
   network: ws
-  server: 206.238.236.90
-  port: 2087
+  server: 108.165.152.91
+  port: 2083
   uuid: c797aa8a-c03d-48da-9ad4-c9774b14bed2
   servername: cvl.esslh.filegear-sg.me
   skip-cert-verify: true
@@ -698,11 +716,11 @@ proxies:
     headers:
       Host: cvl.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 印度 007
+- name: 美国 035
   type: vless
   network: ws
-  server: 108.165.152.91
-  port: 2083
+  server: 206.238.236.90
+  port: 2087
   uuid: c797aa8a-c03d-48da-9ad4-c9774b14bed2
   servername: cvl.esslh.filegear-sg.me
   skip-cert-verify: true
@@ -754,11 +772,11 @@ proxies:
     headers:
       Host: cvl.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 美国 038
+- name: 柬埔寨 002
   type: vless
   network: ws
-  server: 154.211.8.84
-  port: 2083
+  server: 92.243.74.2
+  port: 8443
   uuid: c797aa8a-c03d-48da-9ad4-c9774b14bed2
   servername: cvl.esslh.filegear-sg.me
   skip-cert-verify: true
@@ -768,11 +786,11 @@ proxies:
     headers:
       Host: cvl.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 柬埔寨 002
+- name: 美国 038
   type: vless
   network: ws
-  server: 92.243.74.2
-  port: 8443
+  server: 154.211.8.84
+  port: 2083
   uuid: c797aa8a-c03d-48da-9ad4-c9774b14bed2
   servername: cvl.esslh.filegear-sg.me
   skip-cert-verify: true
@@ -810,11 +828,11 @@ proxies:
     headers:
       Host: cvl.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 美国 043
+- name: 美国 042
   type: vless
   network: ws
-  server: 154.211.8.220
-  port: 2096
+  server: 154.211.8.155
+  port: 443
   uuid: c797aa8a-c03d-48da-9ad4-c9774b14bed2
   servername: cvl.esslh.filegear-sg.me
   skip-cert-verify: true
@@ -824,11 +842,11 @@ proxies:
     headers:
       Host: cvl.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 美国 042
+- name: 美国 043
   type: vless
   network: ws
-  server: 154.211.8.155
-  port: 443
+  server: 154.211.8.220
+  port: 2096
   uuid: c797aa8a-c03d-48da-9ad4-c9774b14bed2
   servername: cvl.esslh.filegear-sg.me
   skip-cert-verify: true
@@ -866,11 +884,11 @@ proxies:
     headers:
       Host: cvl.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 美国 048
+- name: 美国 049
   type: vless
   network: ws
-  server: 103.116.7.235
-  port: 443
+  server: 161.145.150.26
+  port: 2087
   uuid: c797aa8a-c03d-48da-9ad4-c9774b14bed2
   servername: cvl.esslh.filegear-sg.me
   skip-cert-verify: true
@@ -880,11 +898,11 @@ proxies:
     headers:
       Host: cvl.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 印度 008
+- name: 美国 048
   type: vless
   network: ws
-  server: 108.165.152.204
-  port: 2096
+  server: 103.116.7.235
+  port: 443
   uuid: c797aa8a-c03d-48da-9ad4-c9774b14bed2
   servername: cvl.esslh.filegear-sg.me
   skip-cert-verify: true
@@ -908,11 +926,11 @@ proxies:
     headers:
       Host: cvl.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 美国 049
+- name: 印度 008
   type: vless
   network: ws
-  server: 161.145.150.26
-  port: 2087
+  server: 108.165.152.204
+  port: 2096
   uuid: c797aa8a-c03d-48da-9ad4-c9774b14bed2
   servername: cvl.esslh.filegear-sg.me
   skip-cert-verify: true
@@ -1072,3 +1090,121 @@ proxies:
     headers:
       Host: mgtow_cdn.yunjisuan.cf
     path: /
+- name: 0|--4
+  server: 54.186.92.34
+  port: 443
+  client-fingerprint: chrome
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  tfo: false
+- name: 0|--5
+  server: 35.85.33.177
+  port: 443
+  client-fingerprint: chrome
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  tfo: false
+- name: 0|--6
+  server: 35.85.36.208
+  port: 443
+  client-fingerprint: chrome
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  tfo: false
+- name: 0|--15
+  server: 107.155.57.11
+  port: 8080
+  client-fingerprint: chrome
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  tfo: false
+- name: 0|--17
+  server: 34.213.242.165
+  port: 443
+  client-fingerprint: chrome
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  tfo: false
+- name: 0|--18
+  server: 23.251.121.242
+  port: 8080
+  client-fingerprint: chrome
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  tfo: false
+- name: 🇫🇷 13,14|法国|@ripaojiedian
+  server: primer.ibilibi.li
+  port: 443
+  client-fingerprint: chrome
+  type: vmess
+  uuid: e5852393-ca52-4c90-a237-d63cbbb57f21
+  alterId: 0
+  cipher: auto
+  tls: true
+  tfo: false
+  skip-cert-verify: false
+  servername: ameblo.jp
+  network: ws
+  ws-opts:
+    path: /farcry?ed=2560
+    headers:
+      Host: loki.oracle
+- name: 15|US_speednode_0058
+  server: 63.141.128.99
+  port: 443
+  client-fingerprint: chrome
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  tls: false
+  tfo: false
+  skip-cert-verify: false
+  servername: dsb.ylks.us.kg
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: dsb.ylks.us.kg
+- name: 15|US_speednode_0059
+  server: 160.79.105.221
+  port: 443
+  client-fingerprint: chrome
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  tls: false
+  tfo: false
+  skip-cert-verify: false
+  servername: dsb.ylks.us.kg
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: dsb.ylks.us.kg
+- name: 15|US_speednode_0061
+  server: 35.155.4.93
+  port: 443
+  client-fingerprint: chrome
+  type: trojan
+  password: 3723507166611775488
+  sni: usable-toad.treefrog761.one
+  skip-cert-verify: false
+- name: 15|ZA_speednode_0067
+  server: 160.123.255.20
+  port: 443
+  client-fingerprint: chrome
+  type: vless
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  tls: false
+  tfo: false
+  skip-cert-verify: false
+  servername: dsb.ylks.us.kg
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: dsb.ylks.us.kg

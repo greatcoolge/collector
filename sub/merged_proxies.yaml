@@ -1,4 +1,19 @@
 proxies:
+- name: 美国 002
+  type: vless
+  network: ws
+  server: 104.18.14.19
+  port: 2082
+  uuid: 131387aa-4b2a-43aa-bf7c-d94306ba55fb
+  servername: 13tg.jpl8xmqb.workers.dev
+  skip-cert-verify: false
+  tls: false
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: 13tg.jpl8xmqb.workers.dev
+    path: /?ed=2560
 - name: 美国 021
   type: vmess
   network: ws
@@ -24,21 +39,6 @@ proxies:
   tls: true
   udp: true
   tfo: false
-- name: 美国 002
-  type: vless
-  network: ws
-  server: 104.18.14.19
-  port: 2082
-  uuid: 131387aa-4b2a-43aa-bf7c-d94306ba55fb
-  servername: 13tg.jpl8xmqb.workers.dev
-  skip-cert-verify: false
-  tls: false
-  tfo: false
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: 13tg.jpl8xmqb.workers.dev
-    path: /?ed=2560
 - name: 加拿大 004
   type: vless
   network: ws
@@ -80,21 +80,6 @@ proxies:
   tls: true
   udp: true
   tfo: false
-- name: 加拿大 003
-  type: vless
-  network: ws
-  server: skk.moe
-  port: 8880
-  uuid: 075a365b-b0c7-4ba3-b5a6-597850c223f9
-  servername: sinaazizpor.wapgiz.workers.dev
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: sinaazizpor.wapgiz.workers.dev
-    path: /?ed=2048
 - name: 加拿大 007
   type: vmess
   network: ws
@@ -111,21 +96,6 @@ proxies:
     headers:
       Host: ovh.reonolimits.my.id
     path: /vmessws
-- name: 美国 001
-  type: vmess
-  network: ws
-  server: 162.159.45.247
-  port: 2086
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  servername: m116.164748.xyz
-  tls: false
-  udp: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: m116.164748.xyz
-    path: github.com/Alvin9999
 - name: 加拿大 005
   type: vless
   network: ws
@@ -142,6 +112,21 @@ proxies:
     headers:
       Host: Join.VPNCUSTOMIZE.www.speedtest.net.Naziitness.com
     path: /Telegram,VPNCUSTOMIZE?ed=2480
+- name: 美国 001
+  type: vmess
+  network: ws
+  server: 162.159.45.247
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  servername: m116.164748.xyz
+  tls: false
+  udp: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: m116.164748.xyz
+    path: github.com/Alvin9999
 - name: 瑞典 001
   type: vless
   network: grpc
@@ -152,52 +137,6 @@ proxies:
   tls: true
   udp: true
   tfo: false
-- name: 美国 004
-  type: vless
-  network: ws
-  server: speedtest.net
-  port: 443
-  uuid: 06fa2c71-38a0-4a4c-8493-8dc716ab1adf
-  servername: VPNCUSTOMIZE.azmoon.net
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: VPNCUSTOMIZE.azmoon.net
-    path: /Telegram,VPNCUSTOMIZE?ed=443
-- name: 美国 006
-  type: vless
-  network: ws
-  server: speedtest.net
-  port: 80
-  uuid: 1185a1af-2ad7-5abe-90fb-ca183a3abd96
-  servername: ELiV2RAY-0.iR.
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: ELiV2RAY-0.iR.
-    path: /l?ed=443ed=2560
-- name: 美国 003
-  type: vless
-  network: ws
-  server: pscresearch.faculty.ucdavis.edu
-  port: 443
-  uuid: 04c924c7-551e-4c67-b3fa-9cca9e8cdc78
-  servername: ihrcxextyuj.com
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: ihrcxextyuj.com
-    path: ws/?ed=2048
 - name: 加拿大 008
   type: vless
   network: ws
@@ -214,43 +153,21 @@ proxies:
     headers:
       Host: vip.hackers855.sbs
     path: /
-- name: 加拿大 011
-  type: vless
-  network: grpc
-  server: 104.17.134.62
-  port: 443
-  uuid: 18722220-9249-0051-5849-e8a8f1f76424
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: random
-- name: 加拿大 010
-  type: vless
-  network: grpc
-  server: 162.159.41.92
-  port: 443
-  uuid: 18718278-7994-4392-7042-783bd67a4b54
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: random
-- name: 美国 007
+- name: 美国 006
   type: vless
   network: ws
-  server: spd.fastly80-3.hosting-ip.com
+  server: speedtest.net
   port: 80
-  uuid: 1786e6f4-2632-486b-80b8-4389415aac5f
-  servername: PINF.spdnet.ir.
+  uuid: 1185a1af-2ad7-5abe-90fb-ca183a3abd96
+  servername: ELiV2RAY-0.iR.
   skip-cert-verify: true
   tls: true
   udp: true
   tfo: false
   ws-opts:
     headers:
-      Host: PINF.spdnet.ir.
-    path: /spdnet?ed=1024
+      Host: ELiV2RAY-0.iR.
+    path: /l?ed=443ed=2560
 - name: 加拿大 009
   type: vless
   network: ws
@@ -266,6 +183,28 @@ proxies:
     headers:
       Host: subhiddify.mmdv2.host
     path: /?ed=2560
+- name: 加拿大 010
+  type: vless
+  network: grpc
+  server: 162.159.41.92
+  port: 443
+  uuid: 18718278-7994-4392-7042-783bd67a4b54
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: random
+- name: 加拿大 011
+  type: vless
+  network: grpc
+  server: 104.17.134.62
+  port: 443
+  uuid: 18722220-9249-0051-5849-e8a8f1f76424
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: random
 - name: 加拿大 012
   type: vless
   network: grpc
@@ -369,32 +308,6 @@ proxies:
   tls: true
   udp: true
   tfo: false
-- name: 加拿大 016
-  type: vless
-  network: grpc
-  server: x2.49azvoldkabadc.fun
-  port: 2087
-  uuid: 247ed917-18a3-4d34-860e-51e4808c2511
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: chrome
-- name: 美国 009
-  type: vless
-  network: ws
-  server: www.visa.com
-  port: 8080
-  uuid: 252d7c6c-3f50-44fb-9a51-13963fc727e0
-  servername: 0105.f5s8fbc2.workers.dev
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: 0105.f5s8fbc2.workers.dev
-    path: /?ed=2560
 - name: 美国 010
   type: vless
   network: ws
@@ -411,6 +324,356 @@ proxies:
     headers:
       Host: teleirani.ir
     path: /?ed=2048
+- name: 加拿大 016
+  type: vless
+  network: grpc
+  server: x2.49azvoldkabadc.fun
+  port: 2087
+  uuid: 247ed917-18a3-4d34-860e-51e4808c2511
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+- name: 美国 005
+  type: vmess
+  network: grpc
+  server: 104.21.88.223
+  port: 443
+  uuid: fd670030-d8c8-467b-a4b9-06d26a0323d8
+  servername: sth.happyground.ir
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: 6mHwqI1HSSVtXxCxshcV
+- name: 美国 009
+  type: vless
+  network: ws
+  server: www.visa.com
+  port: 8080
+  uuid: 252d7c6c-3f50-44fb-9a51-13963fc727e0
+  servername: 0105.f5s8fbc2.workers.dev
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: 0105.f5s8fbc2.workers.dev
+    path: /?ed=2560
+- name: 加拿大 017
+  type: vless
+  network: ws
+  server: 162.159.152.152
+  port: 443
+  uuid: 25f0c73e-af30-42ab-93eb-ac45e1c25f18
+  servername: join-v2rey.pages.dev
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: random
+  ws-opts:
+    headers:
+      Host: join-v2rey.pages.dev
+    path: /---------DisVpn---------DisVpn---------DisVpn
+- name: 加拿大 018
+  type: vless
+  network: ws
+  server: medium.com
+  port: 443
+  uuid: 25f0c73e-af30-42ab-93eb-ac45e1c25f18
+  servername: DisVpn.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: randomized
+  ws-opts:
+    headers:
+      Host: DisVpn.us.kg
+    path: /---------DisVpn---------DisVpn---------DisVpn
+- name: 加拿大 019
+  type: vless
+  network: ws
+  server: 104.16.20.118
+  port: 443
+  uuid: 2928d83a-ca75-4d52-b437-fa78c7601378
+  servername: freedom-1rj.pages.dev
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: randomized
+  ws-opts:
+    headers:
+      Host: freedom-1rj.pages.dev
+    path: /freedom-1rj.pages.dev/?ed=2560
+- name: 加拿大 020
+  type: vless
+  network: ws
+  server: 108.162.195.199
+  port: 443
+  uuid: 2928d83a-ca75-4d52-b437-fa78c7601378
+  servername: freedom-1rj.pages.dev
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: randomized
+  ws-opts:
+    headers:
+      Host: freedom-1rj.pages.dev
+    path: /freedom-1rj.pages.dev/?ed=2560
+- name: 加拿大 021
+  type: vmess
+  network: ws
+  server: 198.41.209.70
+  port: 2082
+  uuid: 65c003b7-d0b5-3751-8e22-b959f46463bc
+  servername: 100-158-204-97.s3.db-link01.top
+  skip-cert-verify: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: 100-158-204-97.s3.db-link01.top
+    path: /dabai.in104.24.107.6
+- name: 加拿大 022
+  type: vmess
+  network: ws
+  server: 172.67.165.53
+  port: 2086
+  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
+  skip-cert-verify: false
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: shs.xiaoqi666.xyz
+    path: /
+- name: 美国 013
+  type: vless
+  network: ws
+  server: 162.159.44.205
+  port: 443
+  uuid: 2928d83a-ca75-4d52-b437-fa78c7601378
+  servername: freedom-1rj.pages.dev
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: freedom-1rj.pages.dev
+    path: /freedom-1rj.pages.dev/?ed=2560
+- name: 美国 015
+  type: vless
+  server: 147135010103.sec19org.com
+  port: 443
+  uuid: 3b9bc773-05eb-4d5f-8c1f-57342c0c4f40
+  skip-cert-verify: false
+  tls: true
+- name: 美国 016
+  type: vless
+  server: 147.135.1.195
+  port: 443
+  uuid: ea286109-d20f-415e-849e-4af20ab04b65
+  servername: 147135001195.sec22org.com
+  skip-cert-verify: false
+  tls: true
+- name: 加拿大 023
+  type: vless
+  network: ws
+  server: 104.31.16.58
+  port: 443
+  uuid: 29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2
+  servername: w1.sylar8.eu.org
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: w1.sylar8.eu.org
+    path: /?ed=2048
+- name: 加拿大 025
+  type: vless
+  network: grpc
+  server: 104.16.60.8
+  port: 2087
+  uuid: 2ca42987-551b-4494-a854-da2d9178f4cd
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: firefox
+- name: 加拿大 026
+  type: vless
+  network: grpc
+  server: 104.18.202.232
+  port: 2087
+  uuid: 2ca42987-551b-4494-a854-da2d9178f4cd
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+- name: 加拿大 027
+  type: vless
+  network: grpc
+  server: 104.31.16.162
+  port: 2087
+  uuid: 2ca42987-551b-4494-a854-da2d9178f4cd
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+- name: 加拿大 028
+  type: vless
+  network: grpc
+  server: 162.159.135.79
+  port: 2087
+  uuid: 2ca42987-551b-4494-a854-da2d9178f4cd
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+- name: 加拿大 030
+  type: vless
+  network: grpc
+  server: trump.com
+  port: 2087
+  uuid: 2ca42987-551b-4494-a854-da2d9178f4cd
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+- name: 美国 020
+  type: vless
+  network: grpc
+  server: www.visa.com
+  port: 2087
+  uuid: 2ca42987-551b-4494-a854-da2d9178f4cd
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+- name: 加拿大 033
+  type: vless
+  network: ws
+  server: 172.66.44.57
+  port: 443
+  uuid: 2d01b0eb-91fd-4eae-9fb0-50c08856181d
+  servername: e420ceed.aryoo-vpn-friends.pages.dev
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: e420ceed.aryoo-vpn-friends.pages.dev
+    path: /?ed=2560
+- name: 加拿大 032
+  type: vless
+  network: grpc
+  server: www.you.com
+  port: 2087
+  uuid: 2ca42987-551b-4494-a854-da2d9178f4cd
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: safari
+- name: 美国 022
+  type: vless
+  network: ws
+  server: 151.101.194.228
+  port: 443
+  uuid: 2f760a0a-9b80-4097-9598-b2e8cba38d4b
+  servername: uivtfybyi.com
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: uivtfybyi.com
+    path: ws/?ed=2048
+- name: 加拿大 035
+  type: vless
+  network: ws
+  server: 188.114.97.3
+  port: 443
+  uuid: 2e9a0784-86fc-4e1b-861f-5dd6430cfdce
+  servername: turkey-hp.pages.dev
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: randomized
+  ws-opts:
+    headers:
+      Host: turkey-hp.pages.dev
+    path: /REEPoVusYEMl8ekg/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==
+- name: 加拿大 037
+  type: vless
+  network: ws
+  server: Www.Speedtest.net
+  port: 8080
+  uuid: 2fe45196-b7ef-419b-995e-7e63ca0b57bf
+  servername: sin.xn--78-pv2cvta065cac9302fea377a148g.com.
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: sin.xn--78-pv2cvta065cac9302fea377a148g.com.
+    path: '/Telegram:'
+- name: 美国 023
+  type: vless
+  network: ws
+  server: zula.ir
+  port: 2087
+  uuid: 3298a70f-bd8a-4670-87e6-9f2b7e375ae5
+  servername: kanon.parhamtraberthos.ir
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: kanon.parhamtraberthos.ir
+    path: /new_proxy_channel?ed=2560
+- name: 加拿大 038
+  type: vless
+  network: grpc
+  server: 104.31.16.104
+  port: 2087
+  uuid: 32f1c148-af93-4c1e-91a0-54edb315e355
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+- name: 0|--28
+  server: 194.5.215.59
+  port: 8080
+  client-fingerprint: chrome
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  tfo: false
 - name: 🇫🇷 13,14|法国|@ripaojiedian
   server: primer.ibilibi.li
   port: 443

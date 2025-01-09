@@ -22,6 +22,19 @@ proxies:
   servername: 147135001195.sec22org.com
   skip-cert-verify: false
   tls: true
+- name: 美国 017
+  type: vless
+  network: ws
+  server: 152.70.155.147
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  servername: a.xn--i-sx6a60i.us.kg
+  skip-cert-verify: false
+  tls: true
+  ws-opts:
+    headers:
+      Host: a.xn--i-sx6a60i.us.kg
+    path: /?ed=2560
 - name: 美国 001
   type: vmess
   network: tcp
@@ -44,16 +57,3 @@ proxies:
     headers:
       Host: PARspacK51.eSMAIlkOrEA.sHoP
     path: /?ed=2048
-- name: 美国 017
-  type: vless
-  network: ws
-  server: 152.70.155.147
-  port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.xn--i-sx6a60i.us.kg
-  skip-cert-verify: false
-  tls: true
-  ws-opts:
-    headers:
-      Host: a.xn--i-sx6a60i.us.kg
-    path: /?ed=2560

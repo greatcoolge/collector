@@ -1,4 +1,30 @@
 proxies:
+- name: 美国 007
+  type: vless
+  network: ws
+  server: 167.82.65.119
+  port: 80
+  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
+  servername: edge.validbv3528.ir
+  tls: false
+  delay: 964
+  ws-opts:
+    headers:
+      Host: edge.validbv3528.ir
+    path: /vless-ws/
+- name: 美国 008
+  type: vless
+  network: ws
+  server: 167.82.65.8
+  port: 80
+  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
+  servername: edge.validbv3528.ir
+  tls: false
+  delay: 981
+  ws-opts:
+    headers:
+      Host: edge.validbv3528.ir
+    path: /vless-ws/
 - name: 美国 006
   type: vless
   network: ws
@@ -12,15 +38,15 @@ proxies:
     headers:
       Host: edge.validbv3528.ir
     path: /vless-ws/
-- name: 美国 007
+- name: 美国 009
   type: vless
   network: ws
-  server: 167.82.65.119
+  server: 167.82.70.214
   port: 80
   uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
   servername: edge.validbv3528.ir
   tls: false
-  delay: 964
+  delay: 994
   ws-opts:
     headers:
       Host: edge.validbv3528.ir
@@ -39,45 +65,6 @@ proxies:
     headers:
       Host: domg.pmy666.xyz
     path: /?ed=2048
-- name: 美国 009
-  type: vless
-  network: ws
-  server: 167.82.70.214
-  port: 80
-  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
-  servername: edge.validbv3528.ir
-  tls: false
-  delay: 994
-  ws-opts:
-    headers:
-      Host: edge.validbv3528.ir
-    path: /vless-ws/
-- name: 美国 008
-  type: vless
-  network: ws
-  server: 167.82.65.8
-  port: 80
-  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
-  servername: edge.validbv3528.ir
-  tls: false
-  delay: 981
-  ws-opts:
-    headers:
-      Host: edge.validbv3528.ir
-    path: /vless-ws/
-- name: 美国 011
-  type: vless
-  network: ws
-  server: 167.82.72.38
-  port: 80
-  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
-  servername: edge.validbv3528.ir
-  tls: false
-  delay: 1182
-  ws-opts:
-    headers:
-      Host: edge.validbv3528.ir
-    path: /
 - name: 美国 010
   type: vless
   network: ws
@@ -104,6 +91,19 @@ proxies:
     headers:
       Host: edge.validbv3528.ir
     path: /vless-ws/
+- name: 美国 011
+  type: vless
+  network: ws
+  server: 167.82.72.38
+  port: 80
+  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
+  servername: edge.validbv3528.ir
+  tls: false
+  delay: 1182
+  ws-opts:
+    headers:
+      Host: edge.validbv3528.ir
+    path: /
 - name: 加拿大 003
   type: vmess
   network: ws
@@ -133,19 +133,6 @@ proxies:
     headers:
       Host: edge.validbv3528.ir
     path: /vless-ws/
-- name: 美国 025
-  type: vless
-  network: ws
-  server: 167.82.0.103
-  port: 80
-  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
-  servername: edge.validbv3528.ir
-  skip-cert-verify: false
-  tls: false
-  ws-opts:
-    headers:
-      Host: edge.validbv3528.ir
-    path: /vless-ws/
 - name: 美国 026
   type: vless
   network: ws
@@ -159,10 +146,10 @@ proxies:
     headers:
       Host: edge.validbv3528.ir
     path: /vless-ws/
-- name: 美国 028
+- name: 美国 025
   type: vless
   network: ws
-  server: 167.82.0.37
+  server: 167.82.0.103
   port: 80
   uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
   servername: edge.validbv3528.ir
@@ -176,6 +163,19 @@ proxies:
   type: vless
   network: ws
   server: 167.82.0.14
+  port: 80
+  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
+  servername: edge.validbv3528.ir
+  skip-cert-verify: false
+  tls: false
+  ws-opts:
+    headers:
+      Host: edge.validbv3528.ir
+    path: /vless-ws/
+- name: 美国 028
+  type: vless
+  network: ws
+  server: 167.82.0.37
   port: 80
   uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
   servername: edge.validbv3528.ir
@@ -317,6 +317,19 @@ proxies:
     headers:
       Host: 100-41-36-35.s2.db-link01.top
     path: /dabai.in172.67.71.198
+- name: 乌克兰 001
+  type: trojan
+  network: ws
+  server: 89.116.180.179
+  port: 443
+  password: 56e1f11c-1217-46ab-b127-6afbc23bafba
+  skip-cert-verify: true
+  udp: true
+  sni: p6us4.pqjc.buzz
+  ws-opts:
+    headers:
+      Host: p6us4.pqjc.buzz
+    path: /pq/us4
 - name: 美国 005
   type: vmess
   network: ws
@@ -345,19 +358,6 @@ proxies:
     headers:
       Host: 100-206-104-218.s1.db-link01.top
     path: /dabai.in172.67.93.174
-- name: 乌克兰 001
-  type: trojan
-  network: ws
-  server: 89.116.180.179
-  port: 443
-  password: 56e1f11c-1217-46ab-b127-6afbc23bafba
-  skip-cert-verify: true
-  udp: true
-  sni: p6us4.pqjc.buzz
-  ws-opts:
-    headers:
-      Host: p6us4.pqjc.buzz
-    path: /pq/us4
 - name: 美国 013
   type: trojan
   network: ws
@@ -398,20 +398,6 @@ proxies:
     headers:
       Host: v3ra3do.wakeuptimerap.shop
     path: /
-- name: 加拿大 005
-  type: vmess
-  network: ws
-  server: 104.21.32.215
-  port: 8880
-  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
-  skip-cert-verify: true
-  tls: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: a3.bcbot.in
-    path: /
 - name: 美国 015
   type: vmess
   network: ws
@@ -425,6 +411,20 @@ proxies:
   ws-opts:
     headers:
       Host: www.27006254.xyz
+    path: /
+- name: 加拿大 005
+  type: vmess
+  network: ws
+  server: 104.21.32.215
+  port: 8880
+  uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
+  skip-cert-verify: true
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: a3.bcbot.in
     path: /
 - name: 美国 016
   type: vmess
@@ -454,6 +454,20 @@ proxies:
     headers:
       Host: www.93976091.xyz
     path: /
+- name: 美国 019
+  type: vmess
+  network: ws
+  server: 38.38.130.117
+  port: 37008
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  skip-cert-verify: false
+  tls: true
+  alterId: 64
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: www.42687098.xyz
+    path: /
 - name: 美国 022
   type: vmess
   network: ws
@@ -481,20 +495,6 @@ proxies:
   ws-opts:
     headers:
       Host: 100-209-47-141.s2.db-link02.top
-    path: /
-- name: 美国 019
-  type: vmess
-  network: ws
-  server: 38.38.130.117
-  port: 37008
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  skip-cert-verify: false
-  tls: true
-  alterId: 64
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: www.42687098.xyz
     path: /
 - name: 美国 023
   type: vmess
@@ -538,22 +538,6 @@ proxies:
     headers:
       Host: www.43499599.xyz
     path: /
-- name: 加拿大 017
-  type: vmess
-  network: ws
-  server: jgw350m.pai50288.uk
-  port: 443
-  uuid: 3686f557-f0d7-4e9d-d281-b740f8f41393
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: jgw350m.pai50288.uk
-    path: /3686f557
 - name: 美国 034
   type: vless
   network: ws
@@ -697,18 +681,6 @@ proxies:
     headers:
       Host: uxe.vs2024.us.kg
     path: /?ed=2560
-- name: 美国 040
-  type: vless
-  network: ws
-  server: 63.141.128.177
-  port: 443
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  servername: uxe.vs2024.us.kg
-  tls: true
-  ws-opts:
-    headers:
-      Host: uxe.vs2024.us.kg
-    path: /?ed=2560
 - name: 加拿大 023
   type: vless
   network: ws
@@ -737,24 +709,22 @@ proxies:
     headers:
       Host: uxe.vs2024.us.kg
     path: /?ed=2560
-- name: 加拿大 025
+- name: 美国 040
   type: vless
   network: ws
-  server: 104.16.148.109
+  server: 63.141.128.177
   port: 443
   uuid: 55520747-311e-4015-83ce-be46e2060ce3
   servername: uxe.vs2024.us.kg
-  skip-cert-verify: true
   tls: true
-  udp: true
   ws-opts:
     headers:
       Host: uxe.vs2024.us.kg
     path: /?ed=2560
-- name: 加拿大 028
+- name: 加拿大 025
   type: vless
   network: ws
-  server: 162.159.152.197
+  server: 104.16.148.109
   port: 443
   uuid: 55520747-311e-4015-83ce-be46e2060ce3
   servername: uxe.vs2024.us.kg
@@ -779,14 +749,16 @@ proxies:
     headers:
       Host: uxe.vs2024.us.kg
     path: /?ed=2560
-- name: 美国 042
+- name: 加拿大 028
   type: vless
   network: ws
-  server: 192.0.54.28
+  server: 162.159.152.197
   port: 443
   uuid: 55520747-311e-4015-83ce-be46e2060ce3
   servername: uxe.vs2024.us.kg
+  skip-cert-verify: true
   tls: true
+  udp: true
   ws-opts:
     headers:
       Host: uxe.vs2024.us.kg
@@ -831,6 +803,32 @@ proxies:
     headers:
       Host: uxe.vs2024.us.kg
     path: /?ed=2560
+- name: 美国 042
+  type: vless
+  network: ws
+  server: 192.0.54.28
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxe.vs2024.us.kg
+  tls: true
+  ws-opts:
+    headers:
+      Host: uxe.vs2024.us.kg
+    path: /?ed=2560
+- name: 加拿大 030
+  type: vless
+  network: ws
+  server: 104.16.147.220
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxe.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: uxe.vs2024.us.kg
+    path: /?ed=2560
 - name: 美国 043
   type: vless
   network: ws
@@ -847,20 +845,6 @@ proxies:
   type: vless
   network: ws
   server: 212.183.88.246
-  port: 443
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  servername: uxe.vs2024.us.kg
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  ws-opts:
-    headers:
-      Host: uxe.vs2024.us.kg
-    path: /?ed=2560
-- name: 加拿大 030
-  type: vless
-  network: ws
-  server: 104.16.147.220
   port: 443
   uuid: 55520747-311e-4015-83ce-be46e2060ce3
   servername: uxe.vs2024.us.kg
@@ -951,6 +935,18 @@ proxies:
     headers:
       Host: uxe.vs2024.us.kg
     path: /?ed=2560
+- name: 俄罗斯 004
+  type: vless
+  network: ws
+  server: 45.67.215.212
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxe.vs2024.us.kg
+  tls: true
+  ws-opts:
+    headers:
+      Host: uxe.vs2024.us.kg
+    path: /?ed=2560
 - name: 加拿大 035
   type: vless
   network: ws
@@ -961,18 +957,6 @@ proxies:
   skip-cert-verify: true
   tls: true
   udp: true
-  ws-opts:
-    headers:
-      Host: uxe.vs2024.us.kg
-    path: /?ed=2560
-- name: 俄罗斯 004
-  type: vless
-  network: ws
-  server: 45.67.215.212
-  port: 443
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  servername: uxe.vs2024.us.kg
-  tls: true
   ws-opts:
     headers:
       Host: uxe.vs2024.us.kg
@@ -1015,18 +999,6 @@ proxies:
   tls: false
   alterId: 0
   cipher: auto
-- name: 美国 048
-  type: vless
-  network: ws
-  server: 192.0.54.104
-  port: 443
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  servername: uxe.vs2024.us.kg
-  tls: true
-  ws-opts:
-    headers:
-      Host: uxe.vs2024.us.kg
-    path: /?ed=2560
 - name: 加拿大 039
   type: vless
   network: ws
@@ -1051,6 +1023,18 @@ proxies:
   skip-cert-verify: true
   tls: true
   udp: true
+  ws-opts:
+    headers:
+      Host: uxe.vs2024.us.kg
+    path: /?ed=2560
+- name: 美国 048
+  type: vless
+  network: ws
+  server: 192.0.54.104
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  servername: uxe.vs2024.us.kg
+  tls: true
   ws-opts:
     headers:
       Host: uxe.vs2024.us.kg

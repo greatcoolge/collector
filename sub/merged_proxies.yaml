@@ -12,19 +12,6 @@ proxies:
     headers:
       Host: edge.validbv3528.ir
     path: /vless-ws/
-- name: 美国 010
-  type: vless
-  network: ws
-  server: 167.82.65.71
-  port: 80
-  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
-  servername: edge.validbv3528.ir
-  tls: false
-  delay: 1009
-  ws-opts:
-    headers:
-      Host: edge.validbv3528.ir
-    path: /vless-ws/
 - name: 美国 007
   type: vless
   network: ws
@@ -38,19 +25,6 @@ proxies:
     headers:
       Host: edge.validbv3528.ir
     path: /vless-ws/
-- name: 美国 009
-  type: vless
-  network: ws
-  server: 167.82.70.214
-  port: 80
-  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
-  servername: edge.validbv3528.ir
-  tls: false
-  delay: 994
-  ws-opts:
-    headers:
-      Host: edge.validbv3528.ir
-    path: /vless-ws/
 - name: 美国 008
   type: vless
   network: ws
@@ -60,6 +34,32 @@ proxies:
   servername: edge.validbv3528.ir
   tls: false
   delay: 981
+  ws-opts:
+    headers:
+      Host: edge.validbv3528.ir
+    path: /vless-ws/
+- name: 美国 010
+  type: vless
+  network: ws
+  server: 167.82.65.71
+  port: 80
+  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
+  servername: edge.validbv3528.ir
+  tls: false
+  delay: 1009
+  ws-opts:
+    headers:
+      Host: edge.validbv3528.ir
+    path: /vless-ws/
+- name: 美国 009
+  type: vless
+  network: ws
+  server: 167.82.70.214
+  port: 80
+  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
+  servername: edge.validbv3528.ir
+  tls: false
+  delay: 994
   ws-opts:
     headers:
       Host: edge.validbv3528.ir
@@ -168,6 +168,19 @@ proxies:
     headers:
       Host: edge.validbv3528.ir
     path: /vless-ws/
+- name: 加拿大 027
+  type: vless
+  network: ws
+  server: 104.21.30.52
+  port: 80
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
+  tls: false
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
 - name: 美国 035
   type: vless
   network: ws
@@ -220,19 +233,6 @@ proxies:
     headers:
       Host: teleirani.ir
     path: /vless-ws/
-- name: 加拿大 027
-  type: vless
-  network: ws
-  server: 104.21.30.52
-  port: 80
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.mifeng.us.kg
-  skip-cert-verify: false
-  tls: false
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
 - name: 加拿大 001
   type: vmess
   network: ws
@@ -261,34 +261,6 @@ proxies:
     headers:
       Host: 100-41-36-35.s2.db-link01.top
     path: /dabai.in172.67.71.198
-- name: 美国 002
-  type: vmess
-  network: ws
-  server: 104.17.221.248
-  port: 2086
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  servername: 100-48-202-143.s1.db-link01.top
-  skip-cert-verify: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: 100-48-202-143.s1.db-link01.top
-    path: /dabai.in104.17.154.223
-- name: 加拿大 003
-  type: vmess
-  network: ws
-  server: 104.16.155.10
-  port: 2082
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  servername: 100-6-204-129.s3.db-link01.top
-  skip-cert-verify: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: 100-6-204-129.s3.db-link01.top
-    path: /dabai.in104.25.204.117
 - name: 加拿大 002
   type: vmess
   network: ws
@@ -303,6 +275,48 @@ proxies:
     headers:
       Host: 100-49-141-209.s1.db-link02.top
     path: /dabai.in104.17.169.115
+- name: 加拿大 003
+  type: vmess
+  network: ws
+  server: 104.16.155.10
+  port: 2082
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  servername: 100-6-204-129.s3.db-link01.top
+  skip-cert-verify: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: 100-6-204-129.s3.db-link01.top
+    path: /dabai.in104.25.204.117
+- name: 美国 002
+  type: vmess
+  network: ws
+  server: 104.17.221.248
+  port: 2086
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  servername: 100-48-202-143.s1.db-link01.top
+  skip-cert-verify: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: 100-48-202-143.s1.db-link01.top
+    path: /dabai.in104.17.154.223
+- name: 加拿大 004
+  type: vmess
+  network: ws
+  server: www.visa.com.tw
+  port: 8880
+  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
+  skip-cert-verify: true
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: mgthree_cdn.yunjisuan.cf
+    path: /
 - name: 加拿大 005
   type: vmess
   network: ws
@@ -359,6 +373,22 @@ proxies:
     headers:
       Host: 100-49-141-209.s1.db-link02.top
     path: /
+- name: 加拿大 009
+  type: vmess
+  network: ws
+  server: www.okcupid.com
+  port: 2096
+  uuid: 75de8443-8efe-429c-c5ef-a51f38592f03
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ck.htg8866.us.kg
+    path: /3tq4ttrw
 - name: 加拿大 010
   type: vmess
   network: ws
@@ -789,18 +819,6 @@ proxies:
     headers:
       Host: ameqo.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 美国 040
-  type: vless
-  network: ws
-  server: python.org
-  port: 80
-  uuid: 2cab13fd-c8f1-4c91-87a5-4506c3ab0434
-  servername: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
-  tls: false
-  ws-opts:
-    headers:
-      Host: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
-    path: /
 - name: 美国 042
   type: vless
   network: ws
@@ -813,6 +831,30 @@ proxies:
     headers:
       Host: uxf.vs2024.us.kg
     path: /uxf.vs2024.us.kg
+- name: 美国 041
+  type: vless
+  network: ws
+  server: nufilter.fastly80-3.hosting-ip.com
+  port: 80
+  uuid: c1cae13d-7fab-474a-89e2-4b0f67f2a3f7
+  servername: Pizza-nufilter.com
+  tls: false
+  ws-opts:
+    headers:
+      Host: Pizza-nufilter.com
+    path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=8080
+- name: 美国 040
+  type: vless
+  network: ws
+  server: python.org
+  port: 80
+  uuid: 2cab13fd-c8f1-4c91-87a5-4506c3ab0434
+  servername: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
+  tls: false
+  ws-opts:
+    headers:
+      Host: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
+    path: /
 - name: 哈萨克斯坦 001
   type: vless
   network: ws
@@ -850,30 +892,6 @@ proxies:
     headers:
       Host: ameqo.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 美国 041
-  type: vless
-  network: ws
-  server: nufilter.fastly80-3.hosting-ip.com
-  port: 80
-  uuid: c1cae13d-7fab-474a-89e2-4b0f67f2a3f7
-  servername: Pizza-nufilter.com
-  tls: false
-  ws-opts:
-    headers:
-      Host: Pizza-nufilter.com
-    path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=8080
-- name: 美国 039
-  type: vless
-  network: ws
-  server: cloud2.xmsvx.com
-  port: 80
-  uuid: 77f680d1-1881-4b16-9eac-b8882c05fe62
-  servername: jetservices55.ir
-  tls: false
-  ws-opts:
-    headers:
-      Host: jetservices55.ir
-    path: /?ed=2560
 - name: 美国 044
   type: vless
   network: ws
@@ -900,6 +918,23 @@ proxies:
     headers:
       Host: amedo.esslh.filegear-sg.me
     path: /?ed=2560
+- name: 加拿大 033
+  type: vmess
+  network: ws
+  server: us1.cowvpn.org
+  port: 443
+  uuid: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
+  servername: us1cf.cowvpn.org
+  skip-cert-verify: false
+  tls: true
+  tfo: false
+  alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: us1cf.cowvpn.org
+    path: /cctv13/vmess_us1cf
 - name: 加拿大 034
   type: vless
   network: ws

@@ -1,13 +1,13 @@
 proxies:
-- name: 美国 006
+- name: 美国 008
   type: vless
   network: ws
-  server: 167.82.65.80
+  server: 167.82.65.8
   port: 80
   uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
   servername: edge.validbv3528.ir
   tls: false
-  delay: 982
+  delay: 981
   ws-opts:
     headers:
       Host: edge.validbv3528.ir
@@ -25,6 +25,19 @@ proxies:
     headers:
       Host: edge.validbv3528.ir
     path: /vless-ws/
+- name: 美国 006
+  type: vless
+  network: ws
+  server: 167.82.65.80
+  port: 80
+  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
+  servername: edge.validbv3528.ir
+  tls: false
+  delay: 982
+  ws-opts:
+    headers:
+      Host: edge.validbv3528.ir
+    path: /vless-ws/
 - name: 美国 009
   type: vless
   network: ws
@@ -34,32 +47,6 @@ proxies:
   servername: edge.validbv3528.ir
   tls: false
   delay: 994
-  ws-opts:
-    headers:
-      Host: edge.validbv3528.ir
-    path: /vless-ws/
-- name: 美国 010
-  type: vless
-  network: ws
-  server: 167.82.65.71
-  port: 80
-  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
-  servername: edge.validbv3528.ir
-  tls: false
-  delay: 1009
-  ws-opts:
-    headers:
-      Host: edge.validbv3528.ir
-    path: /vless-ws/
-- name: 美国 008
-  type: vless
-  network: ws
-  server: 167.82.65.8
-  port: 80
-  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
-  servername: edge.validbv3528.ir
-  tls: false
-  delay: 981
   ws-opts:
     headers:
       Host: edge.validbv3528.ir
@@ -77,23 +64,23 @@ proxies:
     headers:
       Host: edge.validbv3528.ir
     path: /
-- name: 美国 017
+- name: 美国 010
   type: vless
   network: ws
-  server: 167.82.69.101
+  server: 167.82.65.71
   port: 80
   uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
   servername: edge.validbv3528.ir
   tls: false
-  delay: 933
+  delay: 1009
   ws-opts:
     headers:
       Host: edge.validbv3528.ir
     path: /vless-ws/
-- name: 美国 030
+- name: 美国 028
   type: vless
   network: ws
-  server: 167.82.71.3
+  server: 167.82.0.37
   port: 80
   uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
   servername: edge.validbv3528.ir
@@ -116,10 +103,10 @@ proxies:
     headers:
       Host: edge.validbv3528.ir
     path: /vless-ws/
-- name: 美国 028
+- name: 美国 030
   type: vless
   network: ws
-  server: 167.82.0.37
+  server: 167.82.71.3
   port: 80
   uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
   servername: edge.validbv3528.ir
@@ -129,19 +116,19 @@ proxies:
     headers:
       Host: edge.validbv3528.ir
     path: /vless-ws/
-- name: 加拿大 027
+- name: 美国 017
   type: vless
   network: ws
-  server: 104.21.30.52
+  server: 167.82.69.101
   port: 80
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.mifeng.us.kg
-  skip-cert-verify: false
+  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
+  servername: edge.validbv3528.ir
   tls: false
+  delay: 933
   ws-opts:
     headers:
-      Host: a.mifeng.us.kg
-    path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
+      Host: edge.validbv3528.ir
+    path: /vless-ws/
 - name: 美国 032
   type: vless
   network: ws
@@ -155,10 +142,10 @@ proxies:
     headers:
       Host: edge.validbv3528.ir
     path: /vless-ws/
-- name: 加拿大 019
+- name: 加拿大 027
   type: vless
   network: ws
-  server: 198.41.216.118
+  server: 104.21.30.52
   port: 80
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   servername: a.mifeng.us.kg
@@ -194,6 +181,19 @@ proxies:
     headers:
       Host: teleirani.ir
     path: /vless-ws/
+- name: 加拿大 019
+  type: vless
+  network: ws
+  server: 198.41.216.118
+  port: 80
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
+  tls: false
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
 - name: 加拿大 012
   type: vless
   network: ws
@@ -243,27 +243,15 @@ proxies:
     headers:
       Host: edge.validbv3528.ir
     path: /vless-ws/
-- name: 美国 016
+- name: 美国 013
   type: vless
   network: ws
-  server: 167.82.1.121
-  port: 80
-  uuid: 253ef561-9e57-4336-befd-878ddd30df01
-  servername: teleirani.ir
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: teleirani.ir
-    path: /vless-ws/
-- name: 美国 015
-  type: vless
-  network: ws
-  server: 167.82.100.124
+  server: 167.82.102.100
   port: 80
   uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
   skip-cert-verify: false
   tls: false
+  client-fingerprint: chrome
   ws-opts:
     headers:
       Host: edge.validbv3528.ir
@@ -293,31 +281,31 @@ proxies:
     headers:
       Host: edge.validbv3528.ir
     path: /vless-ws/
-- name: 美国 013
+- name: 美国 015
   type: vless
   network: ws
-  server: 167.82.102.100
+  server: 167.82.100.124
   port: 80
   uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
   skip-cert-verify: false
   tls: false
-  client-fingerprint: chrome
   ws-opts:
     headers:
       Host: edge.validbv3528.ir
     path: /vless-ws/
-- name: 美国 018
+- name: 美国 016
   type: vless
   network: ws
-  server: 167.82.0.226
+  server: 167.82.1.121
   port: 80
   uuid: 253ef561-9e57-4336-befd-878ddd30df01
   servername: teleirani.ir
-  tls: false
+  skip-cert-verify: false
+  client-fingerprint: chrome
   ws-opts:
     headers:
       Host: teleirani.ir
-    path: /
+    path: /vless-ws/
 - name: 美国 019
   type: vless
   network: ws
@@ -344,6 +332,18 @@ proxies:
     headers:
       Host: edge.validbv3528.ir
     path: /vless-ws/
+- name: 美国 018
+  type: vless
+  network: ws
+  server: 167.82.0.226
+  port: 80
+  uuid: 253ef561-9e57-4336-befd-878ddd30df01
+  servername: teleirani.ir
+  tls: false
+  ws-opts:
+    headers:
+      Host: teleirani.ir
+    path: /
 - name: 美国 021
   type: vless
   network: ws
@@ -371,18 +371,18 @@ proxies:
     headers:
       Host: amedo.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 加拿大 020
+- name: 美国 024
   type: vless
   network: ws
-  server: 104.21.30.21
+  server: 167.82.72.131
   port: 80
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  skip-cert-verify: false
+  uuid: 253ef561-9e57-4336-befd-878ddd30df01
+  servername: teleirani.ir
   tls: false
   ws-opts:
     headers:
-      Host: a.mifeng.us.kg
-    path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
+      Host: teleirani.ir
+    path: /
 - name: 美国 023
   type: vless
   network: ws
@@ -396,18 +396,18 @@ proxies:
     headers:
       Host: edge.validbv3528.ir
     path: /
-- name: 美国 024
+- name: 加拿大 020
   type: vless
   network: ws
-  server: 167.82.72.131
+  server: 104.21.30.21
   port: 80
-  uuid: 253ef561-9e57-4336-befd-878ddd30df01
-  servername: teleirani.ir
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  skip-cert-verify: false
   tls: false
   ws-opts:
     headers:
-      Host: teleirani.ir
-    path: /
+      Host: a.mifeng.us.kg
+    path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
 - name: 加拿大 023
   type: vless
   network: ws
@@ -434,37 +434,11 @@ proxies:
     headers:
       Host: snowy-bush-4df8-ppal03.toxebex651.workers.dev
     path: /?ed=2560
-- name: 加拿大 029
-  type: trojan
-  network: ws
-  server: 104.19.107.190
-  port: 2096
-  password: Aimer
-  skip-cert-verify: true
-  udp: true
-  sni: ameqo.esslh.filegear-sg.me
-  ws-opts:
-    headers:
-      Host: ameqo.esslh.filegear-sg.me
-    path: /?ed=2560
 - name: 美国 053
   type: trojan
   network: ws
   server: 209.94.90.87
   port: 2087
-  password: Aimer
-  skip-cert-verify: true
-  udp: true
-  sni: ameqo.esslh.filegear-sg.me
-  ws-opts:
-    headers:
-      Host: ameqo.esslh.filegear-sg.me
-    path: /?ed=2560
-- name: 美国 054
-  type: trojan
-  network: ws
-  server: 206.238.236.134
-  port: 443
   password: Aimer
   skip-cert-verify: true
   udp: true
@@ -486,6 +460,32 @@ proxies:
     headers:
       Host: ameqo.esslh.filegear-sg.me
     path: /?ed=2560
+- name: 美国 054
+  type: trojan
+  network: ws
+  server: 206.238.236.134
+  port: 443
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: ameqo.esslh.filegear-sg.me
+  ws-opts:
+    headers:
+      Host: ameqo.esslh.filegear-sg.me
+    path: /?ed=2560
+- name: 加拿大 029
+  type: trojan
+  network: ws
+  server: 104.19.107.190
+  port: 2096
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+  sni: ameqo.esslh.filegear-sg.me
+  ws-opts:
+    headers:
+      Host: ameqo.esslh.filegear-sg.me
+    path: /?ed=2560
 - name: 美国 055
   type: trojan
   network: ws
@@ -499,10 +499,10 @@ proxies:
     headers:
       Host: ameqo.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 捷克 001
+- name: 美国 056
   type: trojan
   network: ws
-  server: 188.164.159.91
+  server: 66.81.247.88
   port: 2083
   password: Aimer
   skip-cert-verify: true
@@ -512,10 +512,10 @@ proxies:
     headers:
       Host: ameqo.esslh.filegear-sg.me
     path: /?ed=2560
-- name: 美国 056
+- name: 捷克 001
   type: trojan
   network: ws
-  server: 66.81.247.88
+  server: 188.164.159.91
   port: 2083
   password: Aimer
   skip-cert-verify: true
@@ -588,19 +588,6 @@ proxies:
     headers:
       Host: icy-cherry-b8af-ppal03.givay59005.workers.dev
     path: /?ed=2560
-- name: 美国 031
-  type: vless
-  network: ws
-  server: 104.21.22.88
-  port: 2052
-  uuid: 8c129b7d-c87f-42d7-bdac-55dfbfe88534
-  skip-cert-verify: false
-  tls: false
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: MAHDI-HEctORR.viSoWE1371.wOrKERs.deV
-    path: /x3SBRjAmDvYTPEVW?ed=2560
 - name: 美国 029
   type: vless
   network: ws
@@ -614,6 +601,19 @@ proxies:
     headers:
       Host: maHdi-hEctOrR.viSoWe1371.WOrkERS.dEV
     path: /2b2W5QkuhSICb3IE?ed=2560
+- name: 美国 031
+  type: vless
+  network: ws
+  server: 104.21.22.88
+  port: 2052
+  uuid: 8c129b7d-c87f-42d7-bdac-55dfbfe88534
+  skip-cert-verify: false
+  tls: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: MAHDI-HEctORR.viSoWE1371.wOrKERs.deV
+    path: /x3SBRjAmDvYTPEVW?ed=2560
 - name: 美国 033
   type: vless
   network: ws
@@ -650,18 +650,6 @@ proxies:
     headers:
       Host: c.lkzb-0t0.workers.dev
     path: /?ed=2048
-- name: 美国 038
-  type: vless
-  network: ws
-  server: 104.24.161.187
-  port: 80
-  uuid: 575d2e5e-e7a4-48b8-a55e-aa38e16a3106
-  skip-cert-verify: false
-  tls: false
-  ws-opts:
-    headers:
-      Host: flat-bird-3aa7-ppal03.hesiwap437.workers.dev
-    path: /?ed=2560
 - name: 美国 039
   type: vless
   network: ws
@@ -673,6 +661,18 @@ proxies:
   ws-opts:
     headers:
       Host: holy-bush-cbc8-ppal03.rawej75976.workers.dev
+    path: /?ed=2560
+- name: 美国 038
+  type: vless
+  network: ws
+  server: 104.24.161.187
+  port: 80
+  uuid: 575d2e5e-e7a4-48b8-a55e-aa38e16a3106
+  skip-cert-verify: false
+  tls: false
+  ws-opts:
+    headers:
+      Host: flat-bird-3aa7-ppal03.hesiwap437.workers.dev
     path: /?ed=2560
 - name: 美国 040
   type: vless
@@ -968,18 +968,6 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed
-- name: 美国 078
-  type: vless
-  network: ws
-  server: 104.21.30.5
-  port: 80
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  servername: a.mifeng.us.kg
-  tls: false
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2048
 - name: 美国 082
   type: vless
   network: ws
@@ -992,6 +980,30 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed
+- name: 美国 078
+  type: vless
+  network: ws
+  server: 104.21.30.5
+  port: 80
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  servername: a.mifeng.us.kg
+  tls: false
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /?ed=2048
+- name: 美国 059
+  type: trojan
+  network: grpc
+  server: 172.67.204.84
+  port: 443
+  password: Nu5EqwcJ2OCuvKAcSQeGdg
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  sni: cdn-22.gsmxreality.com
+  grpc-opts:
+    grpc-service-name: 443trojan
 - name: 美国 001
   type: vmess
   network: ws
@@ -1006,32 +1018,6 @@ proxies:
     headers:
       Host: yaml777.133010.xyz
     path: /yaml777
-- name: 美国 003
-  type: vmess
-  network: ws
-  server: 67.205.184.238
-  port: 8089
-  uuid: 82667668-4bfd-4906-ab31-c2745d0de78e
-  servername: v49.emovpn.buzz
-  skip-cert-verify: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: v49.emovpn.buzz
-    path: /
-- name: 美国 059
-  type: trojan
-  network: grpc
-  server: 172.67.204.84
-  port: 443
-  password: Nu5EqwcJ2OCuvKAcSQeGdg
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  sni: cdn-22.gsmxreality.com
-  grpc-opts:
-    grpc-service-name: 443trojan
 - name: 美国 063
   type: vmess
   network: ws
@@ -1048,22 +1034,22 @@ proxies:
     headers:
       Host: ff.kncc2.top
     path: /89c344f2
-- name: 美国 066
+- name: 美国 072
   type: vmess
   network: ws
-  server: 15.235.83.228
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  server: 192.9.137.193
+  port: 8443
+  uuid: 97a21172-89a0-411e-b017-6a27c61c743d
+  servername: fatcat.nevergonnagiveyouup.top
   skip-cert-verify: true
   tls: true
   alterId: 0
   cipher: auto
-  delay: 1401
+  delay: 2045
   ws-opts:
     headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /linkvws
+      Host: fatcat.nevergonnagiveyouup.top
+    path: /vmess-argo?ed=2048
 - name: 美国 075
   type: vmess
   network: ws
@@ -1105,3 +1091,17 @@ proxies:
     headers:
       Host: sedalat.tatexe3807.workers.dev
     path: /
+- name: 美国 081
+  type: vless
+  network: ws
+  server: 154.23.240.232
+  port: 443
+  uuid: 41abecd9-8096-4142-a75c-4e1d36d990bd
+  servername: mmdserver.us.kg
+  tls: true
+  udp: true
+  delay: 1593
+  ws-opts:
+    headers:
+      Host: mmdserver.us.kg
+    path: /?ed=2048

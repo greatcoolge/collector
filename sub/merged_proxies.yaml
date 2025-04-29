@@ -1,17 +1,4 @@
 proxies:
-- name: 🇭🇰 香港_IEPL专线_胡桃的原石
-  server: hk.laoyoutiao.link
-  port: 443
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: true
-  tfo: false
-  servername: hk.laoyoutiao.link
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: hk.laoyoutiao.link
 - name: 🇭🇰 香港_青云专线_雷电将军的麻花辫
   server: 104.17.71.31
   port: 443
@@ -183,6 +170,19 @@ proxies:
     path: /
     headers:
       Host: jpv.xiaoqi555.xyz
+- name: 🇯🇵 日本_优刻得专线_卿染的火箭筒
+  server: jp.laoyoutiao.link
+  port: 443
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: true
+  tfo: false
+  servername: jp.laoyoutiao.link
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: jp.laoyoutiao.link
 - name: 🇯🇵 日本_金融专线_芭芭拉的连体袜
   server: bookmyshow.com
   port: 443
@@ -263,13 +263,12 @@ proxies:
     path: /?ed=2560
     headers:
       Host: v2-150.pages.dev
-- name: 🇺🇸 美国_崩铁专线_北斗的龟头
-  server: v12.nmcf.me
+- name: 🇺🇸 美国_唯云专线_草神的麻花辫
+  server: 38.107.226.14
   port: 443
-  type: trojan
-  password: dd722e86-6cec-44e8-a444-7f513ab61c0c
-  sni: v12.nmcf.me
-  skip-cert-verify: true
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
 - name: 🇺🇸 美国_腾讯云专线_凯亚的奈子
   server: 67.220.95.102
   port: 8888
@@ -411,12 +410,6 @@ proxies:
     path: /
     headers:
       Host: shs111.kejixiaoqi666.store
-- name: 🇺🇸 美国_崩铁专线_荒泷一斗的无毛粉色白虎大批
-  server: 67.220.95.102
-  port: 8080
-  type: ss
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
 - name: 🇺🇸 美国_优刻得专线_八重神子的白丝
   server: 38.121.43.71
   port: 2375
@@ -473,6 +466,20 @@ proxies:
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
+- name: 🇺🇸 美国_BGP高级中继_千织的麻花辫
+  server: 443ip.yangmie.online
+  port: 443
+  type: vmess
+  uuid: dfdb0962-c59b-43d4-86d2-54892ace532d
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: shs111.kejixiaoqi666.store
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shs111.kejixiaoqi666.store
 - name: 🇺🇸 美国_金融专线_玛拉妮的手榴弹
   server: 38.86.135.239
   port: 8119
@@ -485,12 +492,6 @@ proxies:
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇺🇸 美国_唯云专线_艾尔海森的小脚
-  server: 38.121.43.71
-  port: 5601
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
 - name: 🇺🇸 美国_青云专线_琳妮特的黑丝
   server: v12.nmcf.me
   port: 443
@@ -648,6 +649,13 @@ proxies:
   password: 78d85c0b-4cc5-4e61-9d0d-f3be73fec863
   sni: v12.nmcf.me
   skip-cert-verify: true
+- name: 🇺🇸 美国_鸣潮专线_菲米尼的龟头
+  server: download2hkt.windowsupdate.lol
+  port: 443
+  type: trojan
+  password: af4d2493-9156-4514-9f6b-ee5d1a1e4713
+  sni: download2hkt.windowsupdate.lol
+  skip-cert-verify: true
 - name: 🇺🇸 美国_腾讯云专线_达达利亚的连体袜
   server: 138.199.42.68
   port: 8080
@@ -666,6 +674,18 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: TEzjfAYq2IjtuoS
+- name: 🇺🇸 美国_金融专线_星云的手榴弹
+  server: 38.110.1.88
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 🇺🇸 美国_华为云专线_卡维的尾巴
+  server: 38.121.43.97
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
 - name: 🇺🇸 美国_IEPL专线_林尼的鸡吧
   server: 23.154.136.132
   port: 5000
@@ -733,12 +753,6 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: g5MeD6Ft3CWlJId
-- name: 🇺🇸 美国_明懂砖线_重云的原石
-  server: 64.74.163.82
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
 - name: 🇺🇸 美国_青云专线_绮良良的黑丝
   server: 104.16.134.27
   port: 2083
@@ -784,19 +798,6 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: kDWvXYZoTBcGkC4
-- name: 🇺🇸 美国_IEPL专线_娜维娅的星穹
-  server: 150.136.87.192
-  port: 443
-  type: vless
-  uuid: 1131eaed-e009-4b7c-918d-8a3f1cf09280
-  tls: true
-  tfo: false
-  servername: vless.drsam.dpdns.org
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: vless.drsam.dpdns.org
 - name: 🇺🇸 美国_鸣潮专线_罗莎莉亚的肛塞
   server: 67.220.95.102
   port: 2375
@@ -815,12 +816,6 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: kDWvXYZoTBcGkC4
-- name: 🇺🇸 美国_青云专线_香菱的手榴弹
-  server: 38.110.1.197
-  port: 9102
-  type: ss
-  cipher: aes-256-gcm
-  password: e4FCWrgpkji3QY
 - name: 🇺🇸 美国_米哈游专线_烟绯的屎
   server: 51.81.37.20
   port: 443
@@ -836,6 +831,12 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: PCnnH6SQSnfoS27
+- name: 🇺🇸 美国_青云专线_香菱的手榴弹
+  server: 38.110.1.197
+  port: 9102
+  type: ss
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
 - name: 🇺🇸 美国_原神专线_莱欧斯利的小脚
   server: v12.nmcf.me
   port: 443
@@ -989,6 +990,12 @@ proxies:
     path: /?ed=2560
     headers:
       Host: vless.drsam.dpdns.org
+- name: 🇺🇸 美国_青云专线_卿染的连体袜
+  server: 38.110.1.88
+  port: 5600
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
 - name: 🇺🇸 美国_腾讯云专线_玛拉妮的屁眼
   server: v12.nmcf.me
   port: 443
@@ -1052,12 +1059,32 @@ proxies:
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
+- name: 🇺🇸 美国_优刻得专线_宵宫的屁眼
+  server: 38.110.1.88
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
 - name: 🇺🇸 美国_原神专线_可莉的尾巴
   server: 38.121.43.71
   port: 8000
   type: ss
   cipher: aes-256-gcm
   password: KixLvKzwjekG00rm
+- name: 🇺🇸 美国_米哈游专线_万叶的屁股
+  server: www.racknerd.com
+  port: 443
+  type: vmess
+  uuid: 80c0e2e4-642f-4ef8-ea38-480f2c012b9f
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: 100m.cdn-china.filegear-sg.me
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: 100m.cdn-china.filegear-sg.me
 - name: 🇺🇸 美国_米哈游专线_迪卢克的无毛粉色白虎大批
   server: 23.227.38.18
   port: 443
@@ -1177,6 +1204,12 @@ proxies:
     path: /tg@myFreeNodeChat/?ed=2048
     headers:
       Host: ss-c6o.pages.dev
+- name: 🇺🇸 美国_腾讯云专线_丽莎的手榴弹
+  server: 38.121.43.71
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
 - name: 🇺🇸 美国_IEPL专线_林檎的飞机杯
   server: 15.204.249.0
   port: 48160
@@ -1197,6 +1230,12 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: XKFKl2rULjIp74
+- name: 🇺🇸 美国_米哈游专线_香菱的高玩
+  server: 38.121.43.71
+  port: 8080
+  type: ss
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
 - name: 🇺🇸 美国_崩铁专线_北斗的小脸蛋
   server: 38.107.226.14
   port: 8091
@@ -1234,6 +1273,12 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: faBAoD54k87UJG7
+- name: 🇺🇸 美国_唯云专线_辛焱的长达18CM直径8CM的深渊粉头寄吧
+  server: 38.110.1.88
+  port: 5499
+  type: ss
+  cipher: aes-256-gcm
+  password: lGqs95QkFHo2NV
 - name: 🇺🇸 美国_唯云专线_菲米尼的鸡吧
   server: 38.110.1.197
   port: 2375
@@ -1252,6 +1297,20 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: KixLvKzwjekG00rm
+- name: 🇺🇸 美国_青云专线_宵宫的猫耳
+  server: 443ip.yangmie.online
+  port: 443
+  type: vmess
+  uuid: 6c367846-6fd7-479a-b3df-dc296b4d8b37
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: shs111.kejixiaoqi666.store
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shs111.kejixiaoqi666.store
 - name: 🇺🇸 美国_金融专线_枫原万叶的小脸蛋
   server: v12.nmcf.me
   port: 443
@@ -1342,6 +1401,12 @@ proxies:
     path: /proxyip=proxyip.us.cmliussss.net
     headers:
       Host: yongyuan.buxiayu.sbs
+- name: 🇺🇸 美国_鸣潮专线_闲云的鸡吧
+  server: 38.121.43.27
+  port: 6679
+  type: ss
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
 - name: 🇺🇸 美国_崩铁专线_星云的无毛粉色白虎大批
   server: 216.39.248.133
   port: 7001
@@ -1360,6 +1425,12 @@ proxies:
     path: /?ed%3D2560
     headers:
       Host: us-vps.xndd.eu.org
+- name: 🇺🇸 美国_金融专线_瓦雷莎的火箭筒
+  server: 38.110.1.88
+  port: 5499
+  type: ss
+  cipher: aes-256-gcm
+  password: lGqs95QkFHo2NV
 - name: 🇺🇸 美国_明懂砖线_柯莱的高玩
   server: 37.19.198.160
   port: 443
@@ -1387,18 +1458,21 @@ proxies:
     path: /
     headers:
       Host: uswuxian.pai50288.uk
-- name: 🇺🇸 美国_原神专线_卡维的屁眼
-  server: 38.110.1.197
-  port: 5003
-  type: ss
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
 - name: 🇺🇸 美国_BGP高级中继_欧洛伦的手榴弹
   server: 38.121.43.71
   port: 5003
   type: ss
   cipher: aes-256-gcm
   password: g5MeD6Ft3CWlJId
+- name: 🇺🇸 美国_崩铁专线_恰斯卡的鸡吧
+  server: 135.148.152.106
+  port: 443
+  type: vless
+  uuid: ea286109-d20f-415e-849e-4af20ab04b65
+  tls: true
+  tfo: false
+  servername: 147135001195.sec22org.com
+  network: tcp
 - name: 🇺🇸 美国_华为云专线_恰斯卡的长达18CM直径8CM的深渊粉头寄吧
   server: 37.19.198.160
   port: 443
@@ -1424,6 +1498,18 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: XKFKl2rULjIp74
+- name: 🇺🇸 美国_腾讯云专线_甘雨的高玩
+  server: 67.220.95.102
+  port: 7306
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: 🇺🇸 美国_BGP高级中继_基尼奇的鸡吧
+  server: 37.19.198.243
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
 - name: 🇺🇸 美国_鸣潮专线_卡齐娜的屁眼
   server: 104.18.149.75
   port: 443
@@ -1438,12 +1524,6 @@ proxies:
     path: /aa
     headers:
       Host: hk.insbot.filegear-sg.me
-- name: 🇺🇸 美国_BGP高级中继_基尼奇的鸡吧
-  server: 37.19.198.243
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
 - name: 🇺🇸 美国_唯云专线_阿贝多的长达18CM直径8CM的深渊粉头寄吧
   server: 37.19.198.243
   port: 443
@@ -1546,6 +1626,19 @@ proxies:
   password: 248802b7-69c9-4a81-bfbc-181fcb62ef97
   sni: v12.nmcf.me
   skip-cert-verify: true
+- name: 🇺🇸 美国_腾讯云专线_久岐忍的手榴弹
+  server: uswuxian.pai50288.uk
+  port: 8443
+  type: vmess
+  uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uswuxian.pai50288.uk
 - name: 🇺🇸 美国_唯云专线_风神的避孕套
   server: 38.121.43.71
   port: 6379
@@ -1708,6 +1801,12 @@ proxies:
     path: /
     headers:
       Host: shs111.kejixiaoqi666.store
+- name: 🇺🇸 美国_原神专线_香菱的黑丝
+  server: 38.110.1.88
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
 - name: 🇺🇸 美国_IEPL专线_嘉明的高玩
   server: 89.187.181.179
   port: 43118
@@ -2112,6 +2211,20 @@ proxies:
   tfo: false
   servername: 147135001195.sec22org.com
   network: tcp
+- name: 🇺🇸 美国_唯云专线_凯亚的黑丝
+  server: 443ip.yangmie.online
+  port: 443
+  type: vmess
+  uuid: 681b7f98-f056-4b76-a038-86442c9b9bd8
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: shs111.kejixiaoqi666.store
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shs111.kejixiaoqi666.store
 - name: 🇺🇸 美国_华为云专线_雷泽的手榴弹
   server: v12.nmcf.me
   port: 443
@@ -2157,6 +2270,12 @@ proxies:
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
 - name: 🇺🇸 美国_崩铁专线_阿蕾奇诺的肛塞
+  server: 38.107.226.14
+  port: 443
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+- name: 🇺🇸 美国_鸣潮专线_卡齐娜的逼
   server: 38.107.226.14
   port: 443
   type: ss
@@ -2247,6 +2366,12 @@ proxies:
   password: 0da54351-2839-456e-96b9-dec59953b83b
   sni: v12.nmcf.me
   skip-cert-verify: true
+- name: 🇺🇸 美国_BGP高级中继_魈的手榴弹
+  server: 67.220.95.102
+  port: 6379
+  type: ss
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
 - name: 🇺🇸 美国_华为云专线_菲谢尔的逼
   server: 37.19.198.243
   port: 443
@@ -2259,6 +2384,12 @@ proxies:
   type: trojan
   password: ypDt8RkT7J
   skip-cert-verify: true
+- name: 🇺🇸 美国_崩铁专线_钟离的手榴弹
+  server: 38.110.1.88
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
 - name: 🇺🇸 美国_阿里云专线_那维莱特的龟头
   server: download2hkt.windowsupdate.lol
   port: 443
@@ -2333,6 +2464,12 @@ proxies:
     path: /?ed=2560
     headers:
       Host: vless.trevely.us.kg
+- name: 🇺🇸 美国_优刻得专线_卡齐娜的长达18CM直径8CM的深渊粉头寄吧
+  server: 64.74.163.218
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f8f7aCzcPKbsF8p3
 - name: 🇺🇸 美国_明懂砖线_砂糖的屁股
   server: v12.nmcf.me
   port: 443
@@ -2385,6 +2522,13 @@ proxies:
     path: /aa
     headers:
       Host: tw.niskakowski.ggff.net
+- name: 🇺🇸 美国_唯云专线_托马的无毛粉色白虎大批
+  server: v12.nmcf.me
+  port: 443
+  type: trojan
+  password: c13d50cd-6679-4592-881d-6c41917d79da
+  sni: v12.nmcf.me
+  skip-cert-verify: true
 - name: 🇺🇸 美国_原神专线_甘雨的避孕套
   server: v12.nmcf.me
   port: 443
@@ -2417,19 +2561,6 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: XKFKl2rULjIp74
-- name: 🇺🇸 美国_华为云专线_刻晴的飞机杯
-  server: v12.nmcf.me
-  port: 443
-  type: trojan
-  password: 0da54351-2839-456e-96b9-dec59953b83b
-  sni: v12.nmcf.me
-  skip-cert-verify: true
-- name: 🇺🇸 美国_金融专线_纳西妲的屎
-  server: 67.220.95.102
-  port: 5499
-  type: ss
-  cipher: aes-256-gcm
-  password: lGqs95QkFHo2NV
 - name: 🇺🇸 美国_BGP高级中继_旱柚的猫耳
   server: v12.nmcf.me
   port: 443
@@ -2457,6 +2588,18 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: g5MeD6Ft3CWlJId
+- name: 🇺🇸 美国_华为云专线_海豚的手榴弹
+  server: 38.121.43.71
+  port: 8091
+  type: ss
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 🇺🇸 美国_原神专线_达达利亚的高玩
+  server: 38.121.43.71
+  port: 9102
+  type: ss
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
 - name: 🇺🇸 美国_青云专线_提纳里的屎
   server: 89.187.181.179
   port: 43118
@@ -2498,13 +2641,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: vless.trevely.us.kg
-- name: 🇺🇸 美国_BGP高级中继_米卡的原石
-  server: v12.nmcf.me
-  port: 443
-  type: trojan
-  password: 5f981f88-2152-40c6-8312-7f36dc0e64ad
-  sni: v12.nmcf.me
-  skip-cert-verify: true
 - name: 🇺🇸 美国_青云专线_神里绫人的飞机杯
   server: 154.211.8.109
   port: 2087
@@ -2517,6 +2653,13 @@ proxies:
     path: ''
     headers:
       Host: epcca.ambercc.filegear-sg.me
+- name: 🇺🇸 美国_BGP高级中继_米卡的原石
+  server: v12.nmcf.me
+  port: 443
+  type: trojan
+  password: 5f981f88-2152-40c6-8312-7f36dc0e64ad
+  sni: v12.nmcf.me
+  skip-cert-verify: true
 - name: 🇺🇸 美国_金融专线_久岐忍的阴蒂
   server: 142.202.49.84
   port: 8090
@@ -2535,6 +2678,19 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: faBAoD54k87UJG7
+- name: 🇨🇳 台湾_BGP高级中继_甘雨的黑丝
+  server: tw.laoyoutiao.link
+  port: 443
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: true
+  tfo: false
+  servername: tw.laoyoutiao.link
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: tw.laoyoutiao.link
 - name: 🇨🇳 台湾_阿里云专线_嘉明的尾巴
   server: myanmar.visa.com
   port: 8443
@@ -2612,20 +2768,6 @@ proxies:
     path: /
     headers:
       Host: de01.sh-cloudflare.sbs
-- name: 🇩🇪 德国_原神专线_艾梅莉埃的尾巴
-  server: ip.sb
-  port: 443
-  type: vmess
-  uuid: cfa8c36c-9652-484a-89e1-34dcc98faac3
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: cdn.3iapps.com
-  network: ws
-  ws-opts:
-    path: /vmess?ed=2048
-    headers:
-      Host: cdn.3iapps.com
 - name: 🇩🇪 德国_青云专线_枫原万叶的尾巴
   server: skk.moe
   port: 443
@@ -2638,6 +2780,20 @@ proxies:
     path: /argox-tr?ed%3D2048
     headers:
       Host: martin-notebooks-myanmar-particle.trycloudflare.com
+- name: 🇩🇪 德国_青云专线_莫娜的长达18CM直径8CM的深渊粉头寄吧
+  server: www.racknerd.com
+  port: 443
+  type: vmess
+  uuid: 0719cdc6-04bf-42a3-b56d-dba38902bf1e
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: de.cdn-china.filegear-sg.me
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: de.cdn-china.filegear-sg.me
 - name: 🇩🇪 德国_华为云专线_早柚的星穹
   server: website.amin-app.ir
   port: 8080
@@ -2664,6 +2820,17 @@ proxies:
     path: /vmess?ed=2048
     headers:
       Host: cdn.3iapps.com
+- name: 🇮🇳 印度_金融专线_纳西妲的原石
+  server: www.speedtest.net
+  port: 2053
+  type: trojan
+  password: W951753
+  sni: aDd-1cV.PAgEs.dEV
+  network: ws
+  ws-opts:
+    path: /trv79oOxRCnEdca5OH/Y2RuLWIxMDAueG4tLWI2Z2FjLmV1Lm9yZw%3D%3D?ed%3D2560
+    headers:
+      Host: aDd-1cV.PAgEs.dEV
 - name: 🇮🇳 印度_崩铁专线_五郎的逼
   server: www.speedtest.net
   port: 2087
@@ -3215,19 +3382,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sub.divib.dynv6.net
-- name: 其他地区_唯云专线_妮露的螺旋陀螺快准狠粉鸡鸡
-  server: www.wto.org
-  port: 443
-  type: vless
-  uuid: b1a8ceea-6601-45b5-a674-7e5b64ab6f6f
-  tls: true
-  tfo: false
-  servername: sub.divib.dynv6.net
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sub.divib.dynv6.net
 - name: 其他地区_IEPL专线_纳西妲的小脚
   server: 190.93.245.121
   port: 443
@@ -3738,19 +3892,6 @@ proxies:
     path: /?ed%3D2560
     headers:
       Host: fast.starjiluu.eu.org
-- name: 其他地区_明懂砖线_北斗的奈子
-  server: www.ipchicken.com
-  port: 443
-  type: vless
-  uuid: b1a8ceea-6601-45b5-a674-7e5b64ab6f6f
-  tls: true
-  tfo: false
-  servername: sub.divib.dynv6.net
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sub.divib.dynv6.net
 - name: 其他地区_优刻得专线_魈的肛塞
   server: 104.16.206.196
   port: 8443
@@ -3955,18 +4096,6 @@ proxies:
     path: /
     headers:
       Host: cr77.hedieh.dpdns.org
-- name: 其他地区_阿里云专线_嘉明的阴蒂
-  server: visa.cn
-  port: 443
-  type: trojan
-  password: wwg1122.
-  sni: us-vps.xndd.eu.org
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed%3D2560
-    headers:
-      Host: us-vps.xndd.eu.org
 - name: 其他地区_阿里云专线_胡桃的火箭筒
   server: 104.24.234.84
   port: 2053
@@ -4081,6 +4210,19 @@ proxies:
     path: /?ed%3D2560
     headers:
       Host: epcca.ambercc.filegear-sg.me
+- name: 其他地区_米哈游专线_茜特菈莉的尾巴
+  server: gzs8.zxc6696.com
+  port: 2053
+  type: vmess
+  uuid: 28af50ec-96ee-42c5-a0c1-83aafe455c3f
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /8
+    headers:
+      Host: gzs8.zxc6696.com
 - name: 其他地区_鸣潮专线_玛薇卡的大腿
   server: zula.ir
   port: 443
@@ -4132,12 +4274,6 @@ proxies:
     path: /?ed%3D2560
     headers:
       Host: us-vps.xndd.eu.org
-- name: 其他地区_金融专线_胡桃的螺旋陀螺快准狠粉鸡鸡
-  server: 142.202.49.84
-  port: 6679
-  type: ss
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
 - name: 其他地区_明懂砖线_甘雨的星穹
   server: trevor.ns.cloudflare.com
   port: 443
@@ -4285,13 +4421,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sub.divib.dynv6.net
-- name: 其他地区_崩铁专线_雷泽的原石
-  server: deciding-spaniel.sponge924.mom
-  port: 443
-  type: trojan
-  password: 3747000103274291200
-  sni: deciding-spaniel.sponge924.mom
-  skip-cert-verify: true
 - name: 其他地区_金融专线_卡维的手榴弹
   server: 172.67.73.163
   port: 8080
@@ -4383,6 +4512,19 @@ proxies:
     path: /?ed=2560
     headers:
       Host: planetzh.xyz
+- name: 其他地区_明懂砖线_砂糖的猫耳
+  server: brazil.com
+  port: 2083
+  type: vless
+  uuid: 699af340-f881-4fb0-b5fa-6e9ce0eba0df
+  tls: true
+  tfo: false
+  servername: myvless-bt3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: myvless-bt3.pages.dev
 - name: 其他地区_青云专线_鹿野院平藏的小脚
   server: 172.67.199.26
   port: 2053
@@ -4623,18 +4765,6 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: FoOiGlkAA9yPEGP
-- name: 其他地区_BGP高级中继_神里绫人的避孕套
-  server: www.glassdoor.com
-  port: 443
-  type: trojan
-  password: wwg1122.
-  sni: us-vps.xndd.eu.org
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed%3D2560
-    headers:
-      Host: us-vps.xndd.eu.org
 - name: 其他地区_华为云专线_宵宫的飞机杯
   server: 190.93.247.65
   port: 443
@@ -4738,6 +4868,12 @@ proxies:
     path: /
     headers:
       Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
+- name: 其他地区_金融专线_玛薇卡的无毛粉色白虎大批
+  server: 23.154.136.51
+  port: 8888
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
 - name: 其他地区_鸣潮专线_琳妮特的肛塞
   server: 104.16.210.184
   port: 2087
@@ -4930,6 +5066,19 @@ proxies:
     path: /?ed%3D2560
     headers:
       Host: us-vps.xndd.eu.org
+- name: 其他地区_米哈游专线_坎蒂丝的飞机杯
+  server: yd.laoyoutiao.link
+  port: 443
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: true
+  tfo: false
+  servername: yd.laoyoutiao.link
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: yd.laoyoutiao.link
 - name: 其他地区_优刻得专线_克洛琳德的肛塞
   server: 104.16.138.13
   port: 2083
@@ -5598,19 +5747,6 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: g5MeD6Ft3CWlJId
-- name: 其他地区_崩铁专线_纳西妲的尾巴
-  server: www.okcupid.com
-  port: 443
-  type: vless
-  uuid: b1a8ceea-6601-45b5-a674-7e5b64ab6f6f
-  tls: true
-  tfo: false
-  servername: sub.divib.dynv6.net
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sub.divib.dynv6.net
 - name: 其他地区_原神专线_夏沃蕾的屎
   server: 172.67.110.232
   port: 443
@@ -5623,13 +5759,6 @@ proxies:
     path: /?ed%3D2560
     headers:
       Host: us-vps.xndd.eu.org
-- name: 其他地区_米哈游专线_旱柚的高玩
-  server: deciding-spaniel.sponge924.mom
-  port: 443
-  type: trojan
-  password: 3747000103274291200
-  sni: deciding-spaniel.sponge924.mom
-  skip-cert-verify: true
 - name: 其他地区_青云专线_砂糖的鸡吧
   server: 104.24.27.106
   port: 2096
@@ -5820,12 +5949,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: free.5niu.xyz
-- name: 其他地区_崩铁专线_菲谢尔的屎
-  server: 38.107.226.14
-  port: 8090
-  type: ss
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
 - name: 其他地区_明懂砖线_嘉明的星穹
   server: otto.ns.cloudflare.com
   port: 443
@@ -6005,19 +6128,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: abc.jaiven.dedyn.io
-- name: 其他地区_华为云专线_鹿野院平藏的奈子
-  server: xsj015.facai2024.com
-  port: 443
-  type: vmess
-  uuid: ba3fc16f-c755-415d-ef20-6121571d1b4b
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ba3fc16f
-    headers:
-      Host: xsj015.facai2024.com
 - name: 其他地区_崩铁专线_蓝砚的螺旋陀螺快准狠粉鸡鸡
   server: 190.93.247.62
   port: 443
@@ -6996,20 +7106,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: hi.univermap.site
-- name: 其他地区_崩铁专线_宵宫的连体袜
-  server: v37.emoyes.top
-  port: 8443
-  type: vmess
-  uuid: 08b24d8d-10ab-4c5a-990e-4e0e194870af
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: v37.emoyes.top
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v37.emoyes.top
 - name: 其他地区_唯云专线_玛薇卡的星穹
   server: 104.17.189.171
   port: 443
@@ -7287,19 +7383,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: serv00-b49.pages.dev
-- name: 其他地区_阿里云专线_迪奥娜的龟头
-  server: zula.ir
-  port: 443
-  type: vless
-  uuid: d2a65c64-4217-4ee8-bb97-f481aa392dc5
-  tls: true
-  tfo: false
-  servername: lmn1745739602109.lmn17703.info
-  network: ws
-  ws-opts:
-    path: /qcrXk6
-    headers:
-      Host: lmn1745739602109.lmn17703.info
 - name: 其他地区_唯云专线_阿贝多的无毛粉色白虎大批
   server: 104.16.197.211
   port: 2096
@@ -7692,15 +7775,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: nn.wersad.dpdns.org
-- name: 其他地区_阿里云专线_鹿野院平藏的奈子
-  server: 135.148.163.90
-  port: 443
-  type: vless
-  uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
-  tls: true
-  tfo: false
-  servername: 147135001178.sec22org.com
-  network: tcp
 - name: 其他地区_腾讯云专线_菲谢尔的阴蒂
   server: 188.114.99.85
   port: 443
@@ -7714,6 +7788,15 @@ proxies:
     path: /?ed=2560
     headers:
       Host: wk.625229.xyz
+- name: 其他地区_阿里云专线_鹿野院平藏的奈子
+  server: 135.148.163.90
+  port: 443
+  type: vless
+  uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
+  tls: true
+  tfo: false
+  servername: 147135001178.sec22org.com
+  network: tcp
 - name: 其他地区_唯云专线_阿贝多的白丝
   server: 67.220.95.96
   port: 6379
@@ -7964,6 +8047,19 @@ proxies:
     path: /viWtNTVDqqFIydiq/Y2RuLWIxMDAueG4tLWI2Z2FjLmV1Lm9yZw==?ed=2560
     headers:
       Host: adD-1cv.pAGES.dEV
+- name: 其他地区_唯云专线_七七的龟头
+  server: www.whatismyip.com
+  port: 443
+  type: vless
+  uuid: b1a8ceea-6601-45b5-a674-7e5b64ab6f6f
+  tls: true
+  tfo: false
+  servername: sub.divib.dynv6.net
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sub.divib.dynv6.net
 - name: 其他地区_阿里云专线_雷神的屎
   server: 104.16.188.209
   port: 2096
@@ -8145,19 +8241,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: vless-worker.138543.xyz
-- name: 其他地区_明懂砖线_魈的高玩
-  server: ljm005-2.facai202408.com
-  port: 443
-  type: vmess
-  uuid: b95bf0d8-c748-40b8-e243-6479d879c3d5
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: b95bf0d8-
-    headers:
-      Host: ljm005-2.facai202408.com
 - name: 其他地区_腾讯云专线_风神的尾巴
   server: 162.159.241.3
   port: 443
@@ -8236,6 +8319,19 @@ proxies:
     path: /?ed=2560
     headers:
       Host: ezdriv-server.help
+- name: 其他地区_米哈游专线_希诺宁的螺旋陀螺快准狠粉鸡鸡
+  server: zula.ir
+  port: 443
+  type: vless
+  uuid: 0e369797-ee82-414a-a933-bbdac0230bf6
+  tls: true
+  tfo: false
+  servername: lmn1745739602228.lmn17695.info
+  network: ws
+  ws-opts:
+    path: /V1PHMD
+    headers:
+      Host: lmn1745739602228.lmn17695.info
 - name: 其他地区_青云专线_申鹤的手榴弹
   server: 104.16.211.8
   port: 443
@@ -8480,12 +8576,6 @@ proxies:
     path: /?ed%3D2560
     headers:
       Host: us-vps.xndd.eu.org
-- name: 其他地区_青云专线_罗莎莉亚的龟头
-  server: 38.110.1.88
-  port: 5499
-  type: ss
-  cipher: aes-256-gcm
-  password: lGqs95QkFHo2NV
 - name: 其他地区_唯云专线_丽莎的无毛粉色白虎大批
   server: 188.114.99.106
   port: 2096
@@ -8551,6 +8641,12 @@ proxies:
     path: /?ed=2560
     headers:
       Host: hi.univermap.site
+- name: 其他地区_BGP高级中继_胡桃的猫耳
+  server: 38.121.43.71
+  port: 5004
+  type: ss
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
 - name: 其他地区_明懂砖线_芭芭拉的屁眼
   server: 172.66.44.193
   port: 8443
@@ -8692,19 +8788,6 @@ proxies:
     path: /?ed%3D2560
     headers:
       Host: epcca.ambercc.filegear-sg.me
-- name: 其他地区_BGP高级中继_云堇的星穹
-  server: 104.16.216.19
-  port: 2053
-  type: vless
-  uuid: 450b8997-0075-442f-ac7e-f552dd5b6f2f
-  tls: true
-  tfo: false
-  servername: 241888.xyz
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: 241888.xyz
 - name: 其他地区_金融专线_坎蒂丝的小脚
   server: 104.16.128.1
   port: 2082
@@ -8718,6 +8801,19 @@ proxies:
     path: /?ed=2560
     headers:
       Host: vless-worker.138543.xyz
+- name: 其他地区_BGP高级中继_云堇的星穹
+  server: 104.16.216.19
+  port: 2053
+  type: vless
+  uuid: 450b8997-0075-442f-ac7e-f552dd5b6f2f
+  tls: true
+  tfo: false
+  servername: 241888.xyz
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: 241888.xyz
 - name: 其他地区_腾讯云专线_妮露的无毛粉色白虎大批
   server: 104.24.53.62
   port: 443
@@ -8962,6 +9058,12 @@ proxies:
     path: /?ed=2560
     headers:
       Host: my126.worldip.dpdns.org
+- name: 其他地区_IEPL专线_艾梅莉埃的阴蒂
+  server: 23.154.136.51
+  port: 5499
+  type: ss
+  cipher: aes-256-gcm
+  password: lGqs95QkFHo2NV
 - name: 其他地区_原神专线_林尼的奈子
   server: xcmg15.dtkj0328.com
   port: 443
@@ -8975,12 +9077,6 @@ proxies:
     path: /xcmg1234
     headers:
       Host: xcmg15.dtkj0328.com
-- name: 其他地区_IEPL专线_艾梅莉埃的阴蒂
-  server: 23.154.136.51
-  port: 5499
-  type: ss
-  cipher: aes-256-gcm
-  password: lGqs95QkFHo2NV
 - name: 其他地区_崩铁专线_莱欧斯利的屁股
   server: 104.21.127.23
   port: 443
@@ -9933,6 +10029,19 @@ proxies:
 - name: 其他地区_IEPL专线_辛焱的高玩
   server: 104.18.203.81
   port: 443
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: true
+  tfo: false
+  servername: ld.laoyoutiao.link
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: ld.laoyoutiao.link
+- name: 其他地区_腾讯云专线_万叶的火箭筒
+  server: www.visasoutheasteurope.com
+  port: 2096
   type: vless
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   tls: true
@@ -11225,19 +11334,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: v2-150.pages.dev
-- name: 其他地区_阿里云专线_珊瑚宫心海的白丝
-  server: yymg18.haibo168.com
-  port: 443
-  type: vmess
-  uuid: 5fc5106c-2ada-4481-a5df-608d66f7eda0
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /yymg1234
-    headers:
-      Host: yymg18.haibo168.com
 - name: 其他地区_米哈游专线_烟绯的黑丝
   server: 104.16.144.207
   port: 443
@@ -11264,6 +11360,19 @@ proxies:
     path: /?ed=2560
     headers:
       Host: abc.jaiven.dedyn.io
+- name: 其他地区_阿里云专线_珊瑚宫心海的白丝
+  server: yymg18.haibo168.com
+  port: 443
+  type: vmess
+  uuid: 5fc5106c-2ada-4481-a5df-608d66f7eda0
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /yymg1234
+    headers:
+      Host: yymg18.haibo168.com
 - name: 其他地区_明懂砖线_卡齐娜的连体袜
   server: 104.16.95.143
   port: 443
@@ -11566,6 +11675,12 @@ proxies:
     path: /proxyip=185.133.35.115:443
     headers:
       Host: 0229.patterdeng.pp.ua
+- name: 其他地区_阿里云专线_闲云的无毛粉色白虎大批
+  server: 89.187.181.179
+  port: 43118
+  type: trojan
+  password: ypDt8RkT7J
+  skip-cert-verify: true
 - name: 其他地区_IEPL专线_魈的麻花辫
   server: 141.101.121.181
   port: 2083
@@ -11638,19 +11753,6 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-- name: 其他地区_阿里云专线_迪奥娜的奈子
-  server: yymg06.haibo168.com
-  port: 443
-  type: vmess
-  uuid: a6301e28-0b8a-40f5-a210-c33ed2559e13
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /yymg1234
-    headers:
-      Host: yymg06.haibo168.com
 - name: 其他地区_华为云专线_安柏的屁股
   server: 104.16.97.140
   port: 443
@@ -12023,6 +12125,12 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sub.divib.dynv6.net
+- name: 其他地区_唯云专线_迪卢克的屁股
+  server: 38.110.1.146
+  port: 2376
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
 - name: 其他地区_华为云专线_安柏的屁眼
   server: 190.93.246.17
   port: 443
@@ -12089,12 +12197,18 @@ proxies:
     path: /
     headers:
       Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
-- name: 其他地区_崩铁专线_优菈的小脚
-  server: 38.114.121.249
-  port: 5498
-  type: ss
-  cipher: aes-256-gcm
-  password: lGqs95QkFHo2NV
+- name: 其他地区_青云专线_瓦雷莎的麻花辫
+  server: comicabc.com
+  port: 443
+  type: trojan
+  password: wwg1122.
+  sni: us-vps.xndd.eu.org
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed%3D2560
+    headers:
+      Host: us-vps.xndd.eu.org
 - name: 其他地区_华为云专线_申鹤的飞机杯
   server: 162.159.152.121
   port: 2096
@@ -12247,19 +12361,6 @@ proxies:
     path: /94.78.67.171
     headers:
       Host: ld.laoyoutiao.link
-- name: 其他地区_原神专线_莱依拉的火箭筒
-  server: zula.ir
-  port: 443
-  type: vless
-  uuid: 85f9b2f6-0685-466c-add1-44af7c50d641
-  tls: true
-  tfo: false
-  servername: lmn1745739602109.lmn17700.info
-  network: ws
-  ws-opts:
-    path: /ES3V4R
-    headers:
-      Host: lmn1745739602109.lmn17700.info
 - name: 其他地区_明懂砖线_烟绯的鸡吧
   server: nikon.ns.cloudflare.com
   port: 443
@@ -12334,19 +12435,6 @@ proxies:
     path: /?ed%3D2560
     headers:
       Host: us-vps.xndd.eu.org
-- name: 其他地区_唯云专线_梦见月瑞希的猫耳
-  server: 104.22.21.133
-  port: 443
-  type: vless
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  tls: true
-  tfo: false
-  servername: ld.laoyoutiao.link
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: ld.laoyoutiao.link
 - name: 其他地区_青云专线_艾尔海森的螺旋陀螺快准狠粉鸡鸡
   server: 104.16.55.225
   port: 2096
@@ -12360,9 +12448,9 @@ proxies:
     path: /?ed=2560
     headers:
       Host: bitget1.asdasd.click
-- name: 其他地区_原神专线_希诺宁的猫耳
-  server: www.visaeurope.ch
-  port: 2083
+- name: 其他地区_唯云专线_梦见月瑞希的猫耳
+  server: 104.22.21.133
+  port: 443
   type: vless
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   tls: true
@@ -13296,6 +13384,18 @@ proxies:
     path: /MoEOiQtm6KddU6oQ/Y2RuLWIxMDAueG4tLWI2Z2FjLmV1Lm9yZw==?ed=2560
     headers:
       Host: ADd-1CV.PAGes.dEV
+- name: 其他地区_青云专线_海豚的白丝
+  server: stock.hostmonit.com
+  port: 443
+  type: trojan
+  password: wwg1122.
+  sni: us-vps.xndd.eu.org
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed%3D2560
+    headers:
+      Host: us-vps.xndd.eu.org
 - name: 其他地区_BGP高级中继_琴的逼
   server: 104.16.151.61
   port: 2096
@@ -13675,6 +13775,19 @@ proxies:
     path: /?ed=2560
     headers:
       Host: robook.dpdns.org
+- name: 其他地区_华为云专线_阿蕾奇诺的奈子
+  server: cs.laoyoutiao.link
+  port: 443
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  tls: true
+  tfo: false
+  servername: cs.laoyoutiao.link
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: cs.laoyoutiao.link
 - name: 其他地区_BGP高级中继_千织的黑丝
   server: 172.67.20.136
   port: 443

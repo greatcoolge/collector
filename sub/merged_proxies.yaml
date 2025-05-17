@@ -128,13 +128,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: 1.659118019.uk
-- name: 🇺🇸 美国_唯云专线_雷泽的黑丝
-  server: hk2.sanfen001.pics
-  port: 443
-  type: trojan
-  password: 8800c518-e68a-4441-a45c-cd67855784c8
-  sni: hk2.sanfen001.pics
-  skip-cert-verify: true
 - name: 🇺🇸 美国_金融专线_重云的手榴弹
   server: 172.235.48.81
   port: 10001
@@ -323,6 +316,12 @@ proxies:
     path: Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
     headers:
       Host: us.laoyoutiao.link
+- name: 其他地区_腾讯云专线_妮露的连体袜
+  server: eternal-terrier.marlin387.pics
+  port: 443
+  type: trojan
+  password: 3837491338383990784
+  skip-cert-verify: true
 - name: 其他地区_原神专线_希诺宁的小穴
   server: 172.67.204.84
   port: 443
@@ -338,6 +337,34 @@ proxies:
     path: /?ed=2560
     headers:
       Host: cr77.hedieh.dpdns.org
+- name: 其他地区_优刻得专线_钟离的无毛粉色白虎大批
+  server: cs.flha.ru
+  port: 2082
+  type: vmess
+  uuid: 2f821152-c3e9-4074-9185-2790e7425f42
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cs.flha.ru
+- name: 其他地区_唯云专线_久岐忍的避孕套
+  server: 146.19.90.10
+  port: 443
+  type: vless
+  uuid: a0de1607-5b63-fab8-a759-9f98706b6125
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko
+  servername: speed.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
 - name: 其他地区_米哈游专线_林檎的大腿
   server: zula.ir
   port: 443

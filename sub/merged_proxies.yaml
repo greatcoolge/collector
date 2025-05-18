@@ -1,11 +1,4 @@
 proxies:
-- name: 🇭🇰 香港_青云专线_米卡的黑丝
-  server: usat.xn--vl1a701a.xyz
-  port: 32000
-  type: trojan
-  password: 9b3e9363-5a54-4a8f-b57f-342a478d8290
-  sni: usat.xn--vl1a701a.xyz
-  skip-cert-verify: true
 - name: 🇭🇰 香港_米哈游专线_迪卢克的原石
   server: 45.80.111.20
   port: 8880
@@ -310,15 +303,6 @@ proxies:
     path: 'Telegram: @vpnAndroid2/?ed=2560'
     headers:
       Host: reedfree8mahsang2.redorg.ir
-- name: 🇺🇸 美国_IEPL专线_菲谢尔的小脚
-  server: 154.219.120.57
-  port: 42383
-  type: vmess
-  uuid: c1090c84-7910-43e0-f6c8-0b3891881089
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
 - name: 🇺🇸 美国_青云专线_砂糖的屁眼
   server: 91.193.58.17
   port: 8880
@@ -361,13 +345,6 @@ proxies:
     path: Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
     headers:
       Host: sk.laoyoutiao.link
-- name: 🇺🇸 美国_腾讯云专线_七七的屁眼
-  server: 154.17.10.32
-  port: 28333
-  type: trojan
-  password: SDYlNZ6z5DA8TZqz33YnN4lzpp88YBZOyXC5we8AZBqn6YXwI0gISyalXjIOyNwCaDpDORKSyDCSg9S
-  sni: rolling.homeofbrave.net
-  skip-cert-verify: true
 - name: 🇺🇸 美国_崩铁专线_行秋的鸡吧
   server: 91.193.58.179
   port: 8880
@@ -396,12 +373,6 @@ proxies:
     path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
     headers:
       Host: yd.laoyoutiao.link
-- name: 🇺🇸 美国_腾讯云专线_提纳里的高玩
-  server: 45.9.10.103
-  port: 443
-  type: trojan
-  password: WpfQAbO2wg
-  skip-cert-verify: true
 - name: 🇺🇸 美国_金融专线_丽莎的避孕套
   server: 45.12.31.20
   port: 8880
@@ -668,6 +639,19 @@ proxies:
     path: 'Telegram:'
     headers:
       Host: reedfree8mahsang2.redorg.ir
+- name: 🇩🇪 德国_华为云专线_菲谢尔的小穴
+  server: www.speedtest.net
+  port: 8880
+  type: vless
+  uuid: e74c23fa-44c0-425e-812d-5e2df4487ced
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /telegram---Academi_vpn--telegram--Academi_vpn--telegram--Academi_vpn--telegram--Academi_vpn--telegram----Academi_vpn--Mystic_vpn?ed=2048
+    headers:
+      Host: de-snapp23.academigroup.ir.
 - name: 🇩🇪 德国_腾讯云专线_火神的屁眼
   server: 45.131.209.171
   port: 80
@@ -753,6 +737,12 @@ proxies:
     path: /?ed=2560
     headers:
       Host: 0229.patterdeng.pp.ua
+- name: 其他地区_米哈游专线_瓦雷莎的奈子
+  server: 198.98.58.47
+  port: 10810
+  type: ss
+  cipher: aes-256-gcm
+  password: 73504c7493811f09
 - name: 其他地区_米哈游专线_坎蒂丝的小脸蛋
   server: 185.148.106.56
   port: 80
@@ -781,12 +771,6 @@ proxies:
     path: 'Telegram:'
     headers:
       Host: reedfree8mahsang2.redorg.ir
-- name: 其他地区_优刻得专线_那维莱特的鸡吧
-  server: eternal-terrier.marlin387.pics
-  port: 443
-  type: trojan
-  password: 3837491338383990784
-  skip-cert-verify: true
 - name: 其他地区_华为云专线_星云的黑丝
   server: cs.flha.ru
   port: 2082
@@ -801,3 +785,9 @@ proxies:
     path: /
     headers:
       Host: cs.flha.ru
+- name: 其他地区_IEPL专线_坎蒂丝的飞机杯
+  server: 198.98.58.47
+  port: 10810
+  type: ss
+  cipher: aes-256-gcm
+  password: 73504c7493811f09

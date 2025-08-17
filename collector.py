@@ -69,8 +69,20 @@ def process_clash(data, index):
     except Exception as e:
         logging.error(f"Error processing clash data for index {index}: {e}")
 
-def tcp_connection_test(server, port, timeout=5):
-    """测试节点的可用性和延迟"""
+def tcp_connection_test(server: str, port: int, proto: str = "tcp", timeout: float = 5.0):
+    """
+    测试节点 TCP 可用性和延迟，跳过不支持 TCP 的协议
+    返回 (是否成功, 平均延迟ms)
+    
+    server: 节点地址
+    port: 节点端口
+    proto: 节点协议，用于判断是否跳过
+    """
+    skip_protocols = {"hysteria", "hysteria2", "hy2", "tuic", "wireguard", "juicity"}
+    if proto.lower() in skip_protocols:
+        logging.info(f"跳过不支持 TCP 的协议: {proto}")
+        return False, None
+
     try:
         latencies = []
         for _ in range(3):  # 测试 3 次取平均值
@@ -80,10 +92,11 @@ def tcp_connection_test(server, port, timeout=5):
                 start_time = time.time()
                 result = sock.connect_ex((server, port))
                 end_time = time.time()
-                latency = (end_time - start_time) * 1000
-                if result == 0:  # 0 表示连接成功
-                    latencies.append(latency)
                 sock.close()
+
+                if result == 0:  # 0 表示连接成功
+                    latency = (end_time - start_time) * 1000
+                    latencies.append(latency)
             except Exception as e:
                 logging.error(f"Connection error: {e}")
 
@@ -92,15 +105,27 @@ def tcp_connection_test(server, port, timeout=5):
             return True, average_latency
         else:
             return False, None
+
     except Exception as e:
         logging.error(f"TCP connection test failed: {e}")
         return False, None
 
-def check_proxies_availability(proxies):
+def check_proxies_availability(proxies, timeout=5.0):
     """检测代理的可用性和延迟"""
     available_proxies = []
     with ThreadPoolExecutor(max_workers=10) as executor:
-        futures = {executor.submit(tcp_connection_test, proxy.get("server"), int(proxy.get("port"))): proxy for proxy in proxies if proxy.get("server") and proxy.get("port")}
+        futures = {
+            executor.submit(
+                tcp_connection_test,
+                proxy.get("server"),
+                int(proxy.get("port")),
+                proxy.get("type", "tcp"),
+                timeout
+            ): proxy
+            for proxy in proxies
+            if proxy.get("server") and proxy.get("port")
+        }
+
         for future in as_completed(futures):
             proxy = futures[future]
             server = proxy.get("server")
@@ -108,11 +133,11 @@ def check_proxies_availability(proxies):
             name = proxy.get("name", "Unnamed")
             try:
                 is_available, latency = future.result()
-                if is_available and latency <= LATENCY_THRESHOLD and latency >= MIN_LATENCY_THRESHOLD:
-                    logging.info(f"Node ({name}): {server}:{port} is available with latency {latency:.2f} ms")
+                if is_available and LATENCY_THRESHOLD >= latency >= MIN_LATENCY_THRESHOLD:
+                    logging.info(f"Node ({name}): {server}:{port} is available, latency {latency:.2f} ms")
                     available_proxies.append(proxy)
                 else:
-                    logging.info(f"Node ({name}): {server}:{port} is not available or latency is not within acceptable range")
+                    logging.info(f"Node ({name}): {server}:{port} unavailable or latency out of range")
             except Exception as e:
                 logging.error(f"Error checking proxy {name}: {e}")
 
